@@ -1,0 +1,116 @@
+{
+  "id": "giving-talks",
+  "scene": "conference",
+  "name": "做报告",
+  "nameEn": "Giving a Talk",
+  "description": "你在会议或系里 workshop 做英文报告，需要自然开场、说明结构、讲清图表、收束贡献并邀请提问。",
+  "dialogues": [
+    {
+      "id": "talk-opening",
+      "title": "开场介绍",
+      "context": "主持人刚介绍完你，你需要接过话头、感谢邀请，并说明报告主题。",
+      "lines": [
+        { "speaker": "chair", "en": "Please join me in welcoming Wenbo, who will present work on education and family change." },
+        { "speaker": "you", "en": "Thank you so much for the introduction, and thanks everyone for being here. Today I'm going to talk about how educational expansion reshapes family formation.", "zh": "非常感谢介绍，也谢谢大家来听。今天我想讲的是教育扩张如何重塑家庭形成。", "highlights": ["thanks everyone for being here", "Today I'm going to talk about"] },
+        { "speaker": "chair", "en": "Great, the floor is yours." },
+        { "speaker": "you", "en": "I'll start with the motivation, then briefly describe the data and methods, and I'll spend most of the time on the results.", "zh": "我会先讲研究动机，然后简要介绍数据和方法，最后把大部分时间放在结果上。", "highlights": ["I'll start with", "spend most of the time on"] }
+      ]
+    },
+    {
+      "id": "talk-figure",
+      "title": "解释图表",
+      "context": "你切到一页趋势图，需要引导听众看横轴、纵轴和关键差异。",
+      "lines": [
+        { "speaker": "you", "en": "Let me draw your attention to the right-hand panel first. The y-axis shows predicted probabilities, and the lines separate respondents by parental education.", "zh": "我先请大家看右边这一栏。纵轴是预测概率，几条线按照父母教育水平区分。", "highlights": ["draw your attention to", "The y-axis shows"] },
+        { "speaker": "audience", "en": "Are those adjusted predictions from the full model?" },
+        { "speaker": "you", "en": "Yes, exactly. These are adjusted predictions from the full model, so the gap you see here is net of age, cohort, and region.", "zh": "对，没错。这些是完整模型的调整后预测值，所以这里看到的差距已经控制了年龄、队列和地区。", "highlights": ["adjusted predictions", "net of"] },
+        { "speaker": "you", "en": "The main takeaway is that the gap widens rather than narrows over time.", "zh": "最主要的一点是，这个差距随着时间扩大，而不是缩小。", "highlights": ["The main takeaway is", "widens rather than narrows"] }
+      ]
+    },
+    {
+      "id": "talk-closing",
+      "title": "收尾总结",
+      "context": "你讲到最后一页，需要快速总结发现、说明贡献并邀请提问。",
+      "lines": [
+        { "speaker": "you", "en": "Let me wrap up with three points. First, educational expansion has not eliminated family background differences.", "zh": "我用三点来收尾。第一，教育扩张并没有消除家庭背景差异。", "highlights": ["wrap up with three points"] },
+        { "speaker": "you", "en": "Second, the mechanism seems to run through field of study rather than enrollment alone.", "zh": "第二，机制似乎主要通过专业选择发挥作用，而不只是是否入学。", "highlights": ["the mechanism seems to run through", "rather than"] },
+        { "speaker": "you", "en": "I'll stop there, and I look forward to your questions and comments.", "zh": "我就讲到这里，期待大家的问题和建议。", "highlights": ["I'll stop there", "look forward to your questions and comments"] },
+        { "speaker": "chair", "en": "Thank you. We have time for questions." }
+      ]
+    }
+  ],
+  "universalExpressions": [
+    {
+      "id": "talk-selfintro",
+      "meaning": "开场自我介绍",
+      "expressions": [
+        { "id": "oral-talk-selfintro-01", "en": "Thank you so much for the introduction.", "note": "接主持人介绍最自然，礼貌但不拖沓", "register": "neutral" },
+        { "id": "oral-talk-selfintro-02", "en": "It's a pleasure to be here.", "note": "更正式，适合受邀报告或 workshop", "register": "formal" },
+        { "id": "oral-talk-selfintro-03", "en": "I'm very happy to have the chance to share this work.", "note": "比 pleasure 更亲近，适合中小型场合", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "talk-outline",
+      "meaning": "说明报告结构",
+      "expressions": [
+        { "id": "oral-talk-outline-01", "en": "I'll start with the motivation.", "note": "结构清楚，适合开场说明第一部分", "register": "neutral" },
+        { "id": "oral-talk-outline-02", "en": "I'll then move on to the data and methods.", "note": "自然承接下一部分，适合路线图", "register": "neutral" },
+        { "id": "oral-talk-outline-03", "en": "I'll spend most of the time on the results.", "note": "提前管理听众预期，突出重点部分", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "talk-signpost",
+      "meaning": "引导听众注意力 / 过渡到下一部分",
+      "expressions": [
+        { "id": "oral-talk-signpost-01", "en": "Let me turn now to...", "note": "正式且顺滑，适合章节转换", "register": "formal" },
+        { "id": "oral-talk-signpost-02", "en": "This brings me to...", "note": "强调前一部分自然引出下一部分", "register": "neutral" },
+        { "id": "oral-talk-signpost-03", "en": "Before I show the results, let me briefly explain...", "note": "适合补充必要背景，避免听众跟不上", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "talk-figure-intro",
+      "meaning": "引导看图表",
+      "expressions": [
+        { "id": "oral-talk-figure-intro-01", "en": "Let me draw your attention to...", "note": "最常用的图表引导，礼貌且明确", "register": "formal" },
+        { "id": "oral-talk-figure-intro-02", "en": "If you look at the left-hand panel...", "note": "适合多图并列时定位听众视线", "register": "neutral" },
+        { "id": "oral-talk-figure-intro-03", "en": "The key comparison here is between...", "note": "直接告诉听众该看哪里，效率高", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "talk-figure-describe",
+      "meaning": "描述图表趋势/数字",
+      "expressions": [
+        { "id": "oral-talk-figure-describe-01", "en": "The y-axis shows...", "note": "解释图表元素最清楚，适合先铺垫读图方式", "register": "neutral" },
+        { "id": "oral-talk-figure-describe-02", "en": "What stands out is...", "note": "突出最重要现象，避免逐项念图", "register": "neutral" },
+        { "id": "oral-talk-figure-describe-03", "en": "The gap widens over time.", "note": "简洁描述趋势，适合动态比较", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "talk-emphasize",
+      "meaning": "强调关键发现",
+      "expressions": [
+        { "id": "oral-talk-emphasize-01", "en": "The main takeaway is...", "note": "适合从结果中提炼重点，听众友好", "register": "neutral" },
+        { "id": "oral-talk-emphasize-02", "en": "The important point here is...", "note": "比 main takeaway 更直接，适合强调解释", "register": "neutral" },
+        { "id": "oral-talk-emphasize-03", "en": "This is the result I want to highlight.", "note": "适合图表多、信息密度高时抓重点", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "talk-summarize",
+      "meaning": "总结要点",
+      "expressions": [
+        { "id": "oral-talk-summarize-01", "en": "Let me wrap up with three points.", "note": "收尾时结构清楚，适合正式报告", "register": "neutral" },
+        { "id": "oral-talk-summarize-02", "en": "To summarize, we find that...", "note": "直接回到核心发现，适合最后一页", "register": "formal" },
+        { "id": "oral-talk-summarize-03", "en": "Taken together, these results suggest...", "note": "适合把多个结果合并成总体解释", "register": "formal" }
+      ]
+    },
+    {
+      "id": "talk-invite-qa",
+      "meaning": "邀请提问",
+      "expressions": [
+        { "id": "oral-talk-invite-qa-01", "en": "I'll stop there.", "note": "最自然的结束信号，简洁不僵硬", "register": "neutral" },
+        { "id": "oral-talk-invite-qa-02", "en": "I look forward to your questions and comments.", "note": "正式且友好，适合学术报告结尾", "register": "formal" },
+        { "id": "oral-talk-invite-qa-03", "en": "I'm happy to take questions.", "note": "口语自然，适合时间较短的报告", "register": "neutral" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "asking-questions",
+  "scene": "conference",
+  "name": "向别人提问",
+  "nameEn": "Asking Questions",
+  "description": "你在报告后或 workshop 中向别人提问。你需要先肯定、再清楚提出问题，必要时礼貌表达不同意见或追问方法细节。",
+  "dialogues": [
+    {
+      "id": "ask-method",
+      "title": "追问方法细节",
+      "context": "你对报告人的样本选择有疑问，希望问得具体但不显得挑刺。",
+      "lines": [
+        { "speaker": "you", "en": "Thank you for the talk. I really appreciated the way you linked the theoretical argument to the empirical design.", "zh": "谢谢你的报告。我很喜欢你把理论论点和实证设计连接起来的方式。", "highlights": ["I really appreciated", "linked the theoretical argument to the empirical design"] },
+        { "speaker": "presenter", "en": "Thank you, that's very kind." },
+        { "speaker": "you", "en": "I had a question about the sample restriction. Could you say a bit more about why you exclude part-time workers?", "zh": "我想问一下样本限制。你能不能多说一点为什么排除了兼职工作者？", "highlights": ["I had a question about", "Could you say a bit more about"] },
+        { "speaker": "presenter", "en": "Sure. We exclude them because hours are measured inconsistently across the two surveys." }
+      ]
+    },
+    {
+      "id": "ask-polite-challenge",
+      "title": "礼貌地质疑",
+      "context": "你觉得报告人的解释推得太远，需要先肯定再提出替代解释。",
+      "lines": [
+        { "speaker": "you", "en": "This is a really interesting paper, and I found the descriptive patterns very compelling.", "zh": "这篇论文很有意思，我觉得描述性结果非常有说服力。", "highlights": ["really interesting paper", "very compelling"] },
+        { "speaker": "presenter", "en": "Thanks, I appreciate that." },
+        { "speaker": "you", "en": "I wonder, though, whether the interpretation might be a little stronger than the evidence allows. Could this also reflect neighborhood sorting?", "zh": "不过我在想，这个解释会不会比证据本身允许的稍微强了一点？这是否也可能反映了社区选择？", "highlights": ["I wonder, though", "stronger than the evidence allows", "Could this also reflect"] },
+        { "speaker": "presenter", "en": "That's a fair point. We are planning to add neighborhood fixed effects in the next version." }
+      ]
+    },
+    {
+      "id": "ask-extension",
+      "title": "追问拓展可能",
+      "context": "你觉得对方研究可以延伸到你关注的领域，希望建立联系。",
+      "lines": [
+        { "speaker": "you", "en": "I really enjoyed the paper. It made me think about a related case in higher education.", "zh": "我很喜欢这篇论文。它让我想到高等教育里一个相关案例。", "highlights": ["made me think about", "a related case"] },
+        { "speaker": "presenter", "en": "Oh, interesting. What case did you have in mind?" },
+        { "speaker": "you", "en": "Do you think the same mechanism would apply to students choosing between elite and non-elite universities?", "zh": "你觉得同样的机制是否也适用于学生在精英大学和非精英大学之间做选择？", "highlights": ["Do you think the same mechanism would apply to"] },
+        { "speaker": "presenter", "en": "Yes, I think that's a very promising extension." }
+      ]
+    }
+  ],
+  "universalExpressions": [
+    {
+      "id": "ask-compliment-first",
+      "meaning": "先肯定再提问",
+      "expressions": [
+        { "id": "oral-ask-compliment-01", "en": "Thank you for the talk.", "note": "最简洁安全的开场，适合任何提问", "register": "neutral" },
+        { "id": "oral-ask-compliment-02", "en": "I really appreciated the way you...", "note": "比泛泛夸奖更具体，显示你认真听了", "register": "neutral" },
+        { "id": "oral-ask-compliment-03", "en": "I found the argument very compelling.", "note": "适合先肯定论文逻辑，再进入问题", "register": "formal" }
+      ]
+    },
+    {
+      "id": "ask-clarification",
+      "meaning": "请求澄清某个点",
+      "expressions": [
+        { "id": "oral-ask-clarify-01", "en": "Could you say a bit more about...", "note": "最自然的澄清请求，语气温和", "register": "neutral" },
+        { "id": "oral-ask-clarify-02", "en": "I wanted to ask you to clarify...", "note": "更正式，适合 workshop 或严肃场合", "register": "formal" },
+        { "id": "oral-ask-clarify-03", "en": "I'm not sure I fully understood...", "note": "把问题放在自己理解上，避免显得攻击", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "ask-methodology",
+      "meaning": "追问方法论",
+      "expressions": [
+        { "id": "oral-ask-method-01", "en": "I had a question about the sample restriction.", "note": "具体且专业，适合方法细节追问", "register": "formal" },
+        { "id": "oral-ask-method-02", "en": "How sensitive are the results to that specification?", "note": "适合问稳健性，不直接否定对方模型", "register": "formal" },
+        { "id": "oral-ask-method-03", "en": "Have you tried estimating the model separately by subgroup?", "note": "提出可操作建议，语气像共同完善论文", "register": "formal" }
+      ]
+    },
+    {
+      "id": "ask-challenge-polite",
+      "meaning": "礼貌地表达不同意",
+      "expressions": [
+        { "id": "oral-ask-challenge-01", "en": "I wonder, though, whether...", "note": "用 wonder 软化质疑，适合不同意时开头", "register": "neutral" },
+        { "id": "oral-ask-challenge-02", "en": "Could this also reflect...", "note": "提出替代解释，不直接说对方错", "register": "neutral" },
+        { "id": "oral-ask-challenge-03", "en": "I'm not entirely convinced that...", "note": "质疑力度更强，适合证据确实不足时", "register": "formal" }
+      ]
+    },
+    {
+      "id": "ask-counterfactual",
+      "meaning": "\"如果X的话会怎样\"式追问",
+      "expressions": [
+        { "id": "oral-ask-counterfactual-01", "en": "What would happen if you...", "note": "最直接，适合建议替代分析", "register": "neutral" },
+        { "id": "oral-ask-counterfactual-02", "en": "Would the pattern look different if...", "note": "更聚焦结果形态，适合问异质性", "register": "neutral" },
+        { "id": "oral-ask-counterfactual-03", "en": "Have you thought about comparing this with...", "note": "适合提出扩展比较，不像要求对方马上回答", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "ask-connection",
+      "meaning": "把对方的研究和你的联系起来",
+      "expressions": [
+        { "id": "oral-ask-connection-01", "en": "This made me think about...", "note": "自然引出自己的相关兴趣，不显得抢话", "register": "neutral" },
+        { "id": "oral-ask-connection-02", "en": "Do you think the same mechanism would apply to...", "note": "把对方机制迁移到新场景，学术连接感强", "register": "formal" },
+        { "id": "oral-ask-connection-03", "en": "I see a connection with work on...", "note": "适合建立文献联系，为会后交流铺垫", "register": "formal" }
+      ]
+    }
+  ]
+}

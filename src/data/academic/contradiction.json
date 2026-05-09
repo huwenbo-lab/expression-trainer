@@ -1,0 +1,96 @@
+{
+  "id": "contradiction",
+  "name": "矛盾与张力",
+  "nameEn": "Contradiction & Tension",
+  "description": "表达发现之间的不一致、理论张力、复杂性与反预期结果",
+  "clusters": [
+    {
+      "id": "inconsistent",
+      "meaning": "X与Y不一致/矛盾",
+      "tags": ["不一致", "矛盾", "差异"],
+      "expressions": [
+        { "id": "acad-contradiction-inconsistent-01", "en": "be inconsistent with", "note": "最直接的学术写法，适合指出发现与理论不符", "example": "The result is inconsistent with standard human capital models.", "register": "formal" },
+        { "id": "acad-contradiction-inconsistent-02", "en": "sit uneasily with", "note": "语气更含蓄，强调解释上不顺畅而非完全否定", "example": "These patterns sit uneasily with a simple modernization account.", "register": "literary" },
+        { "id": "acad-contradiction-inconsistent-03", "en": "run counter to", "note": "强调方向相反，适合反驳预期或主流发现", "example": "The evidence runs counter to the assimilation hypothesis.", "register": "formal" },
+        { "id": "acad-contradiction-inconsistent-04", "en": "depart from", "note": "强调偏离既有模式，语气比 contradict 温和", "example": "The cohort pattern departs from earlier evidence in Europe.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "challenge",
+      "meaning": "X挑战了Y的观点/发现",
+      "tags": ["挑战", "反驳", "理论"],
+      "expressions": [
+        { "id": "acad-contradiction-challenge-01", "en": "challenge the view that", "note": "直接指向某一观点，适合文献综述后的推进", "example": "Our findings challenge the view that marriage universally stabilizes employment.", "register": "formal" },
+        { "id": "acad-contradiction-challenge-02", "en": "call into question", "note": "强调使某说法变得可疑，语气比 disprove 更谨慎", "example": "The results call into question the assumed neutrality of credentials.", "register": "formal" },
+        { "id": "acad-contradiction-challenge-03", "en": "cast doubt on", "note": "更强调证据层面的怀疑，适合讨论稳健性或替代理论", "example": "This pattern casts doubt on a purely economic explanation.", "register": "formal" },
+        { "id": "acad-contradiction-challenge-04", "en": "undermine the claim that", "note": "语气较强，适合已有证据明显削弱某主张时", "example": "The subgroup results undermine the claim that the policy is gender-neutral.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "concession",
+      "meaning": "虽然X，但是Y（让步转折）",
+      "tags": ["让步", "转折", "限定"],
+      "expressions": [
+        { "id": "acad-contradiction-concession-01", "en": "Although X, Y", "note": "最清楚的让步结构，适合正式写作中承认限制", "example": "Although the sample is small, the pattern is remarkably consistent.", "register": "neutral" },
+        { "id": "acad-contradiction-concession-02", "en": "While X, Y", "note": "比 although 更流畅，适合平衡两个并存事实", "example": "While women gained credentials, occupational segregation persisted.", "register": "formal" },
+        { "id": "acad-contradiction-concession-03", "en": "To be sure, X; however, Y", "note": "先承认对方观点再推进自己的论点，论辩感更强", "example": "To be sure, wages rose; however, inequality also widened.", "register": "formal" },
+        { "id": "acad-contradiction-concession-04", "en": "Notwithstanding X, Y", "note": "高度书面，适合强调某限制并未改变核心结论", "example": "Notwithstanding regional variation, the overall pattern remains clear.", "register": "literary" }
+      ]
+    },
+    {
+      "id": "contrary-expectation",
+      "meaning": "与预期相反",
+      "tags": ["反预期", "意外", "结果"],
+      "expressions": [
+        { "id": "acad-contradiction-contrary-expectation-01", "en": "contrary to expectations", "note": "标准结果报告写法，直接标明与预期相反", "example": "Contrary to expectations, the association is stronger among men.", "register": "formal" },
+        { "id": "acad-contradiction-contrary-expectation-02", "en": "against our expectations", "note": "更明确指向作者预期，适合结果解释段", "example": "Against our expectations, parental income predicts migration less strongly.", "register": "formal" },
+        { "id": "acad-contradiction-contrary-expectation-03", "en": "unexpectedly", "note": "最简洁，但解释力度弱，适合句内轻量标记", "example": "The coefficient unexpectedly turns negative in the full model.", "register": "neutral" },
+        { "id": "acad-contradiction-contrary-expectation-04", "en": "in a pattern not anticipated by prior theory", "note": "突出理论没有预见，适合引出讨论贡献", "example": "Women delayed retirement in a pattern not anticipated by prior theory.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "tension",
+      "meaning": "X和Y之间存在张力",
+      "tags": ["张力", "冲突", "关系"],
+      "expressions": [
+        { "id": "acad-contradiction-tension-01", "en": "a tension between X and Y", "note": "最常用名词结构，适合概念或制度之间的拉扯", "example": "The reform reveals a tension between efficiency and equity.", "register": "formal" },
+        { "id": "acad-contradiction-tension-02", "en": "pull in opposite directions", "note": "更形象，强调两个力量方向相反", "example": "Market incentives and family obligations pull in opposite directions.", "register": "formal" },
+        { "id": "acad-contradiction-tension-03", "en": "be in tension with", "note": "适合把一个发现放入理论关系中讨论", "example": "The gender-neutral framing is in tension with unequal caregiving demands.", "register": "formal" },
+        { "id": "acad-contradiction-tension-04", "en": "a trade-off between X and Y", "note": "强调选择一方会牺牲另一方，适合政策评估", "example": "The policy creates a trade-off between coverage and generosity.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "complicate",
+      "meaning": "X使得问题更加复杂",
+      "tags": ["复杂化", "限定", "解释"],
+      "expressions": [
+        { "id": "acad-contradiction-complicate-01", "en": "complicate the picture", "note": "常用于讨论段，强调结果不再能被简单概括", "example": "The subgroup analysis complicates the picture of uniform progress.", "register": "formal" },
+        { "id": "acad-contradiction-complicate-02", "en": "complicate the interpretation of", "note": "突出解释层面的困难，适合方法和讨论部分", "example": "Selective attrition complicates the interpretation of cohort differences.", "register": "formal" },
+        { "id": "acad-contradiction-complicate-03", "en": "make it difficult to disentangle", "note": "强调多个因素交织，适合识别和机制问题", "example": "Residential sorting makes it difficult to disentangle school effects.", "register": "formal" },
+        { "id": "acad-contradiction-complicate-04", "en": "introduce ambiguity into", "note": "强调结果或概念变得不确定，而非完全混乱", "example": "Multiple job spells introduce ambiguity into employment histories.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "nuance",
+      "meaning": "实际情况比X更复杂/微妙",
+      "tags": ["复杂", "微妙", "修正"],
+      "expressions": [
+        { "id": "acad-contradiction-nuance-01", "en": "offer a more nuanced account of", "note": "强调细化已有解释，常用于贡献表述", "example": "The analysis offers a more nuanced account of class reproduction.", "register": "formal" },
+        { "id": "acad-contradiction-nuance-02", "en": "qualify the claim that", "note": "强调对强说法加限制条件，不是完全否定", "example": "These results qualify the claim that education equalizes opportunity.", "register": "formal" },
+        { "id": "acad-contradiction-nuance-03", "en": "suggest a more complex picture", "note": "语气较温和，适合从描述过渡到解释", "example": "The age gradients suggest a more complex picture of adaptation.", "register": "formal" },
+        { "id": "acad-contradiction-nuance-04", "en": "resist a simple interpretation", "note": "强调不能被单一逻辑解释，适合讨论异常发现", "example": "The rural results resist a simple interpretation based on income.", "register": "literary" }
+      ]
+    },
+    {
+      "id": "paradox",
+      "meaning": "一个悖论是：X的同时Y",
+      "tags": ["悖论", "同时", "反差"],
+      "expressions": [
+        { "id": "acad-contradiction-paradox-01", "en": "a paradox is that", "note": "直接标出悖论，适合引言中制造问题意识", "example": "A paradox is that mobility rose while inequality hardened.", "register": "formal" },
+        { "id": "acad-contradiction-paradox-02", "en": "at the same time that", "note": "强调两个相反过程同步发生，句式更灵活", "example": "Women gained education at the same time that care demands intensified.", "register": "formal" },
+        { "id": "acad-contradiction-paradox-03", "en": "coexist with", "note": "强调并存而非因果，适合描述宏观矛盾", "example": "Greater access can coexist with sharper stratification.", "register": "formal" },
+        { "id": "acad-contradiction-paradox-04", "en": "the puzzle lies in the coexistence of", "note": "更适合引出研究问题，突出悖论需要解释", "example": "The puzzle lies in the coexistence of expansion and exclusion.", "register": "literary" }
+      ]
+    }
+  ]
+}

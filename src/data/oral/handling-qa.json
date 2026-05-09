@@ -1,0 +1,107 @@
+{
+  "id": "handling-qa",
+  "scene": "conference",
+  "name": "被提问",
+  "nameEn": "Handling Q&A",
+  "description": "你刚做完报告，进入Q&A环节。有人举手提问，可能是友善的追问，也可能是尖锐的质疑。你需要接住问题、从容回应。",
+  "dialogues": [
+    {
+      "id": "qa-friendly",
+      "title": "友善的方法论追问",
+      "context": "一位同领域学者对你的识别策略感兴趣，语气友好地追问细节。",
+      "lines": [
+        { "speaker": "audience", "en": "Thanks for the presentation. I was curious about your identification strategy. Have you considered an instrumental variable approach?" },
+        { "speaker": "you", "en": "That's a great question, thank you. We did consider IV estimation early on, but finding a valid instrument was difficult with these data.", "zh": "好问题，谢谢。我们早期确实考虑过IV估计，但用这份数据找到有效工具变量比较困难。", "highlights": ["That's a great question", "We did consider", "with these data"] },
+        { "speaker": "audience", "en": "That makes sense. Does the pattern hold if you restrict the sample to urban residents?" },
+        { "speaker": "you", "en": "Yes, the results are quite robust to that restriction. I have the table in the appendix, and I'd be happy to walk you through it after the session.", "zh": "是的，这个样本限制下结果相当稳健。表格在附录里，会后我很乐意跟你详细说。", "highlights": ["robust to that restriction", "I'd be happy to walk you through it"] }
+      ]
+    },
+    {
+      "id": "qa-challenging",
+      "title": "带有质疑的提问",
+      "context": "一位资深学者质疑你的核心变量测量，语气礼貌但明显不同意。",
+      "lines": [
+        { "speaker": "audience", "en": "I appreciate the scope of the paper, but I'm not entirely convinced that your measure captures what you claim it does." },
+        { "speaker": "you", "en": "I think that's a really fair concern, and it's one we've thought about carefully. You're right that measurement is a challenge here.", "zh": "我觉得这个顾虑很合理，也是我们仔细考虑过的。你说得对，这里的测量确实有挑战。", "highlights": ["a really fair concern", "we've thought about carefully", "You're right that"] },
+        { "speaker": "audience", "en": "Could the effect simply reflect selection into certain occupations?" },
+        { "speaker": "you", "en": "We address this in two ways: first, we control for pre-labor-market characteristics, and second, we show that the results hold within broad occupational categories.", "zh": "我们从两方面处理：第一，控制劳动力市场前的特征；第二，展示结果在大的职业类别内部仍然成立。", "highlights": ["We address this in two ways", "the results hold within"] }
+      ]
+    },
+    {
+      "id": "qa-tangential",
+      "title": "离题的提问",
+      "context": "有人提出一个有趣但偏离论文核心的问题，你需要礼貌回应并拉回主题。",
+      "lines": [
+        { "speaker": "audience", "en": "Have you thought about how these findings would apply to countries with very different welfare systems?" },
+        { "speaker": "you", "en": "That's a fascinating question, though it's a bit beyond what I can answer with this paper. What I can say is that the institutional context probably matters a great deal.", "zh": "这是个很有意思的问题，不过有点超出这篇论文能回答的范围。我能说的是，制度情境很可能非常重要。", "highlights": ["beyond what I can answer with this paper", "What I can say is"] },
+        { "speaker": "audience", "en": "Right, I was wondering because the pattern seems very context-dependent." },
+        { "speaker": "you", "en": "Exactly. I would frame this as a question about scope conditions, and it's something I hope to explore in future work.", "zh": "完全同意。我会把它理解为适用条件的问题，这也是我希望后续继续探索的方向。", "highlights": ["frame this as", "scope conditions", "future work"] }
+      ]
+    }
+  ],
+  "universalExpressions": [
+    {
+      "id": "qa-acknowledge",
+      "meaning": "接住问题、表示感谢",
+      "expressions": [
+        { "id": "oral-qa-ack-01", "en": "That's a great question.", "note": "最安全通用，适合大多数友好提问", "register": "neutral" },
+        { "id": "oral-qa-ack-02", "en": "Thank you for raising that.", "note": "更正式，适合认真且有深度的问题", "register": "formal" },
+        { "id": "oral-qa-ack-03", "en": "I think that's a really fair concern.", "note": "适合回应质疑，先承认对方顾虑合理", "register": "formal" }
+      ]
+    },
+    {
+      "id": "qa-buytime",
+      "meaning": "买时间思考",
+      "expressions": [
+        { "id": "oral-qa-buytime-01", "en": "Let me think about that for a moment.", "note": "直白争取时间，不显得慌张", "register": "neutral" },
+        { "id": "oral-qa-buytime-02", "en": "If I understand correctly, you're asking whether...", "note": "通过复述问题争取缓冲，同时确认理解", "register": "neutral" },
+        { "id": "oral-qa-buytime-03", "en": "I think there are a couple of ways to approach that.", "note": "先搭框架再回答，适合复杂问题", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "qa-reframe",
+      "meaning": "重新框定问题",
+      "expressions": [
+        { "id": "oral-qa-reframe-01", "en": "I would frame this as a question about...", "note": "把宽泛问题转成可回答的学术问题", "register": "formal" },
+        { "id": "oral-qa-reframe-02", "en": "The way I think about this is...", "note": "更口语，适合自然地引出自己的理解框架", "register": "neutral" },
+        { "id": "oral-qa-reframe-03", "en": "That gets at a broader issue, which is...", "note": "承认问题更大，同时把焦点拉到核心议题", "register": "formal" }
+      ]
+    },
+    {
+      "id": "qa-answer-direct",
+      "meaning": "直接回答",
+      "expressions": [
+        { "id": "oral-qa-answer-01", "en": "The short answer is yes.", "note": "适合先给明确答案，再展开细节", "register": "neutral" },
+        { "id": "oral-qa-answer-02", "en": "What we find is that...", "note": "自然过渡到实证发现，比 The result shows 更口语", "register": "neutral" },
+        { "id": "oral-qa-answer-03", "en": "In our data, that pattern is quite clear.", "note": "强调回答基于数据，语气稳但不过度泛化", "register": "formal" }
+      ]
+    },
+    {
+      "id": "qa-admit-limitation",
+      "meaning": "坦诚承认局限",
+      "expressions": [
+        { "id": "oral-qa-limit-01", "en": "That's a limitation I fully acknowledge.", "note": "直接承认局限，适合对方指出真实问题时", "register": "formal" },
+        { "id": "oral-qa-limit-02", "en": "You're right that this doesn't fully resolve the issue.", "note": "承认对方判断，同时避免把论文说得过满", "register": "formal" },
+        { "id": "oral-qa-limit-03", "en": "That's beyond what we can establish with these data.", "note": "把局限定位在数据能力上，清楚且专业", "register": "formal" }
+      ]
+    },
+    {
+      "id": "qa-defer",
+      "meaning": "延后处理 / 邀请会后详谈",
+      "expressions": [
+        { "id": "oral-qa-defer-01", "en": "I'd be happy to talk more after the session.", "note": "最自然的会后详谈邀请，语气友好", "register": "neutral" },
+        { "id": "oral-qa-defer-02", "en": "I can show you the supplementary table afterward.", "note": "强调你有材料支持，不像在回避问题", "register": "neutral" },
+        { "id": "oral-qa-defer-03", "en": "That's a bigger question than I can do justice to here.", "note": "礼貌说明现场时间有限，适合大问题", "register": "formal" }
+      ]
+    },
+    {
+      "id": "qa-redirect",
+      "meaning": "把离题问题拉回来",
+      "expressions": [
+        { "id": "oral-qa-redirect-01", "en": "For the purposes of this paper, we focus more narrowly on...", "note": "温和缩小范围，适合偏题但有价值的问题", "register": "formal" },
+        { "id": "oral-qa-redirect-02", "en": "What I can speak to here is...", "note": "明确自己能回答的部分，避免被带偏", "register": "neutral" },
+        { "id": "oral-qa-redirect-03", "en": "Let me bring this back to the main argument.", "note": "更主动拉回主线，适合主持时间紧的场合", "register": "neutral" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "gaps",
+  "name": "研究空白与问题",
+  "nameEn": "Research Gaps & Questions",
+  "description": "用于指出研究不足、提出问题、说明本文目标和回应空白",
+  "clusters": [
+    {
+      "id": "under-explored",
+      "meaning": "目前对X关注/研究不足",
+      "tags": ["研究不足", "空白", "关注"],
+      "expressions": [
+        { "id": "acad-gaps-under-explored-01", "en": "remain under-explored", "note": "常用且正式，强调已有研究还没有充分展开", "example": "The family consequences of gig work remain under-explored.", "register": "formal" },
+        { "id": "acad-gaps-under-explored-02", "en": "have received limited attention", "note": "语气温和，适合避免过度否定前人工作", "example": "Rural students' application strategies have received limited attention.", "register": "formal" },
+        { "id": "acad-gaps-under-explored-03", "en": "be rarely examined in relation to", "note": "强调某两个主题之间的连接不足", "example": "Housing insecurity is rarely examined in relation to fertility plans.", "register": "formal" },
+        { "id": "acad-gaps-under-explored-04", "en": "remain at the margins of", "note": "更有修辞感，突出主题被主流文献边缘化", "example": "Care workers remain at the margins of mobility research.", "register": "literary" }
+      ]
+    },
+    {
+      "id": "open-question",
+      "meaning": "一个未解答的问题是",
+      "tags": ["问题", "未解答", "疑问"],
+      "expressions": [
+        { "id": "acad-gaps-open-question-01", "en": "an open question is whether", "note": "标准问题提出方式，适合引出本文核心疑问", "example": "An open question is whether credentials protect workers during downturns.", "register": "formal" },
+        { "id": "acad-gaps-open-question-02", "en": "it remains unclear how", "note": "强调机制不清楚，适合从现象过渡到机制", "example": "It remains unclear how remote work reshapes household bargaining.", "register": "formal" },
+        { "id": "acad-gaps-open-question-03", "en": "we know less about whether", "note": "语气更口语化但仍学术，适合文献综述中承接", "example": "We know less about whether these gains persist across cohorts.", "register": "neutral" },
+        { "id": "acad-gaps-open-question-04", "en": "little is known about how", "note": "强调知识缺口广泛，适合引言中的空白陈述", "example": "Little is known about how siblings shape college trajectories.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "limitation-prior",
+      "meaning": "现有研究的局限在于",
+      "tags": ["局限", "前人研究", "不足"],
+      "expressions": [
+        { "id": "acad-gaps-limitation-prior-01", "en": "prior studies have tended to", "note": "温和指出倾向性局限，不直接批评前人", "example": "Prior studies have tended to focus on married couples.", "register": "formal" },
+        { "id": "acad-gaps-limitation-prior-02", "en": "existing work is limited by", "note": "更直接指出限制来源，适合方法或数据局限", "example": "Existing work is limited by short observation windows.", "register": "formal" },
+        { "id": "acad-gaps-limitation-prior-03", "en": "a key limitation of this literature is", "note": "适合清晰定位文献缺口，语气比 tended to 更强", "example": "A key limitation of this literature is its reliance on cross-sectional data.", "register": "formal" },
+        { "id": "acad-gaps-limitation-prior-04", "en": "this literature has largely overlooked", "note": "强调被忽视的对象或机制，适合提出本文切入点", "example": "This literature has largely overlooked informal caregiving arrangements.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "aim",
+      "meaning": "本文旨在考察/探讨",
+      "tags": ["目标", "本文", "研究目的"],
+      "expressions": [
+        { "id": "acad-gaps-aim-01", "en": "this paper examines", "note": "最基础清楚，适合直接说明研究对象", "example": "This paper examines how layoffs affect subsequent fertility intentions.", "register": "neutral" },
+        { "id": "acad-gaps-aim-02", "en": "we investigate", "note": "比 examines 更强调主动分析，适合实证研究", "example": "We investigate whether school tracking widens class gaps.", "register": "formal" },
+        { "id": "acad-gaps-aim-03", "en": "we ask how", "note": "以问题驱动展开，适合引言结尾提出研究问题", "example": "We ask how job insecurity enters household decision-making.", "register": "formal" },
+        { "id": "acad-gaps-aim-04", "en": "the analysis seeks to unpack", "note": "强调拆解复杂机制，适合机制型论文", "example": "The analysis seeks to unpack the channels linking debt to marriage.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "specific-questions",
+      "meaning": "具体研究问题是",
+      "tags": ["研究问题", "具体问题", "问题列举"],
+      "expressions": [
+        { "id": "acad-gaps-specific-questions-01", "en": "we address three questions", "note": "适合清晰列举多个问题，结构感强", "example": "We address three questions about inequality in college completion.", "register": "formal" },
+        { "id": "acad-gaps-specific-questions-02", "en": "the first question concerns", "note": "适合逐一展开问题，语气正式且清楚", "example": "The first question concerns variation across birth cohorts.", "register": "formal" },
+        { "id": "acad-gaps-specific-questions-03", "en": "we focus on whether", "note": "适合把研究焦点压缩到一个可检验命题", "example": "We focus on whether parental wealth moderates debt effects.", "register": "formal" },
+        { "id": "acad-gaps-specific-questions-04", "en": "our inquiry centers on", "note": "更书面，强调问题是全文中心", "example": "Our inquiry centers on the timing of family transitions.", "register": "literary" }
+      ]
+    },
+    {
+      "id": "address-gap",
+      "meaning": "为了回应这一空白",
+      "tags": ["回应空白", "填补", "贡献"],
+      "expressions": [
+        { "id": "acad-gaps-address-gap-01", "en": "to address this gap", "note": "最标准衔接句，适合从空白过渡到本文设计", "example": "To address this gap, we use linked employer-employee data.", "register": "formal" },
+        { "id": "acad-gaps-address-gap-02", "en": "to fill this gap", "note": "语气更直接，但容易显得过满，适合确实有新数据时", "example": "To fill this gap, we study first-generation college students.", "register": "formal" },
+        { "id": "acad-gaps-address-gap-03", "en": "we bring new evidence to bear on", "note": "强调用新证据推进问题，表达更有学术质感", "example": "We bring new evidence to bear on debates about credential inflation.", "register": "formal" },
+        { "id": "acad-gaps-address-gap-04", "en": "we shed light on", "note": "强调让不清楚的问题变清楚，语气比 fill 更谨慎", "example": "We shed light on how care demands shape job search.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "extend",
+      "meaning": "本文拓展了X的研究",
+      "tags": ["拓展", "文献", "贡献"],
+      "expressions": [
+        { "id": "acad-gaps-extend-01", "en": "extend research on", "note": "通用贡献表达，强调在既有方向上推进", "example": "We extend research on educational assortative mating.", "register": "formal" },
+        { "id": "acad-gaps-extend-02", "en": "move beyond prior work by", "note": "强调超越前人局限，适合说明新增数据或视角", "example": "We move beyond prior work by observing workers over time.", "register": "formal" },
+        { "id": "acad-gaps-extend-03", "en": "build on and extend", "note": "先承认前人再扩展，语气稳妥", "example": "We build on and extend studies of intergenerational mobility.", "register": "formal" },
+        { "id": "acad-gaps-extend-04", "en": "broaden the scope of", "note": "强调拓宽对象、区域或机制，而非完全新建领域", "example": "The study broadens the scope of research on work-family conflict.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "puzzle",
+      "meaning": "一个令人困惑的现象是",
+      "tags": ["谜题", "困惑", "研究动机"],
+      "expressions": [
+        { "id": "acad-gaps-puzzle-01", "en": "a puzzle arises from", "note": "适合从异常现象引出研究问题，问题意识强", "example": "A puzzle arises from the persistence of gender gaps among graduates.", "register": "formal" },
+        { "id": "acad-gaps-puzzle-02", "en": "this raises the question of why", "note": "自然地把现象转成问题，适合引言推进", "example": "This raises the question of why returns differ by origin.", "register": "formal" },
+        { "id": "acad-gaps-puzzle-03", "en": "it is puzzling that", "note": "直接表达困惑，适合突出反常发现", "example": "It is puzzling that mobility stalls despite educational expansion.", "register": "formal" },
+        { "id": "acad-gaps-puzzle-04", "en": "the empirical puzzle is", "note": "把研究问题定位为经验谜题，适合实证论文", "example": "The empirical puzzle is the coexistence of growth and insecurity.", "register": "formal" }
+      ]
+    }
+  ]
+}

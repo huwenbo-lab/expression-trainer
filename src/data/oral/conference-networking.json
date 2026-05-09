@@ -1,0 +1,98 @@
+{
+  "id": "conference-networking",
+  "scene": "conference",
+  "name": "会议间隙社交",
+  "nameEn": "Conference Networking",
+  "description": "你在会议茶歇、海报区或 session 间隙和陌生学者交流。目标是自然自我介绍、找到共同兴趣、交换联系方式，并体面结束对话。",
+  "dialogues": [
+    {
+      "id": "net-intro",
+      "title": "主动自我介绍",
+      "context": "你在茶歇时看到一位读过论文的学者，想主动过去打招呼。",
+      "lines": [
+        { "speaker": "you", "en": "Hi, I hope you don't mind me introducing myself. I'm Wenbo, a PhD student working on education and family change.", "zh": "你好，希望我主动自我介绍不会太冒昧。我是Wenbo，博士生，研究教育和家庭变化。", "highlights": ["I hope you don't mind me introducing myself", "working on"] },
+        { "speaker": "professor", "en": "Nice to meet you, Wenbo. What university are you at?" },
+        { "speaker": "you", "en": "I'm at CUHK. I actually read your paper on cohort change last semester, and it was really helpful for my own project.", "zh": "我在港中文。我上学期读过你那篇关于队列变化的论文，对我自己的项目很有帮助。", "highlights": ["I actually read your paper", "really helpful for my own project"] },
+        { "speaker": "professor", "en": "That's very nice to hear. What are you working on now?" }
+      ]
+    },
+    {
+      "id": "net-approached",
+      "title": "被别人搭话",
+      "context": "有人听了你的报告后来找你聊天，你需要简洁介绍自己的项目并延续对话。",
+      "lines": [
+        { "speaker": "colleague", "en": "I really enjoyed your talk. The field-of-study result was fascinating." },
+        { "speaker": "you", "en": "Thank you, I really appreciate that. It's the part of the paper I'm most excited about right now.", "zh": "谢谢你，我很感谢。那也是我现在对这篇论文最兴奋的部分。", "highlights": ["I really appreciate that", "most excited about"] },
+        { "speaker": "colleague", "en": "Are you planning to develop that mechanism further?" },
+        { "speaker": "you", "en": "Yes, that's the plan. I'm hoping to connect it more explicitly to the literature on educational stratification.", "zh": "是的，我就是这么打算的。我希望把它更明确地连接到教育分层文献。", "highlights": ["that's the plan", "connect it more explicitly to"] }
+      ]
+    },
+    {
+      "id": "net-goodbye",
+      "title": "告别换人",
+      "context": "你聊了几分钟，想礼貌结束对话并留下后续联系。",
+      "lines": [
+        { "speaker": "you", "en": "This has been really helpful. I don't want to take up too much of your break, but I'd love to stay in touch.", "zh": "这对我很有帮助。我不想占用你太多茶歇时间，不过我很希望之后保持联系。", "highlights": ["I don't want to take up too much of your break", "I'd love to stay in touch"] },
+        { "speaker": "professor", "en": "Of course. Feel free to send me an email." },
+        { "speaker": "you", "en": "Thank you, I will. It was really nice meeting you.", "zh": "谢谢，我会的。很高兴认识你。", "highlights": ["I will", "really nice meeting you"] },
+        { "speaker": "professor", "en": "You too. Enjoy the rest of the conference." }
+      ]
+    }
+  ],
+  "universalExpressions": [
+    {
+      "id": "net-introduce",
+      "meaning": "自我介绍 + 说自己做什么",
+      "expressions": [
+        { "id": "oral-net-introduce-01", "en": "I hope you don't mind me introducing myself.", "note": "主动搭话时很礼貌，降低唐突感", "register": "neutral" },
+        { "id": "oral-net-introduce-02", "en": "I'm a PhD student working on...", "note": "最清楚地介绍身份和研究方向", "register": "neutral" },
+        { "id": "oral-net-introduce-03", "en": "My work focuses on...", "note": "比 working on 更正式，适合介绍研究主题", "register": "formal" }
+      ]
+    },
+    {
+      "id": "net-ask-research",
+      "meaning": "问对方在做什么研究",
+      "expressions": [
+        { "id": "oral-net-ask-01", "en": "What are you working on these days?", "note": "自然友好，适合茶歇闲聊", "register": "casual" },
+        { "id": "oral-net-ask-02", "en": "Are you presenting at this conference?", "note": "会议场景破冰常用，容易延续话题", "register": "neutral" },
+        { "id": "oral-net-ask-03", "en": "How does this project fit with your broader work?", "note": "更深入，适合已经知道对方项目时", "register": "formal" }
+      ]
+    },
+    {
+      "id": "net-find-common",
+      "meaning": "找共同兴趣/联系点",
+      "expressions": [
+        { "id": "oral-net-common-01", "en": "That connects closely to my own project.", "note": "直接建立研究联系，适合继续聊", "register": "neutral" },
+        { "id": "oral-net-common-02", "en": "I've been thinking about a similar question.", "note": "强调共同兴趣，但不抢对方话题", "register": "neutral" },
+        { "id": "oral-net-common-03", "en": "I see a lot of overlap with what I'm working on.", "note": "适合为后续合作或邮件铺垫", "register": "neutral" }
+      ]
+    },
+    {
+      "id": "net-exchange-contact",
+      "meaning": "交换联系方式",
+      "expressions": [
+        { "id": "oral-net-contact-01", "en": "Would it be okay if I followed up by email?", "note": "礼貌请求后续联系，适合对方资历更高时", "register": "neutral" },
+        { "id": "oral-net-contact-02", "en": "I'd be happy to send you the paper.", "note": "主动提供材料，适合对方对你研究感兴趣时", "register": "neutral" },
+        { "id": "oral-net-contact-03", "en": "Let me give you my email.", "note": "更直接，适合双方已经聊得顺畅时", "register": "casual" }
+      ]
+    },
+    {
+      "id": "net-wrap-up",
+      "meaning": "得体地结束对话",
+      "expressions": [
+        { "id": "oral-net-wrap-01", "en": "I don't want to take up too much of your break.", "note": "礼貌退出，不显得突然结束", "register": "neutral" },
+        { "id": "oral-net-wrap-02", "en": "It was really nice meeting you.", "note": "标准友好收尾，适合第一次见面", "register": "neutral" },
+        { "id": "oral-net-wrap-03", "en": "I'll let you get back to the conference.", "note": "轻松结束，适合茶歇或走廊聊天", "register": "casual" }
+      ]
+    },
+    {
+      "id": "net-follow-up-intent",
+      "meaning": "表达“保持联系”的意愿",
+      "expressions": [
+        { "id": "oral-net-follow-01", "en": "I'd love to stay in touch.", "note": "自然友好，不显得功利", "register": "neutral" },
+        { "id": "oral-net-follow-02", "en": "I'd be very interested in continuing this conversation.", "note": "更正式，适合学术话题聊得深入时", "register": "formal" },
+        { "id": "oral-net-follow-03", "en": "Maybe we can compare notes after the conference.", "note": "更轻松，适合同辈或相近领域同事", "register": "casual" }
+      ]
+    }
+  ]
+}

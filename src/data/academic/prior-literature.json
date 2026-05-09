@@ -1,0 +1,96 @@
+{
+  "id": "prior-literature",
+  "name": "描述前人工作",
+  "nameEn": "Prior Literature",
+  "description": "用于综述既有发现、观点、理论框架和文献分歧",
+  "clusters": [
+    {
+      "id": "established",
+      "meaning": "前人研究已经表明/证实",
+      "tags": ["前人研究", "已知", "证据"],
+      "expressions": [
+        { "id": "acad-prior-established-01", "en": "prior research has shown that", "note": "最常用、最稳妥，适合引入稳定发现", "example": "Prior research has shown that education delays union formation.", "register": "formal" },
+        { "id": "acad-prior-established-02", "en": "a large body of work documents", "note": "强调文献规模大，适合已充分积累的领域", "example": "A large body of work documents gender gaps in earnings.", "register": "formal" },
+        { "id": "acad-prior-established-03", "en": "it is well established that", "note": "语气较强，只适合高度共识的结论", "example": "It is well established that parental education predicts attainment.", "register": "formal" },
+        { "id": "acad-prior-established-04", "en": "scholars have long recognized", "note": "强调认识由来已久，适合理论或经典发现", "example": "Scholars have long recognized the stratifying role of schools.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "growing-evidence",
+      "meaning": "越来越多的证据表明",
+      "tags": ["证据", "增长", "趋势"],
+      "expressions": [
+        { "id": "acad-prior-growing-evidence-01", "en": "growing evidence suggests that", "note": "强调证据正在积累，但仍保留谨慎空间", "example": "Growing evidence suggests that housing costs shape fertility timing.", "register": "formal" },
+        { "id": "acad-prior-growing-evidence-02", "en": "an emerging literature shows", "note": "适合新兴领域，强调研究方向正在形成", "example": "An emerging literature shows how algorithms sort workers.", "register": "formal" },
+        { "id": "acad-prior-growing-evidence-03", "en": "recent studies increasingly point to", "note": "强调近年研究的共同指向，适合更新文献综述", "example": "Recent studies increasingly point to the importance of wealth.", "register": "formal" },
+        { "id": "acad-prior-growing-evidence-04", "en": "a mounting body of evidence indicates", "note": "语气更强，突出证据数量和一致性", "example": "A mounting body of evidence indicates rising mental health inequalities.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "scholars-argue",
+      "meaning": "有学者指出/提出",
+      "tags": ["观点", "提出", "论证"],
+      "expressions": [
+        { "id": "acad-prior-scholars-argue-01", "en": "scholars argue that", "note": "通用观点引入，适合理论和解释性主张", "example": "Scholars argue that institutions structure life-course choices.", "register": "formal" },
+        { "id": "acad-prior-scholars-argue-02", "en": "some accounts emphasize", "note": "强调某类解释的重点，适合对比不同理论", "example": "Some accounts emphasize cultural norms over material constraints.", "register": "formal" },
+        { "id": "acad-prior-scholars-argue-03", "en": "one line of research maintains that", "note": "适合区分文献流派，语气较正式", "example": "One line of research maintains that networks reduce search costs.", "register": "formal" },
+        { "id": "acad-prior-scholars-argue-04", "en": "this perspective holds that", "note": "适合承接刚介绍的理论视角，避免重复 scholars", "example": "This perspective holds that norms shape perceived constraints.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "focused-on",
+      "meaning": "现有文献主要集中在",
+      "tags": ["集中", "文献", "对象"],
+      "expressions": [
+        { "id": "acad-prior-focused-on-01", "en": "has focused primarily on", "note": "最常用，适合指出文献主流关注对象", "example": "Research has focused primarily on wages and employment.", "register": "formal" },
+        { "id": "acad-prior-focused-on-02", "en": "has centered on", "note": "比 focused on 更紧凑，强调研究中心", "example": "The debate has centered on occupational choice.", "register": "formal" },
+        { "id": "acad-prior-focused-on-03", "en": "has paid particular attention to", "note": "强调特别关注，不一定暗示忽视其他方面", "example": "This literature has paid particular attention to maternal employment.", "register": "formal" },
+        { "id": "acad-prior-focused-on-04", "en": "has been oriented toward", "note": "更抽象，适合描述研究取向或理论方向", "example": "Policy research has been oriented toward short-term outcomes.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "mixed-findings",
+      "meaning": "研究结果并不一致",
+      "tags": ["不一致", "混合发现", "文献分歧"],
+      "expressions": [
+        { "id": "acad-prior-mixed-findings-01", "en": "findings have been mixed", "note": "最简洁通用，适合概括结果不一致", "example": "Findings have been mixed on the returns to vocational training.", "register": "formal" },
+        { "id": "acad-prior-mixed-findings-02", "en": "the evidence remains inconclusive", "note": "强调证据不足以定论，语气比 mixed 更谨慎", "example": "The evidence remains inconclusive for immigrant health trajectories.", "register": "formal" },
+        { "id": "acad-prior-mixed-findings-03", "en": "studies reach divergent conclusions", "note": "强调研究之间结论分叉，适合引出解释差异", "example": "Studies reach divergent conclusions about peer effects.", "register": "formal" },
+        { "id": "acad-prior-mixed-findings-04", "en": "there is little consensus on", "note": "强调学界没有形成共识，适合提出本文必要性", "example": "There is little consensus on how debt affects marriage.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "dominant-view",
+      "meaning": "主流观点认为",
+      "tags": ["主流观点", "共识", "理论"],
+      "expressions": [
+        { "id": "acad-prior-dominant-view-01", "en": "the dominant view is that", "note": "明确标记主流观点，适合随后修正或挑战", "example": "The dominant view is that education promotes tolerance.", "register": "formal" },
+        { "id": "acad-prior-dominant-view-02", "en": "a common interpretation is that", "note": "语气比 dominant 更温和，强调常见解释", "example": "A common interpretation is that mobility reflects merit.", "register": "formal" },
+        { "id": "acad-prior-dominant-view-03", "en": "the prevailing account emphasizes", "note": "更学术，突出主流解释中的重点机制", "example": "The prevailing account emphasizes individual preferences.", "register": "formal" },
+        { "id": "acad-prior-dominant-view-04", "en": "conventional explanations point to", "note": "适合引出传统解释，并为替代解释铺垫", "example": "Conventional explanations point to differences in skills.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "theoretical-framework",
+      "meaning": "X理论认为",
+      "tags": ["理论", "框架", "认为"],
+      "expressions": [
+        { "id": "acad-prior-theoretical-framework-01", "en": "X theory posits that", "note": "标准理论陈述，适合正式介绍理论命题", "example": "Status attainment theory posits that family resources shape outcomes.", "register": "formal" },
+        { "id": "acad-prior-theoretical-framework-02", "en": "from this perspective", "note": "适合从理论视角转入具体推论，避免重复 theory", "example": "From this perspective, migration is a household strategy.", "register": "formal" },
+        { "id": "acad-prior-theoretical-framework-03", "en": "this framework highlights", "note": "强调理论关注的机制或维度，适合综述多个框架", "example": "This framework highlights the role of institutional gatekeeping.", "register": "formal" },
+        { "id": "acad-prior-theoretical-framework-04", "en": "the theory directs attention to", "note": "强调理论帮助观察某个被忽略的方面", "example": "The theory directs attention to nonmonetary forms of support.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "distinction",
+      "meaning": "X区分了A和B",
+      "tags": ["区分", "概念", "分类"],
+      "expressions": [
+        { "id": "acad-prior-distinction-01", "en": "distinguish between A and B", "note": "最常用，适合清楚划分两个概念", "example": "We distinguish between temporary and chronic poverty.", "register": "neutral" },
+        { "id": "acad-prior-distinction-02", "en": "draw a distinction between A and B", "note": "更书面，强调作者主动建立概念边界", "example": "The paper draws a distinction between choice and constraint.", "register": "formal" },
+        { "id": "acad-prior-distinction-03", "en": "differentiate A from B", "note": "强调把相近概念分开，语气更直接", "example": "The framework differentiates mobility from mere movement.", "register": "formal" },
+        { "id": "acad-prior-distinction-04", "en": "treat A and B as analytically distinct", "note": "强调分析上分开，即使现实中可能相互交织", "example": "We treat income and wealth as analytically distinct.", "register": "formal" }
+      ]
+    }
+  ]
+}

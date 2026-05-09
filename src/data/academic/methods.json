@@ -1,0 +1,96 @@
+{
+  "id": "methods",
+  "name": "方法与数据",
+  "nameEn": "Methods & Data",
+  "description": "用于描述数据来源、样本限制、变量测量、识别问题和分析策略",
+  "clusters": [
+    {
+      "id": "data-source",
+      "meaning": "本文使用了X数据",
+      "tags": ["数据", "来源", "样本"],
+      "expressions": [
+        { "id": "acad-methods-data-source-01", "en": "draw on data from", "note": "最自然，强调研究利用现有数据资源", "example": "We draw on data from a national household survey.", "register": "formal" },
+        { "id": "acad-methods-data-source-02", "en": "use nationally representative data", "note": "突出代表性，适合强调外推范围", "example": "We use nationally representative data on young adults.", "register": "formal" },
+        { "id": "acad-methods-data-source-03", "en": "rely on longitudinal data from", "note": "强调数据结构为纵向追踪，适合生命历程研究", "example": "The analysis relies on longitudinal data from three survey waves.", "register": "formal" },
+        { "id": "acad-methods-data-source-04", "en": "link survey records to", "note": "强调数据链接，适合行政数据或多源数据", "example": "We link survey records to administrative earnings histories.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "sample-restriction",
+      "meaning": "样本限定为",
+      "tags": ["样本", "限制", "筛选"],
+      "expressions": [
+        { "id": "acad-methods-sample-restriction-01", "en": "restrict the sample to", "note": "最常用，适合明确说明纳入标准", "example": "We restrict the sample to respondents aged 25 to 54.", "register": "formal" },
+        { "id": "acad-methods-sample-restriction-02", "en": "limit the analysis to", "note": "强调分析范围，而不只是样本筛选", "example": "We limit the analysis to first marriages.", "register": "formal" },
+        { "id": "acad-methods-sample-restriction-03", "en": "exclude observations with", "note": "适合报告排除条件，清楚直接", "example": "We exclude observations with missing employment histories.", "register": "formal" },
+        { "id": "acad-methods-sample-restriction-04", "en": "focus on the subset of", "note": "比 restrict 更强调研究焦点，语气更柔和", "example": "We focus on the subset of workers entering the labor market.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "method-choice",
+      "meaning": "我们采用了X方法",
+      "tags": ["方法", "模型", "采用"],
+      "expressions": [
+        { "id": "acad-methods-method-choice-01", "en": "estimate", "note": "最适合统计模型，直接连接模型类型", "example": "We estimate linear probability models for college completion.", "register": "formal" },
+        { "id": "acad-methods-method-choice-02", "en": "employ", "note": "比 use 更正式，适合方法段总述", "example": "We employ event-history models to examine union formation.", "register": "formal" },
+        { "id": "acad-methods-method-choice-03", "en": "implement", "note": "强调具体执行某种策略或检验，操作感更强", "example": "We implement a difference-in-differences design.", "register": "formal" },
+        { "id": "acad-methods-method-choice-04", "en": "adopt", "note": "强调研究设计选择，适合说明为何采用某框架", "example": "We adopt a cohort-comparison approach.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "endogeneity",
+      "meaning": "为了解决内生性/选择偏误",
+      "tags": ["内生性", "选择偏误", "识别"],
+      "expressions": [
+        { "id": "acad-methods-endogeneity-01", "en": "address concerns about endogeneity", "note": "通用表述，适合说明识别策略的目的", "example": "We address concerns about endogeneity using sibling fixed effects.", "register": "formal" },
+        { "id": "acad-methods-endogeneity-02", "en": "account for selection into", "note": "强调选择进入某状态或群体，适合样本选择问题", "example": "The model accounts for selection into higher education.", "register": "formal" },
+        { "id": "acad-methods-endogeneity-03", "en": "reduce omitted-variable bias", "note": "明确针对遗漏变量偏误，适合控制变量或固定效应", "example": "Family fixed effects reduce omitted-variable bias.", "register": "formal" },
+        { "id": "acad-methods-endogeneity-04", "en": "exploit variation in", "note": "强调利用外生或准外生变异，适合识别设计", "example": "We exploit variation in school entry cutoffs.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "operationalize",
+      "meaning": "我们将X操作化为",
+      "tags": ["操作化", "变量", "定义"],
+      "expressions": [
+        { "id": "acad-methods-operationalize-01", "en": "operationalize X as", "note": "标准方法语言，适合从概念转向变量", "example": "We operationalize precarity as unstable monthly employment.", "register": "formal" },
+        { "id": "acad-methods-operationalize-02", "en": "capture X using", "note": "强调指标用于捕捉概念，语气更自然", "example": "We capture social origin using parental education.", "register": "formal" },
+        { "id": "acad-methods-operationalize-03", "en": "measure X with", "note": "最直接，适合描述具体变量或题项", "example": "We measure wellbeing with a five-item scale.", "register": "neutral" },
+        { "id": "acad-methods-operationalize-04", "en": "proxy for X with", "note": "强调指标只是近似替代，适合承认测量限制", "example": "We proxy for wealth with homeownership status.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "measure",
+      "meaning": "X的测量方式是",
+      "tags": ["测量", "指标", "变量"],
+      "expressions": [
+        { "id": "acad-methods-measure-01", "en": "is measured as", "note": "标准被动写法，适合变量定义列表", "example": "Employment stability is measured as months continuously employed.", "register": "formal" },
+        { "id": "acad-methods-measure-02", "en": "is based on", "note": "强调测量来源或构成，适合复合指标", "example": "The index is based on three survey items.", "register": "formal" },
+        { "id": "acad-methods-measure-03", "en": "is constructed from", "note": "强调变量由多个信息生成，适合指数或分类变量", "example": "The neighborhood measure is constructed from census tract data.", "register": "formal" },
+        { "id": "acad-methods-measure-04", "en": "takes the value of one if", "note": "适合二元变量编码，清晰且可复现", "example": "The indicator takes the value of one if respondents are employed.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "coding",
+      "meaning": "变量编码方式",
+      "tags": ["编码", "变量", "分类"],
+      "expressions": [
+        { "id": "acad-methods-coding-01", "en": "code X as", "note": "最直接，适合说明分类或二元编码", "example": "We code cohabitation as a separate union status.", "register": "formal" },
+        { "id": "acad-methods-coding-02", "en": "classify respondents into", "note": "适合把个体分入多个组别，读者容易理解", "example": "We classify respondents into three employment categories.", "register": "formal" },
+        { "id": "acad-methods-coding-03", "en": "collapse categories into", "note": "强调合并类别，适合处理小样本或稀疏分类", "example": "We collapse occupations into ten broad groups.", "register": "formal" },
+        { "id": "acad-methods-coding-04", "en": "treat X as a categorical variable", "note": "强调变量进入模型的形式，而不只是取值", "example": "We treat field of study as a categorical variable.", "register": "formal" }
+      ]
+    },
+    {
+      "id": "analytic-strategy",
+      "meaning": "分析策略概述",
+      "tags": ["分析策略", "步骤", "模型"],
+      "expressions": [
+        { "id": "acad-methods-analytic-strategy-01", "en": "our analytic strategy proceeds in three steps", "note": "适合方法段开头，结构清楚", "example": "Our analytic strategy proceeds in three steps.", "register": "formal" },
+        { "id": "acad-methods-analytic-strategy-02", "en": "we first describe, then estimate", "note": "适合概括从描述统计到模型分析的顺序", "example": "We first describe cohort patterns, then estimate regression models.", "register": "formal" },
+        { "id": "acad-methods-analytic-strategy-03", "en": "the analysis unfolds in stages", "note": "更书面，适合多个模型逐步推进", "example": "The analysis unfolds in stages, beginning with baseline models.", "register": "formal" },
+        { "id": "acad-methods-analytic-strategy-04", "en": "we assess robustness by", "note": "适合方法段末尾说明验证策略", "example": "We assess robustness by varying the sample definition.", "register": "formal" }
+      ]
+    }
+  ]
+}

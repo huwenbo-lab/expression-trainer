@@ -1,0 +1,89 @@
+{
+  "id": "coffee-lunch",
+  "scene": "department",
+  "name": "午饭/Coffee break",
+  "nameEn": "Lunch & Coffee",
+  "description": "你在系里午饭、茶歇或 coffee break 中和同事闲聊。目标是自然发起对话、聊食物和周末、轻松吐槽工作量，并回应别人分享的消息。",
+  "dialogues": [
+    {
+      "id": "lunch-invite",
+      "title": "约同事吃饭",
+      "context": "快到中午了，你想问旁边同事要不要一起出去吃饭。",
+      "lines": [
+        { "speaker": "you", "en": "I'm about to grab lunch. Do you want to join?", "zh": "我准备去吃午饭了。你要一起吗？", "highlights": ["grab lunch", "Do you want to join"] },
+        { "speaker": "colleague", "en": "Sure, that sounds good. I could use a break." },
+        { "speaker": "you", "en": "Same here. I was thinking of trying the place around the corner, unless you have somewhere else in mind.", "zh": "我也是。我本来想试试拐角那家，除非你有别的想法。", "highlights": ["Same here", "unless you have somewhere else in mind"] },
+        { "speaker": "colleague", "en": "No, that works for me." }
+      ]
+    },
+    {
+      "id": "lunch-weekend",
+      "title": "聊周末计划",
+      "context": "周五午饭时，你和同事轻松聊周末安排。",
+      "lines": [
+        { "speaker": "colleague", "en": "Any plans for the weekend?" },
+        { "speaker": "you", "en": "Nothing too exciting. I'm hoping to catch up on sleep and maybe get outside if the weather holds up.", "zh": "没什么特别刺激的。我想补补觉，如果天气还行的话也许出去走走。", "highlights": ["Nothing too exciting", "catch up on sleep", "if the weather holds up"] },
+        { "speaker": "colleague", "en": "That sounds honestly perfect." },
+        { "speaker": "you", "en": "Yeah, after this week, low-key is exactly what I need.", "zh": "是啊，这周过后，我正需要这种低强度周末。", "highlights": ["low-key", "exactly what I need"] }
+      ]
+    },
+    {
+      "id": "coffee-workload",
+      "title": "轻松吐槽工作量",
+      "context": "茶歇时大家聊到最近都很忙，你想加入但保持轻松口气。",
+      "lines": [
+        { "speaker": "colleague", "en": "This semester is moving way too fast." },
+        { "speaker": "you", "en": "I know, right? I feel like I'm constantly trying to catch up.", "zh": "可不是吗？我感觉自己一直在追进度。", "highlights": ["I know, right?", "trying to catch up"] },
+        { "speaker": "colleague", "en": "Same. My inbox is a disaster." },
+        { "speaker": "you", "en": "Mine too. I'm trying to pretend that if I ignore it for an hour, it'll somehow become manageable.", "zh": "我的也是。我正在假装如果我一个小时不看它，它就会神奇地变得可控。", "highlights": ["Mine too", "somehow become manageable"] }
+      ]
+    }
+  ],
+  "universalExpressions": [
+    {
+      "id": "lunch-invite-casual",
+      "meaning": "随意地约吃饭",
+      "expressions": [
+        { "id": "oral-lunch-invite-01", "en": "I'm about to grab lunch.", "note": "自然随意，适合临时邀约", "register": "casual" },
+        { "id": "oral-lunch-invite-02", "en": "Do you want to join?", "note": "直接但不强迫，适合熟悉同事", "register": "casual" },
+        { "id": "oral-lunch-invite-03", "en": "Are you heading out for lunch?", "note": "先试探对方安排，比直接邀请更轻", "register": "casual" }
+      ]
+    },
+    {
+      "id": "lunch-food-comment",
+      "meaning": "评价食物/推荐餐厅",
+      "expressions": [
+        { "id": "oral-lunch-food-01", "en": "This place is pretty good.", "note": "轻松评价，不显得像正式推荐", "register": "casual" },
+        { "id": "oral-lunch-food-02", "en": "I usually get the noodle bowl here.", "note": "用自己的习惯推荐，比命令式推荐更自然", "register": "casual" },
+        { "id": "oral-lunch-food-03", "en": "It's a bit pricey, but it's convenient.", "note": "评价更真实，有优点也有保留", "register": "casual" }
+      ]
+    },
+    {
+      "id": "lunch-weekend-ask",
+      "meaning": "问/聊周末计划",
+      "expressions": [
+        { "id": "oral-lunch-weekend-01", "en": "Any plans for the weekend?", "note": "最自然的周末开场，轻松不冒犯", "register": "casual" },
+        { "id": "oral-lunch-weekend-02", "en": "Nothing too exciting.", "note": "低调回应，适合没有特别计划时", "register": "casual" },
+        { "id": "oral-lunch-weekend-03", "en": "I'm hoping to catch up on sleep.", "note": "常见真实回答，容易引发共鸣", "register": "casual" }
+      ]
+    },
+    {
+      "id": "lunch-complain-light",
+      "meaning": "轻松地吐槽（忙、累、天气、交通）",
+      "expressions": [
+        { "id": "oral-lunch-complain-01", "en": "I know, right?", "note": "接住对方吐槽，表示强烈共鸣", "register": "casual" },
+        { "id": "oral-lunch-complain-02", "en": "I'm constantly trying to catch up.", "note": "吐槽忙碌但不过分负面", "register": "casual" },
+        { "id": "oral-lunch-complain-03", "en": "It's been one of those weeks.", "note": "含蓄表达这周很累，适合轻松场合", "register": "casual" }
+      ]
+    },
+    {
+      "id": "lunch-react-news",
+      "meaning": "回应别人分享的消息",
+      "expressions": [
+        { "id": "oral-lunch-react-01", "en": "Oh wow, that's exciting.", "note": "回应好消息，热情但不过度", "register": "casual" },
+        { "id": "oral-lunch-react-02", "en": "That sounds stressful.", "note": "回应压力消息，表达理解而非立刻给建议", "register": "casual" },
+        { "id": "oral-lunch-react-03", "en": "I'm glad that worked out.", "note": "回应事情解决后的消息，语气温和", "register": "casual" }
+      ]
+    }
+  ]
+}
