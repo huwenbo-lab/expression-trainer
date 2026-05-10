@@ -1,0 +1,55 @@
+{
+  "id": "limitations-and-cautious-claims",
+  "name": "限制与谨慎声称",
+  "nameEn": "Limitations & Cautious Claims",
+  "description": "用于承认数据、测量、模型、外推和因果解释限制，同时保留核心贡献。",
+  "clusters": [
+    {
+      "id": "cautious-interpretation-and-scope",
+      "meaning": "谨慎解释结果和限定研究范围",
+      "tags": ["谨慎解释", "研究范围", "限制"],
+      "expressions": [
+        {"id": "acad-limitations-cautious-interpretation-and-scope-01", "en": "should be interpreted with caution", "note": "比 be careful 更正式，适合 robustness 或模型限制后。", "example": "The estimates should be interpreted with caution.", "register": "formal"},
+        {"id": "acad-limitations-cautious-interpretation-and-scope-02", "en": "beyond the scope of this study", "note": "用于礼貌地限定不处理的问题，避免显得遗漏。", "example": "Exploring this mechanism is beyond the scope of this study.", "register": "formal"},
+        {"id": "acad-limitations-cautious-interpretation-and-scope-03", "en": "due to data limitations", "note": "通用限制表达，常接 cannot measure/test/distinguish。", "example": "Due to data limitations, we cannot observe motivations.", "register": "formal"},
+        {"id": "acad-limitations-cautious-interpretation-and-scope-04", "en": "cannot distinguish between", "note": "适合测量限制，说明变量不能分辨两个机制或群体。", "example": "The measure cannot distinguish between intentions and desires.", "register": "formal"},
+        {"id": "acad-limitations-cautious-interpretation-and-scope-05", "en": "cannot be generalized to", "note": "比 not applicable 更正式，用于外推边界。", "example": "The findings cannot be generalized to all populations.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "limitations-and-future-research",
+      "meaning": "把研究限制转化为未来研究方向",
+      "tags": ["研究限制", "未来研究", "贡献转折"],
+      "expressions": [
+        {"id": "acad-limitations-limitations-and-future-research-01", "en": "potential directions for future research", "note": "标准限制段表达，可把不足转成建设性议程。", "example": "These limitations suggest potential directions for future research.", "register": "formal"},
+        {"id": "acad-limitations-limitations-and-future-research-02", "en": "future research could profitably", "note": "比 future research should 更柔和，语气更学术。", "example": "Future research could profitably combine intentions and behavior.", "register": "formal"},
+        {"id": "acad-limitations-limitations-and-future-research-03", "en": "despite these limitations", "note": "限制段转回贡献的标准衔接。", "example": "Despite these limitations, the study advances policy debates.", "register": "formal"},
+        {"id": "acad-limitations-limitations-and-future-research-04", "en": "cannot overshadow this study's main contribution", "note": "语气较强，适合限制之后重申贡献，需谨慎使用。", "example": "These limits cannot overshadow the study's main contribution.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "bias-and-robustness-caveats",
+      "meaning": "偏差、统计功效和稳健性限定",
+      "tags": ["偏差", "稳健性", "统计功效"],
+      "expressions": [
+        {"id": "acad-limitations-bias-and-robustness-caveats-01", "en": "lack of statistical power", "note": "比 small sample 更技术化，适合解释为何不做复杂交互。", "example": "The subgroup analysis lacks statistical power.", "register": "formal"},
+        {"id": "acad-limitations-bias-and-robustness-caveats-02", "en": "experimenter demand effects", "note": "survey experiment 中的重要威胁，适合和 low risk/check 搭配。", "example": "We assess the risk of experimenter demand effects.", "register": "formal"},
+        {"id": "acad-limitations-bias-and-robustness-caveats-03", "en": "account for potential bias", "note": "比 control for bias 更宽，可用于非响应、选择或测量偏差。", "example": "Weights help account for potential bias.", "register": "formal"},
+        {"id": "acad-limitations-bias-and-robustness-caveats-04", "en": "sensitive", "note": "常接 to alternative samples/specifications，适合稳健性讨论。", "example": "The results are not sensitive to alternative specifications.", "register": "formal"},
+        {"id": "acad-limitations-bias-and-robustness-caveats-05", "en": "alternative model specification", "note": "稳健性检验常用名词组，比 another model 更正式。", "example": "The conclusions are robust to alternative model specification.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "measurement-and-scope-agenda",
+      "meaning": "测量限制和后续研究议程",
+      "tags": ["测量限制", "适用边界", "研究议程"],
+      "expressions": [
+        {"id": "acad-limitations-measurement-and-scope-agenda-01", "en": "lagged predictors", "note": "用于处理时间顺序或反向因果担忧。", "example": "We incorporate lagged predictors in robustness checks.", "register": "formal"},
+        {"id": "acad-limitations-measurement-and-scope-agenda-02", "en": "acknowledge measurement limits without weakening the core claim", "note": "限制段的关键动作，避免把结果说空。", "example": "We acknowledge measurement limits without weakening the core claim.", "register": "formal"},
+        {"id": "acad-limitations-measurement-and-scope-agenda-03", "en": "state scope limits before returning to contribution", "note": "能让讨论段既诚实又不失焦。", "example": "We state scope limits before returning to contribution.", "register": "formal"},
+        {"id": "acad-limitations-measurement-and-scope-agenda-04", "en": "distinguish intentions from behavior", "note": "家庭/人口研究常见限制，强调 intention 不等同于 actual behavior。", "example": "Future research should distinguish intentions from behavior.", "register": "formal"},
+        {"id": "acad-limitations-measurement-and-scope-agenda-05", "en": "map different utilization patterns", "note": "比 study usage 更具体，适合未来研究方向。", "example": "Future research could map different utilization patterns.", "register": "formal"}
+      ]
+    }
+  ]
+}

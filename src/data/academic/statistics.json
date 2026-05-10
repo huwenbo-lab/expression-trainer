@@ -9,12 +9,13 @@
       "meaning": "X与Y显著正相关",
       "tags": ["正相关", "显著", "结果"],
       "expressions": [
-        { "id": "acad-stat-significant-positive-01", "en": "is positively associated with", "note": "最稳妥的相关表述，不暗示严格因果", "example": "Parental wealth is positively associated with college completion.", "register": "formal" },
-        { "id": "acad-stat-significant-positive-02", "en": "has a positive and statistically significant coefficient", "note": "直接面向回归表，适合描述系数方向和显著性", "example": "The education variable has a positive and statistically significant coefficient.", "register": "formal" },
-        { "id": "acad-stat-significant-positive-03", "en": "predicts higher levels of", "note": "比 associated 更强调预测关系，但仍可避免因果断言", "example": "Stable employment predicts higher levels of union formation.", "register": "formal" },
-        { "id": "acad-stat-significant-positive-04", "en": "is linked to an increase in", "note": "适合描述结果变量上升，语气比 causes 更谨慎", "example": "Childcare access is linked to an increase in maternal employment.", "register": "formal" },
-        { "id": "acad-stat-significant-positive-05", "en": "corresponds to higher odds of", "note": "适合 logit 或 odds ratio 语境，避免误写概率", "example": "Homeownership corresponds to higher odds of marriage.", "register": "formal" },
-        { "id": "acad-stat-significant-positive-06", "en": "is associated with a higher probability of", "note": "适合概率模型或边际效应报告，读者容易理解", "example": "College attendance is associated with a higher probability of migration.", "register": "formal" }
+        {"id": "acad-stat-significant-positive-01", "en": "is positively associated with", "note": "最稳妥的相关表述，不暗示严格因果", "example": "Parental wealth is positively associated with college completion.", "register": "formal"},
+        {"id": "acad-stat-significant-positive-02", "en": "has a positive and statistically significant coefficient", "note": "直接面向回归表，适合描述系数方向和显著性", "example": "The education variable has a positive and statistically significant coefficient.", "register": "formal"},
+        {"id": "acad-stat-significant-positive-03", "en": "predicts higher levels of", "note": "比 associated 更强调预测关系，但仍可避免因果断言", "example": "Stable employment predicts higher levels of union formation.", "register": "formal"},
+        {"id": "acad-stat-significant-positive-04", "en": "is linked to an increase in", "note": "适合描述结果变量上升，语气比 causes 更谨慎", "example": "Childcare access is linked to an increase in maternal employment.", "register": "formal"},
+        {"id": "acad-stat-significant-positive-05", "en": "corresponds to higher odds of", "note": "适合 logit 或 odds ratio 语境，避免误写概率", "example": "Homeownership corresponds to higher odds of marriage.", "register": "formal"},
+        {"id": "acad-stat-significant-positive-06", "en": "is associated with a higher probability of", "note": "适合概率模型或边际效应报告，读者容易理解", "example": "College attendance is associated with a higher probability of migration.", "register": "formal"},
+        {"id": "acad-stat-significant-positive-07", "en": "remain significant", "note": "适合加入控制、滞后或稳健性检验后的结果报告。", "example": "The lagged effects remain significant.", "register": "formal"}
       ]
     },
     {
@@ -22,12 +23,12 @@
       "meaning": "X与Y显著负相关",
       "tags": ["负相关", "显著", "结果"],
       "expressions": [
-        { "id": "acad-stat-significant-negative-01", "en": "is negatively associated with", "note": "最通用的负向相关表达，不预设机制", "example": "Debt is negatively associated with homeownership among young adults.", "register": "formal" },
-        { "id": "acad-stat-significant-negative-02", "en": "has a negative and statistically significant coefficient", "note": "适合逐项解释回归表，信息直接完整", "example": "The unemployment indicator has a negative and statistically significant coefficient.", "register": "formal" },
-        { "id": "acad-stat-significant-negative-03", "en": "predicts lower levels of", "note": "适合描述模型预测的减少，不必声称因果", "example": "Precarious work predicts lower levels of life satisfaction.", "register": "formal" },
-        { "id": "acad-stat-significant-negative-04", "en": "is linked to a decline in", "note": "突出结果下降，适合描述趋势或处理效应", "example": "School closure is linked to a decline in test scores.", "register": "formal" },
-        { "id": "acad-stat-significant-negative-05", "en": "corresponds to lower odds of", "note": "适合二元结果模型，强调 odds 而不是平均值", "example": "Informal employment corresponds to lower odds of pension coverage.", "register": "formal" },
-        { "id": "acad-stat-significant-negative-06", "en": "is inversely related to", "note": "更书面，适合变量之间稳定的反向关系", "example": "Job insecurity is inversely related to fertility intentions.", "register": "formal" }
+        {"id": "acad-stat-significant-negative-01", "en": "is negatively associated with", "note": "最通用的负向相关表达，不预设机制", "example": "Debt is negatively associated with homeownership among young adults.", "register": "formal"},
+        {"id": "acad-stat-significant-negative-02", "en": "has a negative and statistically significant coefficient", "note": "适合逐项解释回归表，信息直接完整", "example": "The unemployment indicator has a negative and statistically significant coefficient.", "register": "formal"},
+        {"id": "acad-stat-significant-negative-03", "en": "predicts lower levels of", "note": "适合描述模型预测的减少，不必声称因果", "example": "Precarious work predicts lower levels of life satisfaction.", "register": "formal"},
+        {"id": "acad-stat-significant-negative-04", "en": "is linked to a decline in", "note": "突出结果下降，适合描述趋势或处理效应", "example": "School closure is linked to a decline in test scores.", "register": "formal"},
+        {"id": "acad-stat-significant-negative-05", "en": "corresponds to lower odds of", "note": "适合二元结果模型，强调 odds 而不是平均值", "example": "Informal employment corresponds to lower odds of pension coverage.", "register": "formal"},
+        {"id": "acad-stat-significant-negative-06", "en": "is inversely related to", "note": "更书面，适合变量之间稳定的反向关系", "example": "Job insecurity is inversely related to fertility intentions.", "register": "formal"}
       ]
     },
     {
@@ -35,12 +36,14 @@
       "meaning": "系数不显著/无统计学意义",
       "tags": ["不显著", "统计", "结果"],
       "expressions": [
-        { "id": "acad-stat-not-significant-01", "en": "is not statistically significant", "note": "最标准表达，适合直接报告显著性结果", "example": "The interaction term is not statistically significant.", "register": "formal" },
-        { "id": "acad-stat-not-significant-02", "en": "does not reach conventional levels of significance", "note": "更学术，适合 p 值接近阈值但未过线", "example": "The coefficient does not reach conventional levels of significance.", "register": "formal" },
-        { "id": "acad-stat-not-significant-03", "en": "is statistically indistinguishable from zero", "note": "强调估计值无法与零区分，适合回归系数", "example": "The estimate is statistically indistinguishable from zero.", "register": "formal" },
-        { "id": "acad-stat-not-significant-04", "en": "yields no statistically detectable association", "note": "强调数据中未检测到关系，避免说完全没有关系", "example": "The model yields no statistically detectable association for region.", "register": "formal" },
-        { "id": "acad-stat-not-significant-05", "en": "provides little evidence of", "note": "更谨慎，强调证据不足而非断言关系不存在", "example": "The estimates provide little evidence of a cohort difference.", "register": "formal" },
-        { "id": "acad-stat-not-significant-06", "en": "is estimated imprecisely", "note": "适合置信区间宽的情况，重点在估计不精确", "example": "The subgroup coefficient is estimated imprecisely.", "register": "formal" }
+        {"id": "acad-stat-not-significant-01", "en": "is not statistically significant", "note": "最标准表达，适合直接报告显著性结果", "example": "The interaction term is not statistically significant.", "register": "formal"},
+        {"id": "acad-stat-not-significant-02", "en": "does not reach conventional levels of significance", "note": "更学术，适合 p 值接近阈值但未过线", "example": "The coefficient does not reach conventional levels of significance.", "register": "formal"},
+        {"id": "acad-stat-not-significant-03", "en": "is statistically indistinguishable from zero", "note": "强调估计值无法与零区分，适合回归系数", "example": "The estimate is statistically indistinguishable from zero.", "register": "formal"},
+        {"id": "acad-stat-not-significant-04", "en": "yields no statistically detectable association", "note": "强调数据中未检测到关系，避免说完全没有关系", "example": "The model yields no statistically detectable association for region.", "register": "formal"},
+        {"id": "acad-stat-not-significant-05", "en": "provides little evidence of", "note": "更谨慎，强调证据不足而非断言关系不存在", "example": "The estimates provide little evidence of a cohort difference.", "register": "formal"},
+        {"id": "acad-stat-not-significant-06", "en": "is estimated imprecisely", "note": "适合置信区间宽的情况，重点在估计不精确", "example": "The subgroup coefficient is estimated imprecisely.", "register": "formal"},
+        {"id": "acad-stat-not-significant-07", "en": "remain largely unaffected by", "note": "比 no effect 更适合讨论某结果稳定不变。", "example": "Husbands' use remains largely unaffected by parenthood.", "register": "formal"},
+        {"id": "acad-stat-not-significant-08", "en": "is unrelated to", "note": "适合报告不显著或无关系，比 does not affect 更弱。", "example": "FWA availability is unrelated to fertility.", "register": "formal"}
       ]
     },
     {
@@ -48,12 +51,14 @@
       "meaning": "系数的大小/效应量",
       "tags": ["系数", "效应量", "大小"],
       "expressions": [
-        { "id": "acad-stat-coefficient-size-01", "en": "the coefficient implies that", "note": "适合把系数翻成实质含义，连接统计与解释", "example": "The coefficient implies that graduates earn five percent more.", "register": "formal" },
-        { "id": "acad-stat-coefficient-size-02", "en": "the estimated effect amounts to", "note": "强调效应量大小，适合报告边际效应或差异", "example": "The estimated effect amounts to a two-month delay in marriage.", "register": "formal" },
-        { "id": "acad-stat-coefficient-size-03", "en": "a one-unit increase in X is associated with", "note": "标准连续变量解释，适合清楚连接单位变化", "example": "A one-unit increase in insecurity is associated with lower wellbeing.", "register": "formal" },
-        { "id": "acad-stat-coefficient-size-04", "en": "the point estimate suggests", "note": "强调估计值本身，适合不确定性较高时谨慎表述", "example": "The point estimate suggests a modest employment penalty.", "register": "formal" },
-        { "id": "acad-stat-coefficient-size-05", "en": "the substantive size of the effect is", "note": "用于强调实际意义，不只看统计显著性", "example": "The substantive size of the effect is economically meaningful.", "register": "formal" },
-        { "id": "acad-stat-coefficient-size-06", "en": "the magnitude is comparable to", "note": "适合通过参照物解释效应大小，增强可读性", "example": "The magnitude is comparable to the effect of parental education.", "register": "formal" }
+        {"id": "acad-stat-coefficient-size-01", "en": "the coefficient implies that", "note": "适合把系数翻成实质含义，连接统计与解释", "example": "The coefficient implies that graduates earn five percent more.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-02", "en": "the estimated effect amounts to", "note": "强调效应量大小，适合报告边际效应或差异", "example": "The estimated effect amounts to a two-month delay in marriage.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-03", "en": "a one-unit increase in X is associated with", "note": "标准连续变量解释，适合清楚连接单位变化", "example": "A one-unit increase in insecurity is associated with lower wellbeing.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-04", "en": "the point estimate suggests", "note": "强调估计值本身，适合不确定性较高时谨慎表述", "example": "The point estimate suggests a modest employment penalty.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-05", "en": "the substantive size of the effect is", "note": "用于强调实际意义，不只看统计显著性", "example": "The substantive size of the effect is economically meaningful.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-06", "en": "the magnitude is comparable to", "note": "适合通过参照物解释效应大小，增强可读性", "example": "The magnitude is comparable to the effect of parental education.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-07", "en": "predicted probabilities", "note": "结果图和非线性模型解释常用，比 predicted values 更具体。", "example": "We plot predicted probabilities by occupation.", "register": "formal"},
+        {"id": "acad-stat-coefficient-size-08", "en": "on the probability scale", "note": "适合解释 linear probability model 系数，避免含糊。", "example": "The coefficients are interpreted on the probability scale.", "register": "formal"}
       ]
     },
     {
@@ -61,12 +66,12 @@
       "meaning": "控制了Z之后",
       "tags": ["控制变量", "模型", "调整"],
       "expressions": [
-        { "id": "acad-stat-after-controlling-01", "en": "after controlling for", "note": "最常用，适合句首或句中说明控制项", "example": "After controlling for age, the gender gap remains large.", "register": "neutral" },
-        { "id": "acad-stat-after-controlling-02", "en": "net of", "note": "更紧凑、更学术，适合表示排除某些因素后的关系", "example": "The association persists net of family background.", "register": "formal" },
-        { "id": "acad-stat-after-controlling-03", "en": "adjusting for", "note": "常见于统计和流行病学写法，语气中性", "example": "Adjusting for prior achievement reduces the school effect.", "register": "formal" },
-        { "id": "acad-stat-after-controlling-04", "en": "holding X constant", "note": "强调其他条件不变，适合解释模型含义", "example": "Holding education constant, migrants earn less than natives.", "register": "formal" },
-        { "id": "acad-stat-after-controlling-05", "en": "once X is included in the model", "note": "强调加入某变量前后的模型变化", "example": "Once occupation is included in the model, the coefficient declines.", "register": "formal" },
-        { "id": "acad-stat-after-controlling-06", "en": "conditional on", "note": "更简洁但抽象，适合高级统计语境", "example": "Conditional on prior income, the wealth gradient remains steep.", "register": "formal" }
+        {"id": "acad-stat-after-controlling-01", "en": "after controlling for", "note": "最常用，适合句首或句中说明控制项", "example": "After controlling for age, the gender gap remains large.", "register": "neutral"},
+        {"id": "acad-stat-after-controlling-02", "en": "net of", "note": "更紧凑、更学术，适合表示排除某些因素后的关系", "example": "The association persists net of family background.", "register": "formal"},
+        {"id": "acad-stat-after-controlling-03", "en": "adjusting for", "note": "常见于统计和流行病学写法，语气中性", "example": "Adjusting for prior achievement reduces the school effect.", "register": "formal"},
+        {"id": "acad-stat-after-controlling-04", "en": "holding X constant", "note": "强调其他条件不变，适合解释模型含义", "example": "Holding education constant, migrants earn less than natives.", "register": "formal"},
+        {"id": "acad-stat-after-controlling-05", "en": "once X is included in the model", "note": "强调加入某变量前后的模型变化", "example": "Once occupation is included in the model, the coefficient declines.", "register": "formal"},
+        {"id": "acad-stat-after-controlling-06", "en": "conditional on", "note": "更简洁但抽象，适合高级统计语境", "example": "Conditional on prior income, the wealth gradient remains steep.", "register": "formal"}
       ]
     },
     {
@@ -74,12 +79,13 @@
       "meaning": "交互效应/调节效应",
       "tags": ["交互", "调节", "异质性"],
       "expressions": [
-        { "id": "acad-stat-interaction-01", "en": "the interaction term is significant", "note": "直接报告交互项显著性，适合表格解释", "example": "The interaction term is significant in the full model.", "register": "formal" },
-        { "id": "acad-stat-interaction-02", "en": "the effect varies by", "note": "面向读者更直观，适合解释交互含义", "example": "The effect varies by parental education.", "register": "formal" },
-        { "id": "acad-stat-interaction-03", "en": "the association is stronger among", "note": "适合说明交互方向和目标子群体", "example": "The association is stronger among first-generation students.", "register": "formal" },
-        { "id": "acad-stat-interaction-04", "en": "X moderates the relationship between Y and Z", "note": "标准调节效应写法，适合理论和统计同时说明", "example": "Gender moderates the relationship between debt and marriage.", "register": "formal" },
-        { "id": "acad-stat-interaction-05", "en": "the gradient differs across", "note": "适合比较斜率或社会梯度在群体间的差异", "example": "The education gradient differs across birth cohorts.", "register": "formal" },
-        { "id": "acad-stat-interaction-06", "en": "heterogeneity is concentrated among", "note": "强调差异主要来自某些群体，适合深入结果解释", "example": "Heterogeneity is concentrated among workers without college degrees.", "register": "formal" }
+        {"id": "acad-stat-interaction-01", "en": "the interaction term is significant", "note": "直接报告交互项显著性，适合表格解释", "example": "The interaction term is significant in the full model.", "register": "formal"},
+        {"id": "acad-stat-interaction-02", "en": "the effect varies by", "note": "面向读者更直观，适合解释交互含义", "example": "The effect varies by parental education.", "register": "formal"},
+        {"id": "acad-stat-interaction-03", "en": "the association is stronger among", "note": "适合说明交互方向和目标子群体", "example": "The association is stronger among first-generation students.", "register": "formal"},
+        {"id": "acad-stat-interaction-04", "en": "X moderates the relationship between Y and Z", "note": "标准调节效应写法，适合理论和统计同时说明", "example": "Gender moderates the relationship between debt and marriage.", "register": "formal"},
+        {"id": "acad-stat-interaction-05", "en": "the gradient differs across", "note": "适合比较斜率或社会梯度在群体间的差异", "example": "The education gradient differs across birth cohorts.", "register": "formal"},
+        {"id": "acad-stat-interaction-06", "en": "heterogeneity is concentrated among", "note": "强调差异主要来自某些群体，适合深入结果解释", "example": "Heterogeneity is concentrated among workers without college degrees.", "register": "formal"},
+        {"id": "acad-stat-interaction-07", "en": "interaction terms", "note": "基础但高频，可和 statistically significant、interpretation 搭配。", "example": "The interaction terms are jointly significant.", "register": "formal"}
       ]
     },
     {
@@ -87,12 +93,12 @@
       "meaning": "模型拟合度",
       "tags": ["模型拟合", "拟合度", "模型比较"],
       "expressions": [
-        { "id": "acad-stat-model-fit-01", "en": "improves model fit", "note": "最通用，适合比较加入变量前后的模型表现", "example": "Adding school fixed effects improves model fit.", "register": "formal" },
-        { "id": "acad-stat-model-fit-02", "en": "provides a better fit to the data", "note": "读者友好，强调模型与数据更匹配", "example": "The nonlinear specification provides a better fit to the data.", "register": "formal" },
-        { "id": "acad-stat-model-fit-03", "en": "reduces the information criterion", "note": "适合 AIC/BIC 场景，表达具体模型比较指标", "example": "The random-effects model reduces the information criterion.", "register": "formal" },
-        { "id": "acad-stat-model-fit-04", "en": "accounts for a larger share of variance", "note": "适合 R-squared 或方差解释语境", "example": "Family background accounts for a larger share of variance.", "register": "formal" },
-        { "id": "acad-stat-model-fit-05", "en": "offers little improvement over", "note": "适合说明复杂模型并未显著改善拟合", "example": "The interaction model offers little improvement over the baseline.", "register": "formal" },
-        { "id": "acad-stat-model-fit-06", "en": "is preferred by the fit statistics", "note": "强调选择依据来自拟合指标，而非主观判断", "example": "The cohort model is preferred by the fit statistics.", "register": "formal" }
+        {"id": "acad-stat-model-fit-01", "en": "improves model fit", "note": "最通用，适合比较加入变量前后的模型表现", "example": "Adding school fixed effects improves model fit.", "register": "formal"},
+        {"id": "acad-stat-model-fit-02", "en": "provides a better fit to the data", "note": "读者友好，强调模型与数据更匹配", "example": "The nonlinear specification provides a better fit to the data.", "register": "formal"},
+        {"id": "acad-stat-model-fit-03", "en": "reduces the information criterion", "note": "适合 AIC/BIC 场景，表达具体模型比较指标", "example": "The random-effects model reduces the information criterion.", "register": "formal"},
+        {"id": "acad-stat-model-fit-04", "en": "accounts for a larger share of variance", "note": "适合 R-squared 或方差解释语境", "example": "Family background accounts for a larger share of variance.", "register": "formal"},
+        {"id": "acad-stat-model-fit-05", "en": "offers little improvement over", "note": "适合说明复杂模型并未显著改善拟合", "example": "The interaction model offers little improvement over the baseline.", "register": "formal"},
+        {"id": "acad-stat-model-fit-06", "en": "is preferred by the fit statistics", "note": "强调选择依据来自拟合指标，而非主观判断", "example": "The cohort model is preferred by the fit statistics.", "register": "formal"}
       ]
     },
     {
@@ -100,12 +106,14 @@
       "meaning": "稳健性检验表明",
       "tags": ["稳健性", "检验", "结果"],
       "expressions": [
-        { "id": "acad-stat-robustness-01", "en": "the results are robust to", "note": "最常用，适合替代样本、变量和模型检验", "example": "The results are robust to alternative measures of income.", "register": "formal" },
-        { "id": "acad-stat-robustness-02", "en": "the pattern holds when", "note": "更自然，适合描述限制样本或换模型后的结果", "example": "The pattern holds when we restrict the sample to urban residents.", "register": "formal" },
-        { "id": "acad-stat-robustness-03", "en": "the conclusions are unchanged after", "note": "强调核心结论没有变化，而非每个系数相同", "example": "The conclusions are unchanged after excluding outliers.", "register": "formal" },
-        { "id": "acad-stat-robustness-04", "en": "sensitivity checks yield similar estimates", "note": "适合补充检验，强调估计值接近", "example": "Sensitivity checks yield similar estimates across specifications.", "register": "formal" },
-        { "id": "acad-stat-robustness-05", "en": "the finding is not driven by", "note": "用于排除某个替代解释或特殊群体", "example": "The finding is not driven by high-income households.", "register": "formal" },
-        { "id": "acad-stat-robustness-06", "en": "the association persists across specifications", "note": "强调不同模型设定下关系持续存在", "example": "The association persists across specifications with fixed effects.", "register": "formal" }
+        {"id": "acad-stat-robustness-01", "en": "the results are robust to", "note": "最常用，适合替代样本、变量和模型检验", "example": "The results are robust to alternative measures of income.", "register": "formal"},
+        {"id": "acad-stat-robustness-02", "en": "the pattern holds when", "note": "更自然，适合描述限制样本或换模型后的结果", "example": "The pattern holds when we restrict the sample to urban residents.", "register": "formal"},
+        {"id": "acad-stat-robustness-03", "en": "the conclusions are unchanged after", "note": "强调核心结论没有变化，而非每个系数相同", "example": "The conclusions are unchanged after excluding outliers.", "register": "formal"},
+        {"id": "acad-stat-robustness-04", "en": "sensitivity checks yield similar estimates", "note": "适合补充检验，强调估计值接近", "example": "Sensitivity checks yield similar estimates across specifications.", "register": "formal"},
+        {"id": "acad-stat-robustness-05", "en": "the finding is not driven by", "note": "用于排除某个替代解释或特殊群体", "example": "The finding is not driven by high-income households.", "register": "formal"},
+        {"id": "acad-stat-robustness-06", "en": "the association persists across specifications", "note": "强调不同模型设定下关系持续存在", "example": "The association persists across specifications with fixed effects.", "register": "formal"},
+        {"id": "acad-stat-robustness-07", "en": "The results remain similar to the main findings.", "note": "比 unchanged 更自然，适合附录结果总结。", "example": "The results remain similar to the main findings.", "register": "formal"},
+        {"id": "acad-stat-robustness-08", "en": "The conclusions are robust to alternative model specification.", "note": "比 results are robust 更具体，指向结论层面。", "example": "The conclusions are robust to alternative model specification.", "register": "formal"}
       ]
     },
     {
@@ -113,12 +121,12 @@
       "meaning": "效应的幅度/大小",
       "tags": ["幅度", "大小", "实质意义"],
       "expressions": [
-        { "id": "acad-stat-magnitude-01", "en": "a sizeable effect", "note": "强调效果不小，但比 large 更正式", "example": "The policy has a sizeable effect on enrollment.", "register": "formal" },
-        { "id": "acad-stat-magnitude-02", "en": "a modest effect", "note": "强调存在但不大，适合避免夸张解读", "example": "The training program shows a modest effect on wages.", "register": "formal" },
-        { "id": "acad-stat-magnitude-03", "en": "a substantively meaningful difference", "note": "强调实际意义，不只依赖 p 值", "example": "The gender gap represents a substantively meaningful difference.", "register": "formal" },
-        { "id": "acad-stat-magnitude-04", "en": "a negligible difference", "note": "强调差异很小，适合显著但实际意义弱的结果", "example": "The two estimates imply a negligible difference in completion rates.", "register": "formal" },
-        { "id": "acad-stat-magnitude-05", "en": "an effect of nontrivial size", "note": "比 sizeable 更谨慎，适合中等但值得关注的效应", "example": "The estimate points to an effect of nontrivial size.", "register": "formal" },
-        { "id": "acad-stat-magnitude-06", "en": "the effect is small in absolute terms", "note": "强调绝对大小有限，常用于平衡显著性解释", "example": "The effect is small in absolute terms but consistent across models.", "register": "formal" }
+        {"id": "acad-stat-magnitude-01", "en": "a sizeable effect", "note": "强调效果不小，但比 large 更正式", "example": "The policy has a sizeable effect on enrollment.", "register": "formal"},
+        {"id": "acad-stat-magnitude-02", "en": "a modest effect", "note": "强调存在但不大，适合避免夸张解读", "example": "The training program shows a modest effect on wages.", "register": "formal"},
+        {"id": "acad-stat-magnitude-03", "en": "a substantively meaningful difference", "note": "强调实际意义，不只依赖 p 值", "example": "The gender gap represents a substantively meaningful difference.", "register": "formal"},
+        {"id": "acad-stat-magnitude-04", "en": "a negligible difference", "note": "强调差异很小，适合显著但实际意义弱的结果", "example": "The two estimates imply a negligible difference in completion rates.", "register": "formal"},
+        {"id": "acad-stat-magnitude-05", "en": "an effect of nontrivial size", "note": "比 sizeable 更谨慎，适合中等但值得关注的效应", "example": "The estimate points to an effect of nontrivial size.", "register": "formal"},
+        {"id": "acad-stat-magnitude-06", "en": "the effect is small in absolute terms", "note": "强调绝对大小有限，常用于平衡显著性解释", "example": "The effect is small in absolute terms but consistent across models.", "register": "formal"}
       ]
     },
     {
@@ -126,12 +134,12 @@
       "meaning": "效应被削弱/中介掉了",
       "tags": ["削弱", "中介", "系数变化"],
       "expressions": [
-        { "id": "acad-stat-attenuation-01", "en": "the coefficient attenuates", "note": "统计报告中最常用，强调系数变小", "example": "The coefficient attenuates after adding occupation controls.", "register": "formal" },
-        { "id": "acad-stat-attenuation-02", "en": "the estimate is reduced by", "note": "适合量化削弱幅度，结果更精确", "example": "The estimate is reduced by nearly one-third.", "register": "formal" },
-        { "id": "acad-stat-attenuation-03", "en": "part of the association is explained by", "note": "适合中介解释，避免声称完全解释", "example": "Part of the association is explained by school quality.", "register": "formal" },
-        { "id": "acad-stat-attenuation-04", "en": "the effect is partially mediated by", "note": "标准中介语言，适合明确讨论机制变量", "example": "The effect is partially mediated by employment stability.", "register": "formal" },
-        { "id": "acad-stat-attenuation-05", "en": "the gap narrows after", "note": "读者友好，适合描述群体差距变化", "example": "The gender gap narrows after adjusting for occupation.", "register": "formal" },
-        { "id": "acad-stat-attenuation-06", "en": "the association is absorbed by", "note": "强调加入某组变量后关系大幅消失，语气较强", "example": "The association is largely absorbed by family background controls.", "register": "formal" }
+        {"id": "acad-stat-attenuation-01", "en": "the coefficient attenuates", "note": "统计报告中最常用，强调系数变小", "example": "The coefficient attenuates after adding occupation controls.", "register": "formal"},
+        {"id": "acad-stat-attenuation-02", "en": "the estimate is reduced by", "note": "适合量化削弱幅度，结果更精确", "example": "The estimate is reduced by nearly one-third.", "register": "formal"},
+        {"id": "acad-stat-attenuation-03", "en": "part of the association is explained by", "note": "适合中介解释，避免声称完全解释", "example": "Part of the association is explained by school quality.", "register": "formal"},
+        {"id": "acad-stat-attenuation-04", "en": "the effect is partially mediated by", "note": "标准中介语言，适合明确讨论机制变量", "example": "The effect is partially mediated by employment stability.", "register": "formal"},
+        {"id": "acad-stat-attenuation-05", "en": "the gap narrows after", "note": "读者友好，适合描述群体差距变化", "example": "The gender gap narrows after adjusting for occupation.", "register": "formal"},
+        {"id": "acad-stat-attenuation-06", "en": "the association is absorbed by", "note": "强调加入某组变量后关系大幅消失，语气较强", "example": "The association is largely absorbed by family background controls.", "register": "formal"}
       ]
     },
     {
@@ -139,12 +147,12 @@
       "meaning": "呈现出某种模式/趋势",
       "tags": ["模式", "趋势", "结果描述"],
       "expressions": [
-        { "id": "acad-stat-pattern-01", "en": "a clear pattern emerges", "note": "适合从多个结果中概括出总体规律", "example": "A clear pattern emerges across birth cohorts.", "register": "formal" },
-        { "id": "acad-stat-pattern-02", "en": "the estimates follow a similar pattern", "note": "强调不同模型或群体结果相似", "example": "The estimates follow a similar pattern among men and women.", "register": "formal" },
-        { "id": "acad-stat-pattern-03", "en": "we observe a gradient in", "note": "适合描述随阶层、教育或收入递变的趋势", "example": "We observe a gradient in college completion by parental wealth.", "register": "formal" },
-        { "id": "acad-stat-pattern-04", "en": "the pattern is most pronounced among", "note": "强调模式在某群体中最明显，适合异质性描述", "example": "The pattern is most pronounced among low-income households.", "register": "formal" },
-        { "id": "acad-stat-pattern-05", "en": "the results point to", "note": "适合从结果引出解释，语气比 show 更谨慎", "example": "The results point to widening cohort inequality.", "register": "formal" },
-        { "id": "acad-stat-pattern-06", "en": "the distribution shifts toward", "note": "适合描述分布变化，而非单一均值变化", "example": "The distribution shifts toward later ages at first birth.", "register": "formal" }
+        {"id": "acad-stat-pattern-01", "en": "a clear pattern emerges", "note": "适合从多个结果中概括出总体规律", "example": "A clear pattern emerges across birth cohorts.", "register": "formal"},
+        {"id": "acad-stat-pattern-02", "en": "the estimates follow a similar pattern", "note": "强调不同模型或群体结果相似", "example": "The estimates follow a similar pattern among men and women.", "register": "formal"},
+        {"id": "acad-stat-pattern-03", "en": "we observe a gradient in", "note": "适合描述随阶层、教育或收入递变的趋势", "example": "We observe a gradient in college completion by parental wealth.", "register": "formal"},
+        {"id": "acad-stat-pattern-04", "en": "the pattern is most pronounced among", "note": "强调模式在某群体中最明显，适合异质性描述", "example": "The pattern is most pronounced among low-income households.", "register": "formal"},
+        {"id": "acad-stat-pattern-05", "en": "the results point to", "note": "适合从结果引出解释，语气比 show 更谨慎", "example": "The results point to widening cohort inequality.", "register": "formal"},
+        {"id": "acad-stat-pattern-06", "en": "the distribution shifts toward", "note": "适合描述分布变化，而非单一均值变化", "example": "The distribution shifts toward later ages at first birth.", "register": "formal"}
       ]
     },
     {
@@ -152,12 +160,12 @@
       "meaning": "在某子群体中",
       "tags": ["子群体", "异质性", "分组"],
       "expressions": [
-        { "id": "acad-stat-subgroup-01", "en": "among", "note": "最简洁，适合句中快速限定子群体", "example": "Among rural youth, the education gradient is steeper.", "register": "neutral" },
-        { "id": "acad-stat-subgroup-02", "en": "for the subgroup of", "note": "更明确地标出子样本，适合结果报告", "example": "For the subgroup of single mothers, the penalty is larger.", "register": "formal" },
-        { "id": "acad-stat-subgroup-03", "en": "within this population", "note": "强调在特定总体内部，适合避免重复群体名称", "example": "Within this population, migration rates vary sharply by education.", "register": "formal" },
-        { "id": "acad-stat-subgroup-04", "en": "the association is concentrated among", "note": "强调关系主要出现在某群体，而非均匀存在", "example": "The association is concentrated among workers in service jobs.", "register": "formal" },
-        { "id": "acad-stat-subgroup-05", "en": "the pattern is confined to", "note": "语气较强，强调只在某群体中出现", "example": "The pattern is confined to respondents without college degrees.", "register": "formal" },
-        { "id": "acad-stat-subgroup-06", "en": "results differ markedly across", "note": "适合概括多个子群体之间差异明显", "example": "Results differ markedly across immigrant generations.", "register": "formal" }
+        {"id": "acad-stat-subgroup-01", "en": "among", "note": "最简洁，适合句中快速限定子群体", "example": "Among rural youth, the education gradient is steeper.", "register": "neutral"},
+        {"id": "acad-stat-subgroup-02", "en": "for the subgroup of", "note": "更明确地标出子样本，适合结果报告", "example": "For the subgroup of single mothers, the penalty is larger.", "register": "formal"},
+        {"id": "acad-stat-subgroup-03", "en": "within this population", "note": "强调在特定总体内部，适合避免重复群体名称", "example": "Within this population, migration rates vary sharply by education.", "register": "formal"},
+        {"id": "acad-stat-subgroup-04", "en": "the association is concentrated among", "note": "强调关系主要出现在某群体，而非均匀存在", "example": "The association is concentrated among workers in service jobs.", "register": "formal"},
+        {"id": "acad-stat-subgroup-05", "en": "the pattern is confined to", "note": "语气较强，强调只在某群体中出现", "example": "The pattern is confined to respondents without college degrees.", "register": "formal"},
+        {"id": "acad-stat-subgroup-06", "en": "results differ markedly across", "note": "适合概括多个子群体之间差异明显", "example": "Results differ markedly across immigrant generations.", "register": "formal"}
       ]
     }
   ]

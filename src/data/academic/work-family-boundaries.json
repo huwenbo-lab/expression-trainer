@@ -1,0 +1,56 @@
+{
+  "id": "work-family-boundaries",
+  "name": "工作-家庭边界",
+  "nameEn": "Work-Family Boundaries",
+  "description": "用于表达工作与家庭角色、边界渗透、角色冲突、弹性工作和工作-家庭协商。",
+  "clusters": [
+    {
+      "id": "work-family-conflict-and-demands",
+      "meaning": "工作与家庭责任之间的冲突和压力",
+      "tags": ["冲突", "责任", "压力"],
+      "expressions": [
+        {"id": "acad-work-family-work-family-conflict-and-demands-01", "en": "work-family conflict", "note": "领域核心术语，适合和 mediate/address/alleviate 搭配记忆。", "example": "FWAs may alleviate work-family conflict.", "register": "formal"},
+        {"id": "acad-work-family-work-family-conflict-and-demands-02", "en": "conflicting responsibilities from work and family domains", "note": "比 work-family conflict 更展开，适合机制解释句。", "example": "Policies help accommodate conflicting responsibilities from work and family domains.", "register": "formal"},
+        {"id": "acad-work-family-work-family-conflict-and-demands-03", "en": "role pressures from both domains", "note": "比 work and family pressure 更理论化，能接 work-family conflict。", "example": "Role pressures from both domains produce conflict.", "register": "formal"},
+        {"id": "acad-work-family-work-family-conflict-and-demands-04", "en": "mutually incompatible", "note": "适合说明角色要求冲突，语气比 conflict 更抽象。", "example": "Work and family demands can be mutually incompatible.", "register": "formal"},
+        {"id": "acad-work-family-work-family-conflict-and-demands-05", "en": "accommodate conflicting responsibilities", "note": "比 balance responsibilities 更有政策含义。", "example": "Flexible work can accommodate conflicting responsibilities.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "boundary-permeability",
+      "meaning": "工作-家庭边界及其渗透方向",
+      "tags": ["边界", "渗透", "方向"],
+      "expressions": [
+        {"id": "acad-work-family-boundary-permeability-01", "en": "work-family spheres", "note": "比 work and family areas 更自然，适合标题和理论段。", "example": "Couples negotiate work-family spheres over time.", "register": "formal"},
+        {"id": "acad-work-family-boundary-permeability-02", "en": "work-family border permeability", "note": "理论术语，适合说明弹性工作让哪个领域侵入哪个领域。", "example": "FWAs alter work-family border permeability.", "register": "formal"},
+        {"id": "acad-work-family-boundary-permeability-03", "en": "family-to-work permeability", "note": "比 general permeability 更精确，强调渗透方向。", "example": "Flexibility can increase family-to-work permeability.", "register": "formal"},
+        {"id": "acad-work-family-boundary-permeability-04", "en": "work-to-family permeability", "note": "和 family-to-work 成对，适合说明男女使用弹性工作的不同方向。", "example": "Telework may increase work-to-family permeability.", "register": "formal"},
+        {"id": "acad-work-family-boundary-permeability-05", "en": "distinguish the direction of work-family permeability", "note": "不是只说冲突增加，而是解释工作侵入家庭还是家庭侵入工作。", "example": "The analysis distinguishes the direction of work-family permeability.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "flexibility-and-workplace-norms",
+      "meaning": "弹性工作、职场规范和使用动机",
+      "tags": ["弹性工作", "职场规范", "使用动机"],
+      "expressions": [
+        {"id": "acad-work-family-flexibility-and-workplace-norms-01", "en": "flexibility stigma", "note": "用来解释 why availability does not translate into use。", "example": "Flexibility stigma may suppress policy take-up.", "register": "formal"},
+        {"id": "acad-work-family-flexibility-and-workplace-norms-02", "en": "ideal-worker norm", "note": "适合解释男性或照护者使用弹性工作为何受罚。", "example": "FWA use can violate the ideal-worker norm.", "register": "formal"},
+        {"id": "acad-work-family-flexibility-and-workplace-norms-03", "en": "overwork norm", "note": "把长工时文化写成制度/文化规范，而不是个人偏好。", "example": "The overwork norm depresses fertility intentions.", "register": "formal"},
+        {"id": "acad-work-family-flexibility-and-workplace-norms-04", "en": "in response to family needs", "note": "用于说明政策工具是否真正被用于照护和家庭目的。", "example": "Workers use flexibility in response to family needs.", "register": "formal"},
+        {"id": "acad-work-family-flexibility-and-workplace-norms-05", "en": "prioritize the work domain over the family domain", "note": "比 value work more 更正式，适合解释边界渗透方向。", "example": "Some workers prioritize the work domain over the family domain.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "roles-and-transitions",
+      "meaning": "工作者、照护者和父母角色转换",
+      "tags": ["角色", "照护", "父母身份"],
+      "expressions": [
+        {"id": "acad-work-family-roles-and-transitions-01", "en": "X enables individuals to better manage work and family.", "note": "常见但比 balance work and family 更完整，适合背景段。", "example": "Flexible work enables parents to better manage work and family.", "register": "formal"},
+        {"id": "acad-work-family-roles-and-transitions-02", "en": "facilitate role transitions into parenthood", "note": "比 help parents 更理论化，强调生命历程转变。", "example": "Flexible work may facilitate role transitions into parenthood.", "register": "formal"},
+        {"id": "acad-work-family-roles-and-transitions-03", "en": "spillover of negative emotions", "note": "work-family 机制之一，适合解释 strain-based conflict。", "example": "The policy may reduce spillover of negative emotions.", "register": "formal"},
+        {"id": "acad-work-family-roles-and-transitions-04", "en": "dual role as workers and caregivers", "note": "比 work and family roles 更具体，适合母职/父职讨论。", "example": "Mothers navigate a dual role as workers and caregivers.", "register": "formal"},
+        {"id": "acad-work-family-roles-and-transitions-05", "en": "family-oriented institutions", "note": "用于区分公共领域性别平等和家庭制度中的滞后。", "example": "Gender inequity persists in family-oriented institutions.", "register": "formal"}
+      ]
+    }
+  ]
+}

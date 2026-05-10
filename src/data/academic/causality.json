@@ -9,10 +9,11 @@
       "meaning": "X对Y有影响（动词用法）",
       "tags": ["影响", "作用", "因果"],
       "expressions": [
-        { "id": "acad-causality-influence-verb-01", "en": "affect", "note": "最基础、覆盖面广，适合不想强调方向或机制时使用", "example": "Family resources affect students' transition into higher education.", "register": "neutral" },
-        { "id": "acad-causality-influence-verb-02", "en": "shape", "note": "强调逐步塑造和方向性影响，比 affect 更有结构感", "example": "Parental expectations shape adolescents' educational aspirations.", "register": "formal" },
-        { "id": "acad-causality-influence-verb-03", "en": "condition", "note": "突出影响受到制度或情境约束，适合理论讨论", "example": "Gender norms condition how income translates into bargaining power.", "register": "formal" },
-        { "id": "acad-causality-influence-verb-04", "en": "bear on", "note": "较书面，强调相关性和理论关联，因果语气较含蓄", "example": "These arrangements bear on women's labor force participation.", "register": "literary" }
+        {"id": "acad-causality-influence-verb-01", "en": "affect", "note": "最基础、覆盖面广，适合不想强调方向或机制时使用", "example": "Family resources affect students' transition into higher education.", "register": "neutral"},
+        {"id": "acad-causality-influence-verb-02", "en": "shape", "note": "强调逐步塑造和方向性影响，比 affect 更有结构感", "example": "Parental expectations shape adolescents' educational aspirations.", "register": "formal"},
+        {"id": "acad-causality-influence-verb-03", "en": "condition", "note": "突出影响受到制度或情境约束，适合理论讨论", "example": "Gender norms condition how income translates into bargaining power.", "register": "formal"},
+        {"id": "acad-causality-influence-verb-04", "en": "bear on", "note": "较书面，强调相关性和理论关联，因果语气较含蓄", "example": "These arrangements bear on women's labor force participation.", "register": "literary"},
+        {"id": "acad-causality-influence-verb-05", "en": "susceptible", "note": "常接 to variations in X，比 affected by 更有易感性含义。", "example": "Women's housework time is more susceptible to norms.", "register": "formal"}
       ]
     },
     {
@@ -20,10 +21,10 @@
       "meaning": "X对Y有影响（名词用法：the effect/impact of）",
       "tags": ["影响", "名词", "作用"],
       "expressions": [
-        { "id": "acad-causality-influence-noun-01", "en": "the effect of X on Y", "note": "最标准、最中性，适合结果报告和模型解释", "example": "We estimate the effect of job loss on fertility intentions.", "register": "neutral" },
-        { "id": "acad-causality-influence-noun-02", "en": "the impact of X on Y", "note": "比 effect 更强调实际后果，常用于政策或宏观变化", "example": "The study examines the impact of childcare access on employment.", "register": "formal" },
-        { "id": "acad-causality-influence-noun-03", "en": "the role of X in Y", "note": "强调 X 在过程中的作用，不必预设单一因果方向", "example": "The paper considers the role of peers in college choice.", "register": "neutral" },
-        { "id": "acad-causality-influence-noun-04", "en": "the bearing of X on Y", "note": "更抽象、更理论化，适合讨论概念之间的关联", "example": "We discuss the bearing of kinship ties on migration decisions.", "register": "literary" }
+        {"id": "acad-causality-influence-noun-01", "en": "the effect of X on Y", "note": "最标准、最中性，适合结果报告和模型解释", "example": "We estimate the effect of job loss on fertility intentions.", "register": "neutral"},
+        {"id": "acad-causality-influence-noun-02", "en": "the impact of X on Y", "note": "比 effect 更强调实际后果，常用于政策或宏观变化", "example": "The study examines the impact of childcare access on employment.", "register": "formal"},
+        {"id": "acad-causality-influence-noun-03", "en": "the role of X in Y", "note": "强调 X 在过程中的作用，不必预设单一因果方向", "example": "The paper considers the role of peers in college choice.", "register": "neutral"},
+        {"id": "acad-causality-influence-noun-04", "en": "the bearing of X on Y", "note": "更抽象、更理论化，适合讨论概念之间的关联", "example": "We discuss the bearing of kinship ties on migration decisions.", "register": "literary"}
       ]
     },
     {
@@ -31,10 +32,10 @@
       "meaning": "X导致了Y / X是Y的原因",
       "tags": ["导致", "原因", "因果"],
       "expressions": [
-        { "id": "acad-causality-cause-direct-01", "en": "lead to", "note": "通用且语气适中，适合描述清晰但不夸张的结果链条", "example": "Job instability can lead to delayed household formation.", "register": "neutral" },
-        { "id": "acad-causality-cause-direct-02", "en": "give rise to", "note": "强调新现象的产生，比 lead to 更有过程感", "example": "Educational expansion gave rise to new forms of inequality.", "register": "formal" },
-        { "id": "acad-causality-cause-direct-03", "en": "account for", "note": "强调解释某一差异或结果，常用于分解和机制分析", "example": "Occupational segregation accounts for part of the wage gap.", "register": "formal" },
-        { "id": "acad-causality-cause-direct-04", "en": "precipitate", "note": "语气强，突出触发突然变化，适合危机或转折场景", "example": "Economic shocks precipitated a sharp decline in migration.", "register": "literary" }
+        {"id": "acad-causality-cause-direct-01", "en": "lead to", "note": "通用且语气适中，适合描述清晰但不夸张的结果链条", "example": "Job instability can lead to delayed household formation.", "register": "neutral"},
+        {"id": "acad-causality-cause-direct-02", "en": "give rise to", "note": "强调新现象的产生，比 lead to 更有过程感", "example": "Educational expansion gave rise to new forms of inequality.", "register": "formal"},
+        {"id": "acad-causality-cause-direct-03", "en": "account for", "note": "强调解释某一差异或结果，常用于分解和机制分析", "example": "Occupational segregation accounts for part of the wage gap.", "register": "formal"},
+        {"id": "acad-causality-cause-direct-04", "en": "precipitate", "note": "语气强，突出触发突然变化，适合危机或转折场景", "example": "Economic shocks precipitated a sharp decline in migration.", "register": "literary"}
       ]
     },
     {
@@ -42,10 +43,10 @@
       "meaning": "X是通过Z机制影响Y的（中介路径）",
       "tags": ["机制", "中介", "路径"],
       "expressions": [
-        { "id": "acad-causality-mechanism-01", "en": "operate through", "note": "强调机制作为作用通道，适合机制检验的总述", "example": "Class background operates through school quality and peer networks.", "register": "formal" },
-        { "id": "acad-causality-mechanism-02", "en": "work by way of", "note": "语气较解释性，适合逐步说明中介路径", "example": "Policy effects work by way of reduced childcare costs.", "register": "formal" },
-        { "id": "acad-causality-mechanism-03", "en": "be mediated by", "note": "最贴近统计中介分析，适合报告模型结果", "example": "The association is mediated by access to stable employment.", "register": "formal" },
-        { "id": "acad-causality-mechanism-04", "en": "channel X into Y", "note": "突出把某种资源或压力导向结果，动感更强", "example": "Local institutions channel migration experience into civic participation.", "register": "formal" }
+        {"id": "acad-causality-mechanism-01", "en": "operate through", "note": "强调机制作为作用通道，适合机制检验的总述", "example": "Class background operates through school quality and peer networks.", "register": "formal"},
+        {"id": "acad-causality-mechanism-02", "en": "work by way of", "note": "语气较解释性，适合逐步说明中介路径", "example": "Policy effects work by way of reduced childcare costs.", "register": "formal"},
+        {"id": "acad-causality-mechanism-03", "en": "be mediated by", "note": "最贴近统计中介分析，适合报告模型结果", "example": "The association is mediated by access to stable employment.", "register": "formal"},
+        {"id": "acad-causality-mechanism-04", "en": "channel X into Y", "note": "突出把某种资源或压力导向结果，动感更强", "example": "Local institutions channel migration experience into civic participation.", "register": "formal"}
       ]
     },
     {
@@ -53,10 +54,10 @@
       "meaning": "X调节/缓冲了Z对Y的影响（调节效应）",
       "tags": ["调节", "缓冲", "异质性"],
       "expressions": [
-        { "id": "acad-causality-moderate-01", "en": "moderate the association between X and Y", "note": "最标准的统计写法，适合交互项和异质性检验", "example": "Gender moderates the association between education and earnings.", "register": "formal" },
-        { "id": "acad-causality-moderate-02", "en": "buffer the effect of X on Y", "note": "强调削弱负面影响，常用于资源或支持系统", "example": "Family support buffers the effect of unemployment on wellbeing.", "register": "formal" },
-        { "id": "acad-causality-moderate-03", "en": "condition the relationship between X and Y", "note": "比 moderate 更理论化，强调关系依赖于情境", "example": "Local norms condition the relationship between income and fertility.", "register": "formal" },
-        { "id": "acad-causality-moderate-04", "en": "alter the strength of the association", "note": "直接描述强弱变化，适合解释交互项方向", "example": "Urban residence alters the strength of the education gradient.", "register": "neutral" }
+        {"id": "acad-causality-moderate-01", "en": "moderate the association between X and Y", "note": "最标准的统计写法，适合交互项和异质性检验", "example": "Gender moderates the association between education and earnings.", "register": "formal"},
+        {"id": "acad-causality-moderate-02", "en": "buffer the effect of X on Y", "note": "强调削弱负面影响，常用于资源或支持系统", "example": "Family support buffers the effect of unemployment on wellbeing.", "register": "formal"},
+        {"id": "acad-causality-moderate-03", "en": "condition the relationship between X and Y", "note": "比 moderate 更理论化，强调关系依赖于情境", "example": "Local norms condition the relationship between income and fertility.", "register": "formal"},
+        {"id": "acad-causality-moderate-04", "en": "alter the strength of the association", "note": "直接描述强弱变化，适合解释交互项方向", "example": "Urban residence alters the strength of the education gradient.", "register": "neutral"}
       ]
     },
     {
@@ -64,10 +65,10 @@
       "meaning": "X的后果/结果是",
       "tags": ["后果", "结果", "影响"],
       "expressions": [
-        { "id": "acad-causality-consequence-01", "en": "a consequence of X is Y", "note": "结构清楚、语气中性，适合引出结果段落", "example": "A consequence of delayed marriage is a shorter reproductive window.", "register": "neutral" },
-        { "id": "acad-causality-consequence-02", "en": "X has implications for Y", "note": "强调延伸意义，不必限定为直接后果", "example": "Rising debt has implications for young adults' family formation.", "register": "formal" },
-        { "id": "acad-causality-consequence-03", "en": "X carries consequences for Y", "note": "比 has consequences 更书面，强调后果随 X 而来", "example": "School closure carries consequences for parental employment.", "register": "formal" },
-        { "id": "acad-causality-consequence-04", "en": "X leaves Y more vulnerable to Z", "note": "适合负面后果，突出后续风险而非即时结果", "example": "Informal work leaves families more vulnerable to income shocks.", "register": "formal" }
+        {"id": "acad-causality-consequence-01", "en": "a consequence of X is Y", "note": "结构清楚、语气中性，适合引出结果段落", "example": "A consequence of delayed marriage is a shorter reproductive window.", "register": "neutral"},
+        {"id": "acad-causality-consequence-02", "en": "X has implications for Y", "note": "强调延伸意义，不必限定为直接后果", "example": "Rising debt has implications for young adults' family formation.", "register": "formal"},
+        {"id": "acad-causality-consequence-03", "en": "X carries consequences for Y", "note": "比 has consequences 更书面，强调后果随 X 而来", "example": "School closure carries consequences for parental employment.", "register": "formal"},
+        {"id": "acad-causality-consequence-04", "en": "X leaves Y more vulnerable to Z", "note": "适合负面后果，突出后续风险而非即时结果", "example": "Informal work leaves families more vulnerable to income shocks.", "register": "formal"}
       ]
     },
     {
@@ -75,10 +76,11 @@
       "meaning": "X放大/加剧了Y",
       "tags": ["放大", "加剧", "强化"],
       "expressions": [
-        { "id": "acad-causality-amplify-01", "en": "amplify", "note": "强调已有差异或效应被放大，适合不平等研究", "example": "School tracking amplifies class differences in achievement.", "register": "formal" },
-        { "id": "acad-causality-amplify-02", "en": "exacerbate", "note": "强调负面问题被加重，语气比 amplify 更强", "example": "Housing costs exacerbate economic insecurity among migrants.", "register": "formal" },
-        { "id": "acad-causality-amplify-03", "en": "magnify", "note": "突出规模或可见度变大，常用于差距和风险", "example": "Digital exclusion magnifies educational disparities.", "register": "formal" },
-        { "id": "acad-causality-amplify-04", "en": "compound", "note": "强调多个劣势叠加，适合累积不平等语境", "example": "Care responsibilities compound women's employment penalties.", "register": "formal" }
+        {"id": "acad-causality-amplify-01", "en": "amplify", "note": "强调已有差异或效应被放大，适合不平等研究", "example": "School tracking amplifies class differences in achievement.", "register": "formal"},
+        {"id": "acad-causality-amplify-02", "en": "exacerbate", "note": "强调负面问题被加重，语气比 amplify 更强", "example": "Housing costs exacerbate economic insecurity among migrants.", "register": "formal"},
+        {"id": "acad-causality-amplify-03", "en": "magnify", "note": "突出规模或可见度变大，常用于差距和风险", "example": "Digital exclusion magnifies educational disparities.", "register": "formal"},
+        {"id": "acad-causality-amplify-04", "en": "compound", "note": "强调多个劣势叠加，适合累积不平等语境", "example": "Care responsibilities compound women's employment penalties.", "register": "formal"},
+        {"id": "acad-causality-amplify-05", "en": "bolster", "note": "比 strengthen 更书面，可用于资源加强某关联。", "example": "Relative income bolsters the association.", "register": "formal"}
       ]
     },
     {
@@ -86,10 +88,11 @@
       "meaning": "X削弱/减缓了Y",
       "tags": ["削弱", "减缓", "缓解"],
       "expressions": [
-        { "id": "acad-causality-attenuate-01", "en": "attenuate", "note": "统计和学术写作中常用，强调效应强度下降", "example": "The coefficient attenuates after adding family background controls.", "register": "formal" },
-        { "id": "acad-causality-attenuate-02", "en": "dampen", "note": "语气较形象，强调冲击或变化幅度被压低", "example": "Public transfers dampen the effect of unemployment on poverty.", "register": "formal" },
-        { "id": "acad-causality-attenuate-03", "en": "mitigate", "note": "强调主动缓解负面影响，常用于政策或干预", "example": "Childcare subsidies mitigate mothers' employment constraints.", "register": "formal" },
-        { "id": "acad-causality-attenuate-04", "en": "blunt", "note": "语气更强，突出削弱原本尖锐的影响", "example": "Union coverage blunts the wage penalty associated with part-time work.", "register": "formal" }
+        {"id": "acad-causality-attenuate-01", "en": "attenuate", "note": "统计和学术写作中常用，强调效应强度下降", "example": "The coefficient attenuates after adding family background controls.", "register": "formal"},
+        {"id": "acad-causality-attenuate-02", "en": "dampen", "note": "语气较形象，强调冲击或变化幅度被压低", "example": "Public transfers dampen the effect of unemployment on poverty.", "register": "formal"},
+        {"id": "acad-causality-attenuate-03", "en": "mitigate", "note": "强调主动缓解负面影响，常用于政策或干预", "example": "Childcare subsidies mitigate mothers' employment constraints.", "register": "formal"},
+        {"id": "acad-causality-attenuate-04", "en": "blunt", "note": "语气更强，突出削弱原本尖锐的影响", "example": "Union coverage blunts the wage penalty associated with part-time work.", "register": "formal"},
+        {"id": "acad-causality-attenuate-05", "en": "alleviate", "note": "比 reduce 更政策化，常接 burden/pressure/conflict。", "example": "Policies may alleviate work-family conflict.", "register": "formal"}
       ]
     }
   ]

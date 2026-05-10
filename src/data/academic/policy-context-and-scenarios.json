@@ -1,0 +1,68 @@
+{
+  "id": "policy-context-and-scenarios",
+  "name": "政策情境与情景设定",
+  "nameEn": "Policy Contexts & Scenarios",
+  "description": "用于写政策信息、政策可及性、情景实验、制度背景和政策干预如何进入研究设计。",
+  "clusters": [
+    {
+      "id": "policy-potential-and-use",
+      "meaning": "政策潜力取决于实际使用而不只是可得性",
+      "tags": ["政策潜力", "可得性", "使用"],
+      "expressions": [
+        {"id": "acad-policy-context-policy-potential-and-use-01", "en": "holds promise for", "note": "比 can help 更谨慎，保留“前景”而非已证实效果。", "example": "Flexible work holds promise for advancing gender equality.", "register": "formal"},
+        {"id": "acad-policy-context-policy-potential-and-use-02", "en": "hinges on", "note": "比 depends on 更凝练，强调一个前提条件决定论点是否成立。", "example": "This expectation hinges on actual policy use.", "register": "formal"},
+        {"id": "acad-policy-context-policy-potential-and-use-03", "en": "is contingent upon", "note": "比 hinges on 更正式，适合讨论政策潜力的边界。", "example": "The policy effect is contingent upon actual utilization.", "register": "formal"},
+        {"id": "acad-policy-context-policy-potential-and-use-04", "en": "actual utilization of", "note": "用于区分制度存在和真实使用，避免把 availability 误写成 behavior。", "example": "Actual utilization of flexible work remains uneven.", "register": "formal"},
+        {"id": "acad-policy-context-policy-potential-and-use-05", "en": "distinguish between availability and use", "note": "能精确表达政策或资源“可获得”不等于“被使用”。", "example": "We distinguish between FWA availability and use.", "register": "formal"},
+        {"id": "acad-policy-context-policy-potential-and-use-06", "en": "Availability does not necessarily translate into use.", "note": "非常适合区分 formal access 与实际行为。", "example": "Policy availability does not necessarily translate into use.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "dissemination-and-exposure",
+      "meaning": "政策信息的传播、暴露和传递",
+      "tags": ["政策传播", "信息暴露", "政策执行"],
+      "expressions": [
+        {"id": "acad-policy-context-dissemination-and-exposure-01", "en": "policy dissemination", "note": "比 policy publicity 更学术，强调政策信息被传递到目标群体。", "example": "Policy dissemination can shape family intentions.", "register": "formal"},
+        {"id": "acad-policy-context-dissemination-and-exposure-02", "en": "policy information exposure", "note": "实验语境中比 receive information 更精确，可作为 treatment 描述。", "example": "Policy information exposure increased marriage intention.", "register": "formal"},
+        {"id": "acad-policy-context-dissemination-and-exposure-03", "en": "not accurately transmitted to individuals", "note": "用于解释政策存在但未产生效果的信息机制。", "example": "Policy benefits may not be accurately transmitted to individuals.", "register": "formal"},
+        {"id": "acad-policy-context-dissemination-and-exposure-04", "en": "predefined policy goals", "note": "policy implementation 语境中常用，适合定义政策执行。", "example": "Stakeholders collaborate to achieve predefined policy goals.", "register": "formal"},
+        {"id": "acad-policy-context-dissemination-and-exposure-05", "en": "government-initiated policies", "note": "强调政策来源，区别于企业自发安排。", "example": "Government-initiated policies can reshape work norms.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "vignette-and-scenario-design",
+      "meaning": "情景实验和政策情景操控",
+      "tags": ["情景实验", "操控", "设计"],
+      "expressions": [
+        {"id": "acad-policy-context-vignette-and-scenario-design-01", "en": "population-based vignette survey experiment", "note": "方法名词组密度高，说明样本、工具和识别方式。", "example": "We conduct a population-based vignette survey experiment.", "register": "formal"},
+        {"id": "acad-policy-context-vignette-and-scenario-design-02", "en": "randomly manipulating policy scenarios", "note": "比 randomly assigning groups 更说明实验操控对象。", "example": "The design randomly manipulates three policy scenarios.", "register": "formal"},
+        {"id": "acad-policy-context-vignette-and-scenario-design-03", "en": "manipulation check", "note": "实验设计术语，适合说明被试是否理解情景处理。", "example": "We conducted a manipulation check after treatment exposure.", "register": "formal"},
+        {"id": "acad-policy-context-vignette-and-scenario-design-04", "en": "default option in workplaces", "note": "适合讨论制度从例外福利变为常规安排。", "example": "FWAs may become the default option in workplaces.", "register": "formal"},
+        {"id": "acad-policy-context-vignette-and-scenario-design-05", "en": "contrast policy optimism with an evidence gap", "note": "先承认政策讨论热度，再指出系统证据不足，语气稳妥。", "example": "Policy optimism remains ahead of systematic evidence.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "structural-constraints-and-policy-tools",
+      "meaning": "结构性约束及其政策工具",
+      "tags": ["结构约束", "政策工具", "住房政策"],
+      "expressions": [
+        {"id": "acad-policy-context-structural-constraints-and-policy-tools-01", "en": "structural constraint", "note": "比 barrier 更理论化，适合连接制度条件和个体意愿。", "example": "Housing prices operate as a structural constraint.", "register": "formal"},
+        {"id": "acad-policy-context-structural-constraints-and-policy-tools-02", "en": "varying degrees of structural constraint", "note": "适合解释政策情景为何能制造强弱不同的制度条件。", "example": "The scenarios represent varying degrees of structural constraint.", "register": "formal"},
+        {"id": "acad-policy-context-structural-constraints-and-policy-tools-03", "en": "disentangle", "note": "常用于说明研究设计把混在一起的机制或效应分开。", "example": "The design helps disentangle structural effects.", "register": "formal"},
+        {"id": "acad-policy-context-structural-constraints-and-policy-tools-04", "en": "demand- and supply-side policies", "note": "政策分类表达，适合写住房、教育、劳动力市场等制度工具。", "example": "We compare demand- and supply-side policies.", "register": "formal"},
+        {"id": "acad-policy-context-structural-constraints-and-policy-tools-05", "en": "targeted housing policies", "note": "targeted 比 specific 更政策化，强调瞄准目标群体或机制。", "example": "The findings support targeted housing policies.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "public-policy-implications",
+      "meaning": "公共政策制定与配套政策工具",
+      "tags": ["政策制定", "政策启示", "配套工具"],
+      "expressions": [
+        {"id": "acad-policy-context-public-policy-implications-01", "en": "equitable access to and utilization of", "note": "同时覆盖 access 与 use，比 equitable access alone 更完整。", "example": "Policies should promote equitable access to and utilization of FWAs.", "register": "formal"},
+        {"id": "acad-policy-context-public-policy-implications-02", "en": "shape the direction of public policy making", "note": "比 inform policy 更强，适合政策含义较明确时。", "example": "The evidence may shape the direction of public policy making.", "register": "formal"},
+        {"id": "acad-policy-context-public-policy-implications-03", "en": "public awareness campaigns", "note": "适合政策建议中说明信息/规范干预。", "example": "Public awareness campaigns could complement housing policies.", "register": "formal"},
+        {"id": "acad-policy-context-public-policy-implications-04", "en": "complement housing policies", "note": "complement 表示配套而非替代，适合政策组合。", "example": "Educational initiatives can complement housing policies.", "register": "formal"}
+      ]
+    }
+  ]
+}

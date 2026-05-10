@@ -1,0 +1,58 @@
+{
+  "id": "social-norms-and-ideology",
+  "name": "社会规范与意识形态",
+  "nameEn": "Social Norms & Ideology",
+  "description": "用于描述规范、性别意识形态、角色期待如何塑造行为及其不平等后果。",
+  "clusters": [
+    {
+      "id": "gender-norms-and-parenthood-expectations",
+      "meaning": "性别规范和父母身份期待",
+      "tags": ["性别规范", "父母身份", "角色期待"],
+      "expressions": [
+        {"id": "acad-social-norms-gender-norms-and-parenthood-expectations-01", "en": "traditional gender norms", "note": "高频基础搭配，可与 persist/entrenched/reinforce/shape 连用。", "example": "Traditional gender norms shape policy take-up.", "register": "formal"},
+        {"id": "acad-social-norms-gender-norms-and-parenthood-expectations-02", "en": "entrenched", "note": "语气强于 persistent，适合规范、结构和不平等。", "example": "Entrenched norms shape household labor.", "register": "formal"},
+        {"id": "acad-social-norms-gender-norms-and-parenthood-expectations-03", "en": "gender-role preferences", "note": "比 gender attitudes 更贴近未来配偶/家庭分工期待。", "example": "Policy effects depend on gender-role preferences.", "register": "formal"},
+        {"id": "acad-social-norms-gender-norms-and-parenthood-expectations-04", "en": "gendered expectations of parenthood", "note": "比 gender expectations 更具体，适合说明母职和父职差异。", "example": "Gendered expectations of parenthood shape FWA use.", "register": "formal"},
+        {"id": "acad-social-norms-gender-norms-and-parenthood-expectations-05", "en": "intensive mothering", "note": "概念性强，常用于解释母亲照护负担。", "example": "Intensive mothering reinforces caregiving burdens.", "register": "formal"},
+        {"id": "acad-social-norms-gender-norms-and-parenthood-expectations-06", "en": "involved fathering", "note": "适合描述父职规范正在变化，但不必然改变行为。", "example": "Emerging norms of involved fathering may affect men.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "ideology-alignment-and-translation",
+      "meaning": "意识形态一致性及其向行为的转化",
+      "tags": ["意识形态", "一致性", "行为转化"],
+      "expressions": [
+        {"id": "acad-social-norms-ideology-alignment-and-translation-01", "en": "ideological (dis)alignment", "note": "一个表达同时覆盖 alignment 和 disalignment，适合配对比较。", "example": "We compare couples with ideological (dis)alignment.", "register": "formal"},
+        {"id": "acad-social-norms-ideology-alignment-and-translation-02", "en": "align in egalitarian gender ideology", "note": "align in 比 have similar 更紧凑，常用于配对关系。", "example": "Spouses align in egalitarian gender ideology.", "register": "formal"},
+        {"id": "acad-social-norms-ideology-alignment-and-translation-03", "en": "translation of ideology into behavior", "note": "适合解释态度和实际行动之间的落差。", "example": "Resources shape the translation of ideology into behavior.", "register": "formal"},
+        {"id": "acad-social-norms-ideology-alignment-and-translation-04", "en": "normative pressure", "note": "适合 planned behavior theory，也可写社会期待对行为的约束。", "example": "Normative pressure encourages family formation.", "register": "formal"},
+        {"id": "acad-social-norms-ideology-alignment-and-translation-05", "en": "reinforce or offset each other", "note": "适合两个机制、伴侣特征或政策工具互动时使用。", "example": "Spouses' ideologies can reinforce or offset each other.", "register": "formal"},
+        {"id": "acad-social-norms-ideology-alignment-and-translation-06", "en": "gender ideology is a multidimensional construct", "note": "适合测量和理论段，避免把态度变量写得过于单一。", "example": "Gender ideology is a multidimensional construct.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "gender-roles-and-identities",
+      "meaning": "性别角色、男性身份和规范解释力",
+      "tags": ["性别角色", "男性身份", "解释力"],
+      "expressions": [
+        {"id": "acad-social-norms-gender-roles-and-identities-01", "en": "breadwinner role", "note": "比 male provider 更常见，适合说明男性身份和工作规范。", "example": "FWA use may threaten the breadwinner role.", "register": "formal"},
+        {"id": "acad-social-norms-gender-roles-and-identities-02", "en": "masculine standing", "note": "用于解释男性为何避免使用家庭友好政策，语气较理论化。", "example": "Men may avoid flexibility to protect masculine standing.", "register": "formal"},
+        {"id": "acad-social-norms-gender-roles-and-identities-03", "en": "norms can trump economic explanations", "note": "trump 强调解释力更强，适合讨论规范与资源的竞争。", "example": "Gender norms can trump economic explanations.", "register": "formal"},
+        {"id": "acad-social-norms-gender-roles-and-identities-04", "en": "multiple distinct dimensions", "note": "适合说明一个概念需要分开测量或解释。", "example": "Preferences may have multiple distinct dimensions.", "register": "formal"},
+        {"id": "acad-social-norms-gender-roles-and-identities-05", "en": "perpetuate", "note": "比 continue 更有因果色彩，常接 inequality/norms。", "example": "Workplace norms may perpetuate gender inequality.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "gender-revolution-and-equality-practice",
+      "meaning": "性别革命、平等实践和理论贡献",
+      "tags": ["性别革命", "平等实践", "理论贡献"],
+      "expressions": [
+        {"id": "acad-social-norms-gender-revolution-and-equality-practice-01", "en": "stall gender revolution", "note": "表达强，适合讨论制度如何延续不平等；不宜用于弱结果。", "example": "Policy design may stall gender revolution.", "register": "formal"},
+        {"id": "acad-social-norms-gender-revolution-and-equality-practice-02", "en": "do gender egalitarianism", "note": "区别于口头支持平等，强调行为层面的 egalitarianism。", "example": "Men need to do gender egalitarianism at home.", "register": "formal"},
+        {"id": "acad-social-norms-gender-revolution-and-equality-practice-03", "en": "process-focused gender equality", "note": "强调分工过程看似中性但结果仍可能性别化。", "example": "Process-focused gender equality may still reproduce inequality.", "register": "formal"},
+        {"id": "acad-social-norms-gender-revolution-and-equality-practice-04", "en": "de-traditionalise gender ideology", "note": "比 make ideology egalitarian 更学术，适合宏观趋势讨论。", "example": "It is insufficient to de-traditionalise gender ideology alone.", "register": "formal"},
+        {"id": "acad-social-norms-gender-revolution-and-equality-practice-05", "en": "turn gender asymmetry into a theoretical contribution", "note": "适合讨论段从结果差异推进到概念或理论修正。", "example": "Gender asymmetry becomes a theoretical contribution.", "register": "formal"}
+      ]
+    }
+  ]
+}

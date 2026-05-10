@@ -9,10 +9,11 @@
       "meaning": "显著地/大幅度地",
       "tags": ["程度", "大幅", "显著"],
       "expressions": [
-        { "id": "acad-degree-substantially-01", "en": "substantially", "note": "强调幅度大，适合实质差异而非统计显著性", "example": "Maternal employment increased substantially after the reform.", "register": "formal" },
-        { "id": "acad-degree-substantially-02", "en": "markedly", "note": "强调变化明显可见，语气比 substantially 更鲜明", "example": "Completion rates differ markedly by parental income.", "register": "formal" },
-        { "id": "acad-degree-substantially-03", "en": "considerably", "note": "较稳妥，强调不少但不一定极大", "example": "The gender gap narrows considerably after controls are added.", "register": "formal" },
-        { "id": "acad-degree-substantially-04", "en": "to a large extent", "note": "强调很大程度上如此，适合解释性判断", "example": "The pattern is to a large extent driven by occupational sorting.", "register": "formal" }
+        {"id": "acad-degree-substantially-01", "en": "substantially", "note": "强调幅度大，适合实质差异而非统计显著性", "example": "Maternal employment increased substantially after the reform.", "register": "formal"},
+        {"id": "acad-degree-substantially-02", "en": "markedly", "note": "强调变化明显可见，语气比 substantially 更鲜明", "example": "Completion rates differ markedly by parental income.", "register": "formal"},
+        {"id": "acad-degree-substantially-03", "en": "considerably", "note": "较稳妥，强调不少但不一定极大", "example": "The gender gap narrows considerably after controls are added.", "register": "formal"},
+        {"id": "acad-degree-substantially-04", "en": "to a large extent", "note": "强调很大程度上如此，适合解释性判断", "example": "The pattern is to a large extent driven by occupational sorting.", "register": "formal"},
+        {"id": "acad-degree-substantially-05", "en": "pronounced", "note": "常和 particularly/more 搭配，适合报告某组效应更强。", "example": "The pattern is more pronounced among mothers.", "register": "formal"}
       ]
     },
     {
@@ -20,10 +21,10 @@
       "meaning": "略微地/边际地",
       "tags": ["程度", "轻微", "边际"],
       "expressions": [
-        { "id": "acad-degree-marginally-01", "en": "marginally", "note": "强调幅度很小，常用于结果变化有限", "example": "The estimate increases marginally in the final model.", "register": "formal" },
-        { "id": "acad-degree-marginally-02", "en": "slightly", "note": "最自然，适合一般性轻微变化描述", "example": "The coefficient is slightly larger among urban residents.", "register": "neutral" },
-        { "id": "acad-degree-marginally-03", "en": "modestly", "note": "强调有变化但不大，常用于效应大小", "example": "The reform modestly improved enrollment among low-income students.", "register": "formal" },
-        { "id": "acad-degree-marginally-04", "en": "only weakly", "note": "强调关系强度弱，适合避免夸大结果", "example": "Income is only weakly related to stated fertility intentions.", "register": "formal" }
+        {"id": "acad-degree-marginally-01", "en": "marginally", "note": "强调幅度很小，常用于结果变化有限", "example": "The estimate increases marginally in the final model.", "register": "formal"},
+        {"id": "acad-degree-marginally-02", "en": "slightly", "note": "最自然，适合一般性轻微变化描述", "example": "The coefficient is slightly larger among urban residents.", "register": "neutral"},
+        {"id": "acad-degree-marginally-03", "en": "modestly", "note": "强调有变化但不大，常用于效应大小", "example": "The reform modestly improved enrollment among low-income students.", "register": "formal"},
+        {"id": "acad-degree-marginally-04", "en": "only weakly", "note": "强调关系强度弱，适合避免夸大结果", "example": "Income is only weakly related to stated fertility intentions.", "register": "formal"}
       ]
     },
     {
@@ -31,10 +32,10 @@
       "meaning": "相比之下",
       "tags": ["比较", "相比", "对照"],
       "expressions": [
-        { "id": "acad-degree-in-comparison-01", "en": "by contrast", "note": "强调明显对照，适合比较相反结果", "example": "By contrast, the rural sample shows little change.", "register": "formal" },
-        { "id": "acad-degree-in-comparison-02", "en": "in comparison", "note": "语气中性，适合一般比较但对照力度较弱", "example": "In comparison, men's employment trajectories are more stable.", "register": "neutral" },
-        { "id": "acad-degree-in-comparison-03", "en": "relative to", "note": "适合句内精确比较，常与基准组连用", "example": "Relative to graduates, non-graduates face higher unemployment risk.", "register": "formal" },
-        { "id": "acad-degree-in-comparison-04", "en": "compared with", "note": "最通用，适合任何组间比较", "example": "Compared with natives, immigrants report lower job security.", "register": "neutral" }
+        {"id": "acad-degree-in-comparison-01", "en": "by contrast", "note": "强调明显对照，适合比较相反结果", "example": "By contrast, the rural sample shows little change.", "register": "formal"},
+        {"id": "acad-degree-in-comparison-02", "en": "in comparison", "note": "语气中性，适合一般比较但对照力度较弱", "example": "In comparison, men's employment trajectories are more stable.", "register": "neutral"},
+        {"id": "acad-degree-in-comparison-03", "en": "relative to", "note": "适合句内精确比较，常与基准组连用", "example": "Relative to graduates, non-graduates face higher unemployment risk.", "register": "formal"},
+        {"id": "acad-degree-in-comparison-04", "en": "compared with", "note": "最通用，适合任何组间比较", "example": "Compared with natives, immigrants report lower job security.", "register": "neutral"}
       ]
     },
     {
@@ -42,10 +43,10 @@
       "meaning": "X比Y更加",
       "tags": ["比较级", "更加", "差异"],
       "expressions": [
-        { "id": "acad-degree-more-than-01", "en": "more pronounced than", "note": "强调某模式更明显，适合异质性描述", "example": "The penalty is more pronounced than in earlier cohorts.", "register": "formal" },
-        { "id": "acad-degree-more-than-02", "en": "greater than", "note": "直接比较数量或程度，适合结果报告", "example": "The wage gap is greater than the completion gap.", "register": "neutral" },
-        { "id": "acad-degree-more-than-03", "en": "stronger for X than for Y", "note": "适合比较关联强度或效应大小", "example": "The association is stronger for women than for men.", "register": "formal" },
-        { "id": "acad-degree-more-than-04", "en": "outpace", "note": "强调增长速度超过，适合趋势比较", "example": "Housing costs outpace income growth among young adults.", "register": "formal" }
+        {"id": "acad-degree-more-than-01", "en": "more pronounced than", "note": "强调某模式更明显，适合异质性描述", "example": "The penalty is more pronounced than in earlier cohorts.", "register": "formal"},
+        {"id": "acad-degree-more-than-02", "en": "greater than", "note": "直接比较数量或程度，适合结果报告", "example": "The wage gap is greater than the completion gap.", "register": "neutral"},
+        {"id": "acad-degree-more-than-03", "en": "stronger for X than for Y", "note": "适合比较关联强度或效应大小", "example": "The association is stronger for women than for men.", "register": "formal"},
+        {"id": "acad-degree-more-than-04", "en": "outpace", "note": "强调增长速度超过，适合趋势比较", "example": "Housing costs outpace income growth among young adults.", "register": "formal"}
       ]
     },
     {
@@ -53,10 +54,11 @@
       "meaning": "在某种程度上",
       "tags": ["限定", "程度", "谨慎"],
       "expressions": [
-        { "id": "acad-degree-to-some-extent-01", "en": "to some extent", "note": "通用弱化表达，适合避免过度断言", "example": "The results are, to some extent, shaped by cohort composition.", "register": "neutral" },
-        { "id": "acad-degree-to-some-extent-02", "en": "in part", "note": "强调只是部分原因，适合机制解释", "example": "The gap is in part explained by occupational segregation.", "register": "formal" },
-        { "id": "acad-degree-to-some-extent-03", "en": "partly", "note": "更简短，适合句中修饰动词或形容词", "example": "The decline is partly driven by delayed marriage.", "register": "neutral" },
-        { "id": "acad-degree-to-some-extent-04", "en": "not entirely", "note": "适合指出解释不完整，比 partly 更强调保留", "example": "The pattern is not entirely attributable to income differences.", "register": "formal" }
+        {"id": "acad-degree-to-some-extent-01", "en": "to some extent", "note": "通用弱化表达，适合避免过度断言", "example": "The results are, to some extent, shaped by cohort composition.", "register": "neutral"},
+        {"id": "acad-degree-to-some-extent-02", "en": "in part", "note": "强调只是部分原因，适合机制解释", "example": "The gap is in part explained by occupational segregation.", "register": "formal"},
+        {"id": "acad-degree-to-some-extent-03", "en": "partly", "note": "更简短，适合句中修饰动词或形容词", "example": "The decline is partly driven by delayed marriage.", "register": "neutral"},
+        {"id": "acad-degree-to-some-extent-04", "en": "not entirely", "note": "适合指出解释不完整，比 partly 更强调保留", "example": "The pattern is not entirely attributable to income differences.", "register": "formal"},
+        {"id": "acad-degree-to-some-extent-05", "en": "subtle", "note": "用于说明不平等形式不明显但仍存在，语气比 weak 更合适。", "example": "Inequality persists in subtle forms.", "register": "formal"}
       ]
     },
     {
@@ -64,10 +66,10 @@
       "meaning": "不成比例地/格外地",
       "tags": ["不成比例", "格外", "集中"],
       "expressions": [
-        { "id": "acad-degree-disproportionately-01", "en": "disproportionately", "note": "强调某群体承担或获得的比例过高", "example": "Job loss disproportionately affects low-wage workers.", "register": "formal" },
-        { "id": "acad-degree-disproportionately-02", "en": "especially pronounced among", "note": "强调在某群体中尤其明显，适合异质性结果", "example": "The decline is especially pronounced among rural women.", "register": "formal" },
-        { "id": "acad-degree-disproportionately-03", "en": "concentrated among", "note": "强调现象集中在某群体，不一定涉及比例公平", "example": "Nonemployment is concentrated among workers without credentials.", "register": "formal" },
-        { "id": "acad-degree-disproportionately-04", "en": "fall more heavily on", "note": "适合负担或风险，语气更形象", "example": "Care demands fall more heavily on women.", "register": "formal" }
+        {"id": "acad-degree-disproportionately-01", "en": "disproportionately", "note": "强调某群体承担或获得的比例过高", "example": "Job loss disproportionately affects low-wage workers.", "register": "formal"},
+        {"id": "acad-degree-disproportionately-02", "en": "especially pronounced among", "note": "强调在某群体中尤其明显，适合异质性结果", "example": "The decline is especially pronounced among rural women.", "register": "formal"},
+        {"id": "acad-degree-disproportionately-03", "en": "concentrated among", "note": "强调现象集中在某群体，不一定涉及比例公平", "example": "Nonemployment is concentrated among workers without credentials.", "register": "formal"},
+        {"id": "acad-degree-disproportionately-04", "en": "fall more heavily on", "note": "适合负担或风险，语气更形象", "example": "Care demands fall more heavily on women.", "register": "formal"}
       ]
     },
     {
@@ -75,10 +77,11 @@
       "meaning": "一致地 vs 差异化地",
       "tags": ["一致", "差异", "异质性"],
       "expressions": [
-        { "id": "acad-degree-uniformly-vs-varied-01", "en": "uniformly", "note": "强调各组或各情境中表现一致", "example": "The association is uniformly positive across models.", "register": "formal" },
-        { "id": "acad-degree-uniformly-vs-varied-02", "en": "consistently", "note": "强调反复出现，适合模型和稳健性描述", "example": "The coefficient is consistently negative across specifications.", "register": "formal" },
-        { "id": "acad-degree-uniformly-vs-varied-03", "en": "unevenly", "note": "强调变化或资源分布不均，适合不平等语境", "example": "The benefits of expansion were unevenly distributed.", "register": "formal" },
-        { "id": "acad-degree-uniformly-vs-varied-04", "en": "vary systematically by", "note": "强调差异有规律地随某变量变化", "example": "Returns to education vary systematically by field of study.", "register": "formal" }
+        {"id": "acad-degree-uniformly-vs-varied-01", "en": "uniformly", "note": "强调各组或各情境中表现一致", "example": "The association is uniformly positive across models.", "register": "formal"},
+        {"id": "acad-degree-uniformly-vs-varied-02", "en": "consistently", "note": "强调反复出现，适合模型和稳健性描述", "example": "The coefficient is consistently negative across specifications.", "register": "formal"},
+        {"id": "acad-degree-uniformly-vs-varied-03", "en": "unevenly", "note": "强调变化或资源分布不均，适合不平等语境", "example": "The benefits of expansion were unevenly distributed.", "register": "formal"},
+        {"id": "acad-degree-uniformly-vs-varied-04", "en": "vary systematically by", "note": "强调差异有规律地随某变量变化", "example": "Returns to education vary systematically by field of study.", "register": "formal"},
+        {"id": "acad-degree-uniformly-vs-varied-05", "en": "nuanced", "note": "可修饰 understanding/relationship/forms，避免 over-simple。", "example": "The study provides a nuanced understanding of adoption.", "register": "formal"}
       ]
     },
     {
@@ -86,10 +89,11 @@
       "meaning": "随时间变化的趋势描述",
       "tags": ["时间", "趋势", "变化"],
       "expressions": [
-        { "id": "acad-degree-over-time-01", "en": "over time", "note": "最通用，适合一般时间变化描述", "example": "The gender gap narrowed over time.", "register": "neutral" },
-        { "id": "acad-degree-over-time-02", "en": "across cohorts", "note": "适合出生队列或毕业队列比较", "example": "Returns to college vary across cohorts.", "register": "formal" },
-        { "id": "acad-degree-over-time-03", "en": "over the life course", "note": "强调生命历程中的累积或变化", "example": "Health disadvantages accumulate over the life course.", "register": "formal" },
-        { "id": "acad-degree-over-time-04", "en": "in the wake of", "note": "强调某事件之后的变化，适合政策或冲击", "example": "Fertility intentions changed in the wake of the recession.", "register": "formal" }
+        {"id": "acad-degree-over-time-01", "en": "over time", "note": "最通用，适合一般时间变化描述", "example": "The gender gap narrowed over time.", "register": "neutral"},
+        {"id": "acad-degree-over-time-02", "en": "across cohorts", "note": "适合出生队列或毕业队列比较", "example": "Returns to college vary across cohorts.", "register": "formal"},
+        {"id": "acad-degree-over-time-03", "en": "over the life course", "note": "强调生命历程中的累积或变化", "example": "Health disadvantages accumulate over the life course.", "register": "formal"},
+        {"id": "acad-degree-over-time-04", "en": "in the wake of", "note": "强调某事件之后的变化，适合政策或冲击", "example": "Fertility intentions changed in the wake of the recession.", "register": "formal"},
+        {"id": "acad-degree-over-time-05", "en": "two-year lagged effects", "note": "适合说明时间顺序和延迟影响，不等同于简单相关。", "example": "The two-year lagged effects remain significant.", "register": "formal"}
       ]
     }
   ]

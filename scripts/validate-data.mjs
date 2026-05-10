@@ -6,92 +6,6 @@ const root = process.cwd()
 const academicDir = path.join(root, 'src/data/academic')
 const oralDir = path.join(root, 'src/data/oral')
 
-const expectedAcademic = {
-  causality: [
-    'influence-verb',
-    'influence-noun',
-    'cause-direct',
-    'mechanism',
-    'moderate',
-    'consequence',
-    'amplify',
-    'attenuate',
-  ],
-  contradiction: [
-    'inconsistent',
-    'challenge',
-    'concession',
-    'contrary-expectation',
-    'tension',
-    'complicate',
-    'nuance',
-    'paradox',
-  ],
-  gaps: [
-    'under-explored',
-    'open-question',
-    'limitation-prior',
-    'aim',
-    'specific-questions',
-    'address-gap',
-    'extend',
-    'puzzle',
-  ],
-  'prior-literature': [
-    'established',
-    'growing-evidence',
-    'scholars-argue',
-    'focused-on',
-    'mixed-findings',
-    'dominant-view',
-    'theoretical-framework',
-    'distinction',
-  ],
-  statistics: [
-    'significant-positive',
-    'significant-negative',
-    'not-significant',
-    'coefficient-size',
-    'after-controlling',
-    'interaction',
-    'model-fit',
-    'robustness',
-    'magnitude',
-    'attenuation',
-    'pattern',
-    'subgroup',
-  ],
-  methods: [
-    'data-source',
-    'sample-restriction',
-    'method-choice',
-    'endogeneity',
-    'operationalize',
-    'measure',
-    'coding',
-    'analytic-strategy',
-  ],
-  contributions: [
-    'contribute-literature',
-    'methodological',
-    'empirical',
-    'policy-implication',
-    'broaden',
-    'first-to',
-    'bridge',
-  ],
-  'degree-comparison': [
-    'substantially',
-    'marginally',
-    'in-comparison',
-    'more-than',
-    'to-some-extent',
-    'disproportionately',
-    'uniformly-vs-varied',
-    'over-time',
-  ],
-}
-
 const expectedOral = [
   'handling-qa',
   'giving-talks',
@@ -192,19 +106,15 @@ async function readJson(filePath) {
 async function validateAcademic() {
   const files = await readdir(academicDir)
   const jsonFiles = files.filter((file) => file.endsWith('.json'))
-  const expectedFiles = Object.keys(expectedAcademic).map((id) => `${id}.json`)
 
-  for (const file of expectedFiles) {
-    if (!jsonFiles.includes(file)) {
-      fail('src/data/academic', `missing ${file}`)
-    }
+  if (jsonFiles.length === 0) {
+    fail('src/data/academic', 'expected at least one academic category JSON file')
+    return
   }
 
-  let statisticsCount = 0
-  let maxNonStatisticsCount = 0
-
-  for (const [categoryId, expectedClusterIds] of Object.entries(expectedAcademic)) {
-    const filePath = path.join(academicDir, `${categoryId}.json`)
+  for (const file of jsonFiles) {
+    const categoryId = path.basename(file, '.json')
+    const filePath = path.join(academicDir, file)
     const category = await readJson(filePath)
     const location = `academic/${categoryId}`
 
@@ -216,35 +126,11 @@ async function validateAcademic() {
     assertString(location, category.nameEn, 'nameEn')
     assertString(location, category.description, 'description')
 
-    const actualClusterIds = category.clusters?.map((cluster) => cluster.id) ?? []
-    for (const clusterId of expectedClusterIds) {
-      if (!actualClusterIds.includes(clusterId)) {
-        fail(location, `missing cluster ${clusterId}`)
-      }
-    }
-
     validateClusters(category.clusters, location, {
       requireExample: true,
       minExpressions: 4,
-      maxExpressions: 6,
+      maxExpressions: 8,
     })
-
-    const expressionCount = category.clusters.reduce(
-      (sum, cluster) => sum + cluster.expressions.length,
-      0,
-    )
-    if (categoryId === 'statistics') {
-      statisticsCount = expressionCount
-    } else {
-      maxNonStatisticsCount = Math.max(maxNonStatisticsCount, expressionCount)
-    }
-  }
-
-  if (statisticsCount <= maxNonStatisticsCount) {
-    fail(
-      'academic/statistics',
-      `statistics should be the richest category, got ${statisticsCount} vs max ${maxNonStatisticsCount}`,
-    )
   }
 }
 
@@ -341,5 +227,5 @@ if (failures.length > 0) {
 }
 
 console.log(
-  `Data validation passed: ${Object.keys(expectedAcademic).length} academic categories, ${expectedOral.length} oral scenes, ${expressionIds.size} unique expressions.`,
+  `Data validation passed: academic data, ${expectedOral.length} oral scenes, ${expressionIds.size} unique expressions.`,
 )

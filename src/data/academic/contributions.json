@@ -9,10 +9,10 @@
       "meaning": "本文的贡献在于/推进了X文献",
       "tags": ["贡献", "文献", "推进"],
       "expressions": [
-        { "id": "acad-contributions-contribute-literature-01", "en": "contribute to the literature on", "note": "最通用，适合概括论文所属文献贡献", "example": "This study contributes to the literature on social mobility.", "register": "formal" },
-        { "id": "acad-contributions-contribute-literature-02", "en": "advance debates about", "note": "强调推进争论，而不只是增加一个案例", "example": "The findings advance debates about credential inflation.", "register": "formal" },
-        { "id": "acad-contributions-contribute-literature-03", "en": "speak to scholarship on", "note": "语气更宽，适合连接多个相关文献", "example": "The results speak to scholarship on gender and work.", "register": "formal" },
-        { "id": "acad-contributions-contribute-literature-04", "en": "add to a growing literature on", "note": "适合新兴领域，强调与正在扩展的研究对话", "example": "We add to a growing literature on platform labor.", "register": "formal" }
+        {"id": "acad-contributions-contribute-literature-01", "en": "contribute to the literature on", "note": "最通用，适合概括论文所属文献贡献", "example": "This study contributes to the literature on social mobility.", "register": "formal"},
+        {"id": "acad-contributions-contribute-literature-02", "en": "advance debates about", "note": "强调推进争论，而不只是增加一个案例", "example": "The findings advance debates about credential inflation.", "register": "formal"},
+        {"id": "acad-contributions-contribute-literature-03", "en": "speak to scholarship on", "note": "语气更宽，适合连接多个相关文献", "example": "The results speak to scholarship on gender and work.", "register": "formal"},
+        {"id": "acad-contributions-contribute-literature-04", "en": "add to a growing literature on", "note": "适合新兴领域，强调与正在扩展的研究对话", "example": "We add to a growing literature on platform labor.", "register": "formal"}
       ]
     },
     {
@@ -20,10 +20,10 @@
       "meaning": "本文在方法上的创新",
       "tags": ["方法", "创新", "贡献"],
       "expressions": [
-        { "id": "acad-contributions-methodological-01", "en": "make a methodological contribution by", "note": "直接标记方法贡献，适合清楚说明创新点", "example": "We make a methodological contribution by linking survey and tax data.", "register": "formal" },
-        { "id": "acad-contributions-methodological-02", "en": "introduce a new measure of", "note": "适合变量或指数创新，贡献点具体", "example": "We introduce a new measure of employment volatility.", "register": "formal" },
-        { "id": "acad-contributions-methodological-03", "en": "offer a new way to capture", "note": "比 introduce 更柔和，强调测量视角", "example": "We offer a new way to capture household instability.", "register": "formal" },
-        { "id": "acad-contributions-methodological-04", "en": "leverage newly available data", "note": "强调数据条件带来的方法优势，而非模型本身", "example": "We leverage newly available data on monthly earnings.", "register": "formal" }
+        {"id": "acad-contributions-methodological-01", "en": "make a methodological contribution by", "note": "直接标记方法贡献，适合清楚说明创新点", "example": "We make a methodological contribution by linking survey and tax data.", "register": "formal"},
+        {"id": "acad-contributions-methodological-02", "en": "introduce a new measure of", "note": "适合变量或指数创新，贡献点具体", "example": "We introduce a new measure of employment volatility.", "register": "formal"},
+        {"id": "acad-contributions-methodological-03", "en": "offer a new way to capture", "note": "比 introduce 更柔和，强调测量视角", "example": "We offer a new way to capture household instability.", "register": "formal"},
+        {"id": "acad-contributions-methodological-04", "en": "leverage newly available data", "note": "强调数据条件带来的方法优势，而非模型本身", "example": "We leverage newly available data on monthly earnings.", "register": "formal"}
       ]
     },
     {
@@ -31,10 +31,11 @@
       "meaning": "本文提供了新的经验证据",
       "tags": ["经验证据", "发现", "贡献"],
       "expressions": [
-        { "id": "acad-contributions-empirical-01", "en": "provide new empirical evidence on", "note": "最标准，适合明确经验贡献对象", "example": "We provide new empirical evidence on debt and marriage.", "register": "formal" },
-        { "id": "acad-contributions-empirical-02", "en": "document previously unobserved patterns of", "note": "强调过去没有被观察到的模式，贡献感更强", "example": "We document previously unobserved patterns of return migration.", "register": "formal" },
-        { "id": "acad-contributions-empirical-03", "en": "show that", "note": "简洁有力，适合直接陈述核心发现", "example": "We show that wealth gaps widen before college entry.", "register": "neutral" },
-        { "id": "acad-contributions-empirical-04", "en": "bring evidence from X to bear on Y", "note": "强调用特定数据或背景回应更大问题", "example": "We bring evidence from China to bear on debates about aging.", "register": "formal" }
+        {"id": "acad-contributions-empirical-01", "en": "provide new empirical evidence on", "note": "最标准，适合明确经验贡献对象", "example": "We provide new empirical evidence on debt and marriage.", "register": "formal"},
+        {"id": "acad-contributions-empirical-02", "en": "document previously unobserved patterns of", "note": "强调过去没有被观察到的模式，贡献感更强", "example": "We document previously unobserved patterns of return migration.", "register": "formal"},
+        {"id": "acad-contributions-empirical-03", "en": "show that", "note": "简洁有力，适合直接陈述核心发现", "example": "We show that wealth gaps widen before college entry.", "register": "neutral"},
+        {"id": "acad-contributions-empirical-04", "en": "bring evidence from X to bear on Y", "note": "强调用特定数据或背景回应更大问题", "example": "We bring evidence from China to bear on debates about aging.", "register": "formal"},
+        {"id": "acad-contributions-empirical-05", "en": "provide valuable insights into", "note": "适合贡献段，但要接具体对象避免空泛。", "example": "The results provide valuable insights into dyadic dynamics.", "register": "formal"}
       ]
     },
     {
@@ -42,10 +43,14 @@
       "meaning": "对政策的启示",
       "tags": ["政策", "启示", "意义"],
       "expressions": [
-        { "id": "acad-contributions-policy-implication-01", "en": "have implications for policy debates about", "note": "通用政策意义表达，不直接提出政策建议", "example": "The findings have implications for policy debates about childcare.", "register": "formal" },
-        { "id": "acad-contributions-policy-implication-02", "en": "inform efforts to", "note": "强调研究可为实践提供信息，语气务实", "example": "The results inform efforts to reduce educational inequality.", "register": "formal" },
-        { "id": "acad-contributions-policy-implication-03", "en": "point to the need for", "note": "语气较强，适合指出政策缺口或行动需求", "example": "The evidence points to the need for targeted support.", "register": "formal" },
-        { "id": "acad-contributions-policy-implication-04", "en": "underscore the importance of", "note": "强调某政策维度重要，适合讨论段收束", "example": "The findings underscore the importance of affordable housing.", "register": "formal" }
+        {"id": "acad-contributions-policy-implication-01", "en": "have implications for policy debates about", "note": "通用政策意义表达，不直接提出政策建议", "example": "The findings have implications for policy debates about childcare.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-02", "en": "inform efforts to", "note": "强调研究可为实践提供信息，语气务实", "example": "The results inform efforts to reduce educational inequality.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-03", "en": "point to the need for", "note": "语气较强，适合指出政策缺口或行动需求", "example": "The evidence points to the need for targeted support.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-04", "en": "underscore the importance of", "note": "强调某政策维度重要，适合讨论段收束", "example": "The findings underscore the importance of affordable housing.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-05", "en": "The findings highlight the importance of considering X when examining Y.", "note": "比 findings show 更能表达“以后研究应纳入某维度”。", "example": "The findings highlight the importance of considering occupational contexts.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-06", "en": "hold important implications for", "note": "比 has implications 更强，适合政策段。", "example": "The findings hold important implications for work policies.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-07", "en": "translate empirical patterns into policy implications", "note": "从结果到政策建议的收束动作，注意不要超出证据。", "example": "We translate empirical patterns into policy implications.", "register": "formal"},
+        {"id": "acad-contributions-policy-implication-08", "en": "hold significant implications for long-term social cohesion", "note": "适合人口、家庭和政策议题，不只是说 important。", "example": "Low fertility holds implications for social cohesion.", "register": "formal"}
       ]
     },
     {
@@ -53,10 +58,14 @@
       "meaning": "本文拓宽了对X的理解",
       "tags": ["拓宽", "理解", "理论"],
       "expressions": [
-        { "id": "acad-contributions-broaden-01", "en": "broaden our understanding of", "note": "适合表达概念或现象理解被拓展", "example": "The analysis broadens our understanding of family inequality.", "register": "formal" },
-        { "id": "acad-contributions-broaden-02", "en": "offer a broader account of", "note": "强调解释框架更全面，而不只是结果更多", "example": "We offer a broader account of educational stratification.", "register": "formal" },
-        { "id": "acad-contributions-broaden-03", "en": "expand the conceptual scope of", "note": "更理论化，适合讨论概念边界", "example": "The paper expands the conceptual scope of precarity.", "register": "formal" },
-        { "id": "acad-contributions-broaden-04", "en": "recast X as", "note": "强调重新理解某概念，创新感更强", "example": "We recast migration as a family-level strategy.", "register": "literary" }
+        {"id": "acad-contributions-broaden-01", "en": "broaden our understanding of", "note": "适合表达概念或现象理解被拓展", "example": "The analysis broadens our understanding of family inequality.", "register": "formal"},
+        {"id": "acad-contributions-broaden-02", "en": "offer a broader account of", "note": "强调解释框架更全面，而不只是结果更多", "example": "We offer a broader account of educational stratification.", "register": "formal"},
+        {"id": "acad-contributions-broaden-03", "en": "expand the conceptual scope of", "note": "更理论化，适合讨论概念边界", "example": "The paper expands the conceptual scope of precarity.", "register": "formal"},
+        {"id": "acad-contributions-broaden-04", "en": "recast X as", "note": "强调重新理解某概念，创新感更强", "example": "We recast migration as a family-level strategy.", "register": "literary"},
+        {"id": "acad-contributions-broaden-05", "en": "deepen our understanding of", "note": "比 improve understanding 更自然，适合摘要/结论收束。", "example": "The study deepens our understanding of fertility processes.", "register": "formal"},
+        {"id": "acad-contributions-broaden-06", "en": "provide novel insights into", "note": "比 provide insights 更强，但仍比 prove 更谨慎。", "example": "The study provides novel insights into low fertility.", "register": "formal"},
+        {"id": "acad-contributions-broaden-07", "en": "The findings point towards X.", "note": "比 show 更谨慎，适合讨论潜在机制。", "example": "The findings point towards a gender asymmetry.", "register": "formal"},
+        {"id": "acad-contributions-broaden-08", "en": "facilitate a deeper understanding of", "note": "比 deepen our understanding 稍正式，可用于结论收束。", "example": "The results facilitate a deeper understanding of family dynamics.", "register": "formal"}
       ]
     },
     {
@@ -64,10 +73,10 @@
       "meaning": "本文首次尝试",
       "tags": ["首次", "创新", "尝试"],
       "expressions": [
-        { "id": "acad-contributions-first-to-01", "en": "among the first to", "note": "比 the first 更谨慎，避免过度声称唯一性", "example": "This study is among the first to examine gig work and fertility.", "register": "formal" },
-        { "id": "acad-contributions-first-to-02", "en": "to our knowledge, the first study to", "note": "需要谨慎使用，适合确有检索把握时", "example": "To our knowledge, this is the first study to link these records.", "register": "formal" },
-        { "id": "acad-contributions-first-to-03", "en": "break new ground by", "note": "更有修辞感，适合强调开创新方向", "example": "The paper breaks new ground by measuring within-year instability.", "register": "literary" },
-        { "id": "acad-contributions-first-to-04", "en": "provide an initial assessment of", "note": "强调初步探索，适合新政策或新数据", "example": "We provide an initial assessment of the reform's distributional effects.", "register": "formal" }
+        {"id": "acad-contributions-first-to-01", "en": "among the first to", "note": "比 the first 更谨慎，避免过度声称唯一性", "example": "This study is among the first to examine gig work and fertility.", "register": "formal"},
+        {"id": "acad-contributions-first-to-02", "en": "to our knowledge, the first study to", "note": "需要谨慎使用，适合确有检索把握时", "example": "To our knowledge, this is the first study to link these records.", "register": "formal"},
+        {"id": "acad-contributions-first-to-03", "en": "break new ground by", "note": "更有修辞感，适合强调开创新方向", "example": "The paper breaks new ground by measuring within-year instability.", "register": "literary"},
+        {"id": "acad-contributions-first-to-04", "en": "provide an initial assessment of", "note": "强调初步探索，适合新政策或新数据", "example": "We provide an initial assessment of the reform's distributional effects.", "register": "formal"}
       ]
     },
     {
@@ -75,10 +84,13 @@
       "meaning": "本文桥接了A和B两个文献",
       "tags": ["桥接", "文献", "跨领域"],
       "expressions": [
-        { "id": "acad-contributions-bridge-01", "en": "bridge two strands of literature", "note": "标准表达，强调连接两个研究传统", "example": "We bridge two strands of literature on migration and family change.", "register": "formal" },
-        { "id": "acad-contributions-bridge-02", "en": "bring together research on A and B", "note": "更自然，适合跨领域但不强调整合理论", "example": "We bring together research on education and health inequality.", "register": "formal" },
-        { "id": "acad-contributions-bridge-03", "en": "connect insights from A to debates about B", "note": "强调用一个领域的洞见回应另一个领域的问题", "example": "We connect insights from demography to debates about labor markets.", "register": "formal" },
-        { "id": "acad-contributions-bridge-04", "en": "situate X at the intersection of A and B", "note": "强调研究对象位于两个文献交叉处，理论定位强", "example": "We situate caregiving at the intersection of gender and migration.", "register": "formal" }
+        {"id": "acad-contributions-bridge-01", "en": "bridge two strands of literature", "note": "标准表达，强调连接两个研究传统", "example": "We bridge two strands of literature on migration and family change.", "register": "formal"},
+        {"id": "acad-contributions-bridge-02", "en": "bring together research on A and B", "note": "更自然，适合跨领域但不强调整合理论", "example": "We bring together research on education and health inequality.", "register": "formal"},
+        {"id": "acad-contributions-bridge-03", "en": "connect insights from A to debates about B", "note": "强调用一个领域的洞见回应另一个领域的问题", "example": "We connect insights from demography to debates about labor markets.", "register": "formal"},
+        {"id": "acad-contributions-bridge-04", "en": "situate X at the intersection of A and B", "note": "强调研究对象位于两个文献交叉处，理论定位强", "example": "We situate caregiving at the intersection of gender and migration.", "register": "formal"},
+        {"id": "acad-contributions-bridge-05", "en": "in and beyond China", "note": "适合案例外推，但需要真实比较基础，避免过度泛化。", "example": "The results hold implications in and beyond China.", "register": "formal"},
+        {"id": "acad-contributions-bridge-06", "en": "link a country case to a broader theoretical puzzle", "note": "适合避免案例研究显得只是地区描述。", "example": "The case speaks to a broader theoretical puzzle.", "register": "formal"},
+        {"id": "acad-contributions-bridge-07", "en": "enrich the dialogue between A and B", "note": "比 contribute to two literatures 更有互动感。", "example": "The findings enrich the dialogue between policy design and fertility research.", "register": "formal"}
       ]
     }
   ]

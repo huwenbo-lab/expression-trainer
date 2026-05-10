@@ -1,0 +1,30 @@
+{
+  "id": "heterogeneity-and-boundary-conditions",
+  "name": "异质性与边界条件",
+  "nameEn": "Heterogeneity & Boundary Conditions",
+  "description": "用于表达效应何时更强、对谁更强、在哪些情境下成立或不成立。",
+  "clusters": [
+    {
+      "id": "effect-heterogeneity",
+      "meaning": "效应在不同群体或结果之间存在差异",
+      "tags": ["异质性", "群体差异", "结果差异"],
+      "expressions": [
+        {"id": "acad-heterogeneity-effect-heterogeneity-01", "en": "particularly pronounced", "note": "比 stronger 更学术，常用于异质性结果。", "example": "The effect is particularly pronounced among professional workers.", "register": "formal"},
+        {"id": "acad-heterogeneity-effect-heterogeneity-02", "en": "heterogeneous effects", "note": "标准统计与理论交界表达，可接 across/by/among。", "example": "We test heterogeneous effects across occupational classes.", "register": "formal"},
+        {"id": "acad-heterogeneity-effect-heterogeneity-03", "en": "comparable across socio-demographic groups", "note": "用于报告没有明显异质性，不要误写成没有效果。", "example": "The effects are comparable across socio-demographic groups.", "register": "formal"},
+        {"id": "acad-heterogeneity-effect-heterogeneity-04", "en": "differential effects of X on Y and Z", "note": "适合解释同一干预对不同结果变量敏感度不同。", "example": "We observe differential effects on marriage and fertility intentions.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "boundary-conditions",
+      "meaning": "说明关系成立的条件和适用边界",
+      "tags": ["边界条件", "调节", "适用范围"],
+      "expressions": [
+        {"id": "acad-heterogeneity-boundary-conditions-01", "en": "The effect of X may depend on Y.", "note": "简单但高迁移，适合假设段引出 moderator。", "example": "The effect of policy disclosure may depend on gender-role preferences.", "register": "formal"},
+        {"id": "acad-heterogeneity-boundary-conditions-02", "en": "under distinct conditions of", "note": "比 in different cases 更正式，适合讨论边界条件。", "example": "We compare outcomes under distinct conditions of ideology.", "register": "formal"},
+        {"id": "acad-heterogeneity-boundary-conditions-03", "en": "scope condition", "note": "论文原文不一定直接高频出现，但由异质性写法抽象而来，适合训练概念。", "example": "Occupation acts as a scope condition for policy effects.", "register": "formal"},
+        {"id": "acad-heterogeneity-boundary-conditions-04", "en": "move from average effects to boundary conditions", "note": "结果段常见推进：先报主效应，再说明对谁/何时更强。", "example": "We move from average effects to boundary conditions.", "register": "formal"}
+      ]
+    }
+  ]
+}

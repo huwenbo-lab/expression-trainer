@@ -1,0 +1,44 @@
+{
+  "id": "theoretical-conceptual-framing",
+  "name": "理论与概念化表达",
+  "nameEn": "Theoretical & Conceptual Framing",
+  "description": "用于把文献、理论视角、概念界定和经验假设组织成可检验的解释框架。",
+  "clusters": [
+    {
+      "id": "theoretical-lens-and-perspective",
+      "meaning": "引入理论视角和分析镜头",
+      "tags": ["理论视角", "分析镜头", "视角转换"],
+      "expressions": [
+        {"id": "acad-theory-framing-theoretical-lens-and-perspective-01", "en": "a fresh lens through which to understand", "note": "比 new perspective 更具体，强调这个视角帮助重新理解现象。", "example": "The framework offers a fresh lens through which to understand fertility.", "register": "formal"},
+        {"id": "acad-theory-framing-theoretical-lens-and-perspective-02", "en": "adopt a relational perspective", "note": "比 use a perspective 更自然，适合把研究从个体转向互动过程。", "example": "We adopt a relational perspective on housework.", "register": "formal"},
+        {"id": "acad-theory-framing-theoretical-lens-and-perspective-03", "en": "in this theoretical framework", "note": "适合从文献综述过渡到本文假设，避免 abrupt transition。", "example": "In this theoretical framework, intentions reflect future expectations.", "register": "formal"},
+        {"id": "acad-theory-framing-theoretical-lens-and-perspective-04", "en": "depart from an individual-level perspective", "note": "适合说明理论视角转换，语气比 reject 更稳妥。", "example": "This study departs from an individual-level perspective.", "register": "formal"},
+        {"id": "acad-theory-framing-theoretical-lens-and-perspective-05", "en": "The X perspective emphasizes...", "note": "用于概括理论核心，不只是引用作者。", "example": "The linked-lives perspective emphasizes family interdependence.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "conceptualization-and-explanatory-accounts",
+      "meaning": "概念化和解释性理论账户",
+      "tags": ["概念化", "理论解释", "框架"],
+      "expressions": [
+        {"id": "acad-theory-framing-conceptualization-and-explanatory-accounts-01", "en": "integrating parallel lines of investigation", "note": "比 combine literatures 更有研究设计感，适合说明贡献来自把两个原本分开的议题放在同一框架。", "example": "We integrate parallel lines of investigation on work and family.", "register": "formal"},
+        {"id": "acad-theory-framing-conceptualization-and-explanatory-accounts-02", "en": "Conceptually, X is well grounded in Y.", "note": "适合在理论段说明某视角不是临时拼接，而是有既有理论支撑。", "example": "Conceptually, this approach is well grounded in gender theories.", "register": "formal"},
+        {"id": "acad-theory-framing-conceptualization-and-explanatory-accounts-03", "en": "We conceptualize X as Y.", "note": "比 define 更有理论建构感，适合引入核心概念。", "example": "We conceptualize flexibility as a work-family resource.", "register": "formal"},
+        {"id": "acad-theory-framing-conceptualization-and-explanatory-accounts-04", "en": "provide theoretical accounts of how", "note": "account 强调解释框架，不只是列举原因。", "example": "We provide theoretical accounts of how flexibility shapes labor division.", "register": "formal"},
+        {"id": "acad-theory-framing-conceptualization-and-explanatory-accounts-05", "en": "This section integrates A and B to provide...", "note": "适合理论综述小节开头，结构清晰。", "example": "This section integrates policy narratives and planned behavior theory.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "hypotheses-and-literature-integration",
+      "meaning": "从文献整合推进到经验预测",
+      "tags": ["假设", "经验预测", "文献整合"],
+      "expressions": [
+        {"id": "acad-theory-framing-hypotheses-and-literature-integration-01", "en": "extend the attention to", "note": "适合说明本文关注一个以往被忽视的人群或维度。", "example": "We extend the attention to unmarried adults.", "register": "formal"},
+        {"id": "acad-theory-framing-hypotheses-and-literature-integration-02", "en": "empirical predictions", "note": "比 hypotheses 更强调从理论推导出的可观察模式。", "example": "The theory yields several empirical predictions.", "register": "formal"},
+        {"id": "acad-theory-framing-hypotheses-and-literature-integration-03", "en": "turn theoretical discussion into empirical predictions", "note": "这是从 literature review 到 hypotheses 的关键修辞动作。", "example": "We turn the theoretical discussion into empirical predictions.", "register": "formal"},
+        {"id": "acad-theory-framing-hypotheses-and-literature-integration-04", "en": "build a bridge between two research conversations", "note": "强调跨文献整合，但比 bridge literatures 更具体。", "example": "The paper builds a bridge between policy and fertility research.", "register": "formal"},
+        {"id": "acad-theory-framing-hypotheses-and-literature-integration-05", "en": "reframe a policy tool as a theoretical mechanism", "note": "适合把政策变量从背景因素提升为解释机制。", "example": "We reframe flexibility as a theoretical mechanism.", "register": "formal"}
+      ]
+    }
+  ]
+}

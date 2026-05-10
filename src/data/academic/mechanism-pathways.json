@@ -1,0 +1,31 @@
+{
+  "id": "mechanism-pathways",
+  "name": "机制路径与中介解释",
+  "nameEn": "Mechanisms & Pathways",
+  "description": "用于打开因果黑箱，写中介、路径、信念机制、未解释残差和替代机制。",
+  "clusters": [
+    {
+      "id": "mediation-and-intervening-mechanisms",
+      "meaning": "中介路径与中间机制",
+      "tags": ["中介", "机制", "路径"],
+      "expressions": [
+        {"id": "acad-mechanism-pathways-mediation-and-intervening-mechanisms-01", "en": "anticipated work-family conflict", "note": "anticipated 指未来情景下的心理预期，区别于已发生冲突。", "example": "Anticipated work-family conflict mediates the policy effect.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-mediation-and-intervening-mechanisms-02", "en": "intervening mechanism", "note": "用于提出尚未直接观察但可能解释结果的路径。", "example": "Other intervening mechanisms may remain unexplained.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-mediation-and-intervening-mechanisms-03", "en": "underlying psychological mechanisms", "note": "比 psychological factors 更有机制感，适合理论段提出黑箱。", "example": "We explore underlying psychological mechanisms.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-mediation-and-intervening-mechanisms-04", "en": "the mechanisms through which X shapes Y", "note": "through which 能自然连接机制名词和结果变量。", "example": "We examine mechanisms through which policies shape intentions.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-mediation-and-intervening-mechanisms-05", "en": "open the black box through mediation analysis", "note": "把统计分析包装成解释贡献，而不是只列模型结果。", "example": "Mediation analysis opens the black box of policy effects.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "beliefs-costs-and-unexplained-pathways",
+      "meaning": "信念、成本和未解释机制",
+      "tags": ["信念", "成本", "残余机制"],
+      "expressions": [
+        {"id": "acad-mechanism-pathways-beliefs-costs-and-unexplained-pathways-01", "en": "behavioral, normative, and control beliefs", "note": "TPB 写作中的三分法，可作为机制簇整体记忆。", "example": "The model tests behavioral, normative, and control beliefs.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-beliefs-costs-and-unexplained-pathways-02", "en": "perceived costs exceed the benefits", "note": "适合经济/家庭决策理论，不只是说 cost is high。", "example": "People delay parenthood when perceived costs exceed benefits.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-beliefs-costs-and-unexplained-pathways-03", "en": "malleable", "note": "用于说明哪类态度或规范对政策更敏感；语气比 changeable 更学术。", "example": "Perceived affordability may be more malleable to policy changes.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-beliefs-costs-and-unexplained-pathways-04", "en": "Nevertheless, a large proportion of the effects remains unexplained by...", "note": "适合中介分析后避免过度声称，顺势提出替代机制。", "example": "Nevertheless, much of the effect remains unexplained by conflict.", "register": "formal"}
+      ]
+    }
+  ]
+}

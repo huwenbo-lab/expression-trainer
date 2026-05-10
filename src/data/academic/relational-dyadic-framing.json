@@ -1,0 +1,31 @@
+{
+  "id": "relational-dyadic-framing",
+  "name": "关系与配对视角",
+  "nameEn": "Relational & Dyadic Framing",
+  "description": "用于把研究对象从个人层面推进到夫妻、伴侣、家庭成员或其他配对关系中的相互影响。",
+  "clusters": [
+    {
+      "id": "dyadic-perspective-and-data",
+      "meaning": "从个人层面转向配对/夫妻层面的研究视角",
+      "tags": ["配对", "夫妻", "视角"],
+      "expressions": [
+        {"id": "acad-relational-dyadic-perspective-and-data-01", "en": "drawing on a linked-lives perspective", "note": "比一般的 using theory 更能说明家庭成员经历相互嵌入，适合夫妻或家庭过程研究。", "example": "Drawing on a linked-lives perspective, we examine couples' decisions.", "register": "formal"},
+        {"id": "acad-relational-dyadic-perspective-and-data-02", "en": "longitudinal couple-level dyadic data", "note": "把 longitudinal、couple-level 和 dyadic 三个限定压缩到一个高密度方法名词组。", "example": "We use longitudinal couple-level dyadic data from the UK.", "register": "formal"},
+        {"id": "acad-relational-dyadic-perspective-and-data-03", "en": "within-couple inequality", "note": "强调不平等发生在配对内部，而不是群体均值差异。", "example": "The models estimate changes in within-couple inequality.", "register": "formal"},
+        {"id": "acad-relational-dyadic-perspective-and-data-04", "en": "By going beyond an individual-centred focus, this study reveals...", "note": "适合把方法/理论贡献写成视角转移，而不是简单说 we use dyadic data。", "example": "By going beyond an individual-centred focus, this study reveals dyadic dynamics.", "register": "formal"},
+        {"id": "acad-relational-dyadic-perspective-and-data-05", "en": "shift the unit of explanation from individuals to couples", "note": "把“为什么用 dyadic data”变成论证动作，避免只报数据结构。", "example": "We shift the unit of explanation from individuals to couples.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "interdependence-and-joint-shaping",
+      "meaning": "关系内部的互依、交叉影响和共同塑造",
+      "tags": ["互依", "交叉影响", "共同塑造"],
+      "expressions": [
+        {"id": "acad-relational-interdependence-and-joint-shaping-01", "en": "crossover effects between spouses", "note": "比 influence 更具体，强调一方特征对另一方结果的跨人效应。", "example": "The analysis considers crossover effects between spouses.", "register": "formal"},
+        {"id": "acad-relational-interdependence-and-joint-shaping-02", "en": "jointly shape", "note": "比 affect together 更简洁，适合多个主体或机制共同作用。", "example": "Both spouses' ideologies jointly shape housework time.", "register": "formal"},
+        {"id": "acad-relational-interdependence-and-joint-shaping-03", "en": "interplay", "note": "比 interaction 更书面，适合理论段和讨论段描述复杂关系。", "example": "We examine the interplay of norms and resources.", "register": "formal"},
+        {"id": "acad-relational-interdependence-and-joint-shaping-04", "en": "intricate interdependencies", "note": "语气较强，适合讨论段总结复杂配对关系，不宜用于简单相关。", "example": "The findings reveal intricate interdependencies within couples.", "register": "formal"}
+      ]
+    }
+  ]
+}
