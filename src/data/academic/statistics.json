@@ -167,6 +167,19 @@
         {"id": "acad-stat-subgroup-05", "en": "the pattern is confined to", "note": "语气较强，强调只在某群体中出现", "example": "The pattern is confined to respondents without college degrees.", "register": "formal"},
         {"id": "acad-stat-subgroup-06", "en": "results differ markedly across", "note": "适合概括多个子群体之间差异明显", "example": "Results differ markedly across immigrant generations.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-trend-and-effect-reporting",
+      "meaning": "趋势、普遍程度、效应幅度和影响表述",
+      "tags": ["趋势", "效应", "结果报告"],
+      "expressions": [
+        {"id": "acad-statistics-zhang-yang-trend-and-effect-reporting-01", "en": "pronounced (particularly pronounced)", "note": "比 stronger 更书面，适合异质性结果，常和 among/in 搭配。", "example": "The pattern was particularly pronounced among rural women.", "register": "formal"},
+        {"id": "acad-statistics-zhang-yang-trend-and-effect-reporting-02", "en": "prevalence (the prevalence of X)", "note": "用于描述暴露或行为有多常见，不能替代 incidence。", "example": "The prevalence of cohabitation has risen.", "register": "formal"},
+        {"id": "acad-statistics-zhang-yang-trend-and-effect-reporting-03", "en": "exert (exert a profound influence)", "note": "比 have an effect on 更正式，但语气强，需有证据支持。", "example": "Intergenerational ties exert influence on wellbeing.", "register": "formal"},
+        {"id": "acad-statistics-zhang-yang-trend-and-effect-reporting-04", "en": "rising prevalence of X", "note": "用于引出为何该现象值得研究，常接 cohabitation、childbearing。", "example": "The rising prevalence of cohabitation motivates this study.", "register": "formal"},
+        {"id": "acad-statistics-zhang-yang-trend-and-effect-reporting-05", "en": "substantial decline in X", "note": "substantial 比 large 更正式，常用于宏观趋势。", "example": "There was a substantial decline in hypergamy.", "register": "formal"},
+        {"id": "acad-statistics-zhang-yang-trend-and-effect-reporting-06", "en": "X was associated with Y, but not with Z.", "note": "适合 outcome-specific heterogeneity，避免笼统说 mixed results。", "example": "Dissolution was associated with depression, but not drinking.", "register": "formal"}
+      ]
     }
   ]
 }

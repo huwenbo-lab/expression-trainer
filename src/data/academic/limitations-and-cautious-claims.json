@@ -50,6 +50,31 @@
         {"id": "acad-limitations-measurement-and-scope-agenda-04", "en": "distinguish intentions from behavior", "note": "家庭/人口研究常见限制，强调 intention 不等同于 actual behavior。", "example": "Future research should distinguish intentions from behavior.", "register": "formal"},
         {"id": "acad-limitations-measurement-and-scope-agenda-05", "en": "map different utilization patterns", "note": "比 study usage 更具体，适合未来研究方向。", "example": "Future research could map different utilization patterns.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-causal-caution",
+      "meaning": "观察性研究中的因果谨慎和反向关系限定",
+      "tags": ["谨慎声称", "因果", "限制"],
+      "expressions": [
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-causal-caution-01", "en": "bidirectional (a bidirectional association)", "note": "限制段常用，说明研究只处理一个方向，不否认反向选择。", "example": "The analysis cannot rule out a bidirectional association.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-causal-caution-02", "en": "in light of several limitations", "note": "用于限制段开头，语气比 despite 更中性。", "example": "Findings should be interpreted in light of several limitations.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-causal-caution-03", "en": "beyond the scope of the current study", "note": "用于承认未处理问题，同时保持论文焦点。", "example": "This mechanism is beyond the scope of the current study.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-causal-caution-04", "en": "under consideration", "note": "用于限定结论范围，避免把某个 outcome 泛化成所有 outcome。", "example": "The effect depends on the outcome under consideration.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-causal-caution-05", "en": "Future research could X if data allow.", "note": "比 future studies should 更柔和，适合数据受限处。", "example": "Future research could separate groups if sample sizes permit.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-causal-caution-06", "en": "Restrict claims to associational rather than causal evidence.", "note": "适合观察性数据，既诚实又不削弱描述性贡献。", "example": "We interpret the findings as associational rather than causal.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-future-data-needs",
+      "meaning": "把样本、数据窗口和测量限制转成未来研究议程",
+      "tags": ["未来研究", "数据限制", "样本"],
+      "expressions": [
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-future-data-needs-01", "en": "Return from limitation to contribution.", "note": "避免限制段结尾削弱论文价值，可用 despite these limitations。", "example": "Despite limitations, the study offers new insights.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-future-data-needs-02", "en": "wide range of confounders", "note": "常用于说明控制充分但仍不能声称因果。", "example": "We control for a wide range of confounders.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-future-data-needs-03", "en": "if sample sizes permit", "note": "用于说明未来研究可做更细分分析，避免硬性要求。", "example": "Future work could separate groups if sample sizes permit.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-future-data-needs-04", "en": "Data covering X can hardly reveal Y.", "note": "can hardly reveal 比 cannot show 稍柔和，常用于 period effect 等限制。", "example": "Data covering six years can hardly reveal period effects.", "register": "formal"},
+        {"id": "acad-limitations-and-cautious-claims-zhang-yang-future-data-needs-05", "en": "Convert data limitation into future data need.", "note": "适合限制段结尾，避免只停留在承认不足。", "example": "Later waves can track trajectories across more years.", "register": "formal"}
+      ]
     }
   ]
 }

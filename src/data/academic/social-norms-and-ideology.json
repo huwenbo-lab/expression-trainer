@@ -53,6 +53,30 @@
         {"id": "acad-social-norms-gender-revolution-and-equality-practice-04", "en": "de-traditionalise gender ideology", "note": "比 make ideology egalitarian 更学术，适合宏观趋势讨论。", "example": "It is insufficient to de-traditionalise gender ideology alone.", "register": "formal"},
         {"id": "acad-social-norms-gender-revolution-and-equality-practice-05", "en": "turn gender asymmetry into a theoretical contribution", "note": "适合讨论段从结果差异推进到概念或理论修正。", "example": "Gender asymmetry becomes a theoretical contribution.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-gendered-expectations",
+      "meaning": "性别规范、父母身份期待和性别化社会化",
+      "tags": ["性别规范", "期待", "社会化"],
+      "expressions": [
+        {"id": "acad-social-norms-and-ideology-zhang-yang-gendered-expectations-01", "en": "household specialization", "note": "适合和 resource bargaining、gender norms 对照使用。", "example": "Household specialization explains couples' labor arrangements.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-gendered-expectations-02", "en": "doing gender perspective", "note": "常与经济利益解释竞争，适合理论比较。", "example": "The doing gender perspective received limited support.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-gendered-expectations-03", "en": "Contrast practical needs with gender norms.", "note": "适合讨论结果为何不符合 conventional expectation。", "example": "Practical needs may override traditional gender norms.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-gendered-expectations-04", "en": "override (X overrides Y)", "note": "适合写实践需求、经济利益或制度约束压过规范期待。", "example": "Practical needs may override traditional gender norms.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-gendered-expectations-05", "en": "hegemonic (hegemonic norms)", "note": "比 dominant 更理论化，常用于性别、男性气质和权力关系。", "example": "Men may become less attached to hegemonic norms.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-practical-needs-versus-norms",
+      "meaning": "现实需求、权力动态和规范期待之间的竞争解释",
+      "tags": ["现实需求", "权力动态", "规范"],
+      "expressions": [
+        {"id": "acad-social-norms-and-ideology-zhang-yang-practical-needs-versus-norms-01", "en": "gendered socialization", "note": "用于解释为什么同一事件对男女意义不同。", "example": "Gendered socialization shapes responses to dissolution.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-practical-needs-versus-norms-02", "en": "gendered parenthood expectations", "note": "适合解释 parenthood 的调节效应为何有性别差异。", "example": "Gendered parenthood expectations may intensify distress.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-practical-needs-versus-norms-03", "en": "gender relations and power dynamics", "note": "比 gender relationship 更理论化，强调关系中的权力变化。", "example": "Education changes gender relations and power dynamics.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-practical-needs-versus-norms-04", "en": "male hegemonic norms", "note": "适合解释男性身份、婚配偏好和家庭权力。", "example": "Men may be less attached to male hegemonic norms.", "register": "formal"},
+        {"id": "acad-social-norms-and-ideology-zhang-yang-practical-needs-versus-norms-05", "en": "aside from traditional gender norms", "note": "用于引入规范之外的替代机制，如经济需求或地位流动。", "example": "Aside from traditional norms, practical needs matter.", "register": "formal"}
+      ]
     }
   ]
 }

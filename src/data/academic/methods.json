@@ -98,6 +98,44 @@
         {"id": "acad-methods-analytic-strategy-06", "en": "to facilitate the interpretation of the interaction", "note": "适合说明为什么绘图、分组或转用 LPM。", "example": "We plot margins to facilitate interpretation of the interaction.", "register": "formal"},
         {"id": "acad-methods-analytic-strategy-07", "en": "We replicate the main models using alternative measures of X.", "note": "稳健性检验标准句，可替换 X。", "example": "We replicate the main models using alternative measures of labor.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-typology-and-sequence",
+      "meaning": "类型学、序列分析和配对轨迹的方法表达",
+      "tags": ["方法", "类型学", "序列"],
+      "expressions": [
+        {"id": "acad-methods-zhang-yang-typology-and-sequence-01", "en": "discern (discern patterns/types)", "note": "比 identify 更带有从复杂资料中分辨结构的意味。", "example": "The analysis discerned five relationship types.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-typology-and-sequence-02", "en": "typological (a typological approach)", "note": "强调把多个维度合成为类型，而不是只用单个指标。", "example": "We adopted a typological approach to relationships.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-typology-and-sequence-03", "en": "prospective (prospective research design)", "note": "强调时间顺序优于横截面，但不自动等于因果识别。", "example": "A prospective design links wealth to subsequent marriage.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-typology-and-sequence-04", "en": "confounded (by)", "note": "方法段用来说明为什么需要控制或稳健性检验。", "example": "Trajectories may be confounded by initial matching.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-typology-and-sequence-05", "en": "multi-channel sequence analysis", "note": "方法名本身可训练，适合多个成员或多个状态通道的轨迹研究。", "example": "We used multi-channel sequence analysis to build a typology.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-typology-and-sequence-06", "en": "growth curve models", "note": "适合说明水平与变化率，不要只写 regression models。", "example": "Growth curve models estimate within-individual change.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-longitudinal-modeling",
+      "meaning": "纵向模型、测量一致性和前瞻性设计",
+      "tags": ["纵向数据", "模型", "测量"],
+      "expressions": [
+        {"id": "acad-methods-zhang-yang-longitudinal-modeling-01", "en": "nationally representative longitudinal dataset", "note": "同时交代代表性和时间维度，比 survey data 信息更足。", "example": "We use a nationally representative longitudinal dataset.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-longitudinal-modeling-02", "en": "We adopted a typological approach to X, retaining Y.", "note": "比 simply saying we clustered 更能解释方法合理性。", "example": "We adopted a typological approach, retaining relational complexity.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-longitudinal-modeling-03", "en": "Decompose group differences into prevalence and effects.", "note": "适合人口学和不平等研究，能把机制解释拆细。", "example": "We decompose differences into prevalence and marginal effects.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-longitudinal-modeling-04", "en": "Translate typology into theoretical explanation.", "note": "避免方法结果停留在分类表，转而说明各类型意味着什么。", "example": "The typology reveals how couples specialize labor.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-longitudinal-modeling-05", "en": "Separate internalizing and externalizing distress.", "note": "适合结果异质性，避免用一个 outcome 代表全部心理健康。", "example": "We compare internalizing symptoms and externalizing behaviors.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-longitudinal-modeling-06", "en": "internalizing symptoms", "note": "与 externalizing behaviors 对照，适合区分心理困扰表现。", "example": "Depression captures internalizing symptoms.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-analytic-strategy",
+      "meaning": "分析策略、调节检验和分解方法",
+      "tags": ["分析策略", "调节检验", "分解"],
+      "expressions": [
+        {"id": "acad-methods-zhang-yang-analytic-strategy-01", "en": "externalizing behaviors", "note": "适合把 drinking、risk behavior 等和 depressive symptoms 区分。", "example": "Binge drinking captures externalizing behaviors.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-analytic-strategy-02", "en": "consistent measurements", "note": "适合说明 longitudinal design 的数据优势。", "example": "Consistent measurements enable trajectory estimation.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-analytic-strategy-03", "en": "to capture potential variation", "note": "适合解释为什么使用多个 outcome、维度或子群体。", "example": "We use two outcomes to capture potential variation.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-analytic-strategy-04", "en": "We tested whether X moderated the association between Y and Z.", "note": "比 we added interaction 更面向研究问题。", "example": "We tested whether ideology moderated the education-depression link.", "register": "formal"},
+        {"id": "acad-methods-zhang-yang-analytic-strategy-05", "en": "Separate prevalence from marginal effects when explaining inequality.", "note": "适合避免把群体差异归因过粗。", "example": "We separate prevalence from marginal effects.", "register": "formal"}
+      ]
     }
   ]
 }

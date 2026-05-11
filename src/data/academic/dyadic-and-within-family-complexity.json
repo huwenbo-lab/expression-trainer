@@ -1,0 +1,47 @@
+{
+  "id": "dyadic-and-within-family-complexity",
+  "name": "配对与家庭内部复杂性",
+  "nameEn": "Dyadic & Within-Family Complexity",
+  "description": "用于从个人层面转向夫妻、亲子 dyad、多子女家庭内部差异和关系多维性的表达。",
+  "clusters": [
+    {
+      "id": "linked-and-paired-trajectories",
+      "meaning": "夫妻或家庭成员的 linked/paired trajectory 写法",
+      "tags": ["配对", "轨迹", "夫妻"],
+      "expressions": [
+        {"id": "acad-dyadic-and-within-family-complexity-linked-and-paired-trajectories-01", "en": "intertwined (with)", "note": "强调两个事件不可分割地共同发生，比 related to 更有过程感。", "example": "Dissolution intertwined with parenthood may intensify distress.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-linked-and-paired-trajectories-02", "en": "ambivalent (ambivalent ties)", "note": "比 mixed 更学术，适合亲子、夫妻或制度态度的复杂关系。", "example": "Ambivalent ties can generate stress and uncertainty.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-linked-and-paired-trajectories-03", "en": "threshold (threshold effect/strategy)", "note": "适合多关系场景，说明某一个极端 dyad 可能决定整体后果。", "example": "The threshold strategy compares closest and most distant ties.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-linked-and-paired-trajectories-04", "en": "linked occupational trajectories", "note": "linked 强调两个人的路径在同一关系中共同演化。", "example": "The study examines couples' linked occupational trajectories.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-linked-and-paired-trajectories-05", "en": "paired occupational trajectories", "note": "paired 比 individual 更明确，适合强调 couple-level unit。", "example": "The typology captures paired occupational trajectories.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-linked-and-paired-trajectories-06", "en": "collective ambivalence", "note": "不是单个 dyad 的矛盾，而是家庭内部多段关系的聚合复杂性。", "example": "Collective ambivalence varies across adult children.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "within-family-differences",
+      "meaning": "多子女家庭内部差异和 closest/most distant dyad",
+      "tags": ["家庭内部差异", "多子女", "dyad"],
+      "expressions": [
+        {"id": "acad-dyadic-and-within-family-complexity-within-family-differences-01", "en": "within-family differences", "note": "强调家庭不是同质单位，适合多子女和兄弟姐妹研究。", "example": "Within-family differences predict parental wellbeing.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-within-family-differences-02", "en": "multi-dimensional and ambivalent natures", "note": "用于解释为什么单一指标不足，适合方法和理论段。", "example": "The typology retains multi-dimensional and ambivalent natures.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-within-family-differences-03", "en": "functional exchanges", "note": "与 emotional affinity 区分，用于指出亲密增加的具体来源。", "example": "Greater intimacy was driven by functional exchanges.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-within-family-differences-04", "en": "emotional affinity", "note": "比 closeness 更精确，适合与 functional exchange、contact frequency 并列。", "example": "The change reflected exchange rather than emotional affinity.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-within-family-differences-05", "en": "associational connections", "note": "用于区分联系频率与情感质量，不宜泛化为所有关系好坏。", "example": "Associational connections increased after health declines.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-within-family-differences-06", "en": "Compare closest and most distant relationship dyads.", "note": "适合多关系家庭，不把家庭视为一个平均关系。", "example": "We compare the closest and most distant dyads.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "multidimensional-ambivalent-ties",
+      "meaning": "多维、矛盾和疏离/紧密关系类型",
+      "tags": ["多维关系", "矛盾关系", "关系类型"],
+      "expressions": [
+        {"id": "acad-dyadic-and-within-family-complexity-multidimensional-ambivalent-ties-01", "en": "Distinguish functional exchanges from emotional affinity.", "note": "能防止把关系改善说得过宽，适合多维关系结果。", "example": "We distinguish support exchanges from emotional affinity.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-multidimensional-ambivalent-ties-02", "en": "alienated (alienated relationship type)", "note": "比 distant 更强，通常暗示接触、支持和情感都较弱。", "example": "Alienated ties predicted lower cognitive functioning.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-multidimensional-ambivalent-ties-03", "en": "tight-knit (tight-knit type)", "note": "强调多维度的紧密联系，不只是 emotional closeness。", "example": "Tight-knit ties were linked to slower decline.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-multidimensional-ambivalent-ties-04", "en": "estranged (the more estranged X is)", "note": "比 distant 带有关系破裂或长期疏离色彩。", "example": "The more estranged the tie is, the lower wellbeing becomes.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-multidimensional-ambivalent-ties-05", "en": "Treat couples, rather than individuals, as the unit of analysis.", "note": "用于说明为何需要 dyadic data 或 couple-level typology。", "example": "We treat couples as the unit of analysis.", "register": "formal"},
+        {"id": "acad-dyadic-and-within-family-complexity-multidimensional-ambivalent-ties-06", "en": "Model closest, most distant, and variation as complementary measures.", "note": "避免平均化家庭关系，突出多子女家庭复杂性。", "example": "We model closest ties, most distant ties, and variation.", "register": "formal"}
+      ]
+    }
+  ]
+}

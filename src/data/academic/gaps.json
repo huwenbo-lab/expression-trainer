@@ -103,6 +103,17 @@
         {"id": "acad-gaps-puzzle-03", "en": "it is puzzling that", "note": "直接表达困惑，适合突出反常发现", "example": "It is puzzling that mobility stalls despite educational expansion.", "register": "formal"},
         {"id": "acad-gaps-puzzle-04", "en": "the empirical puzzle is", "note": "把研究问题定位为经验谜题，适合实证论文", "example": "The empirical puzzle is the coexistence of growth and insecurity.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-complexity-gaps",
+      "meaning": "用复杂性、研究问题和宏观趋势提出研究空白",
+      "tags": ["研究空白", "复杂性", "问题"],
+      "expressions": [
+        {"id": "acad-gaps-zhang-yang-complexity-gaps-01", "en": "to address the following research questions", "note": "比直接列问题更自然，适合方法前的过渡句。", "example": "We use panel data to address the following questions.", "register": "formal"},
+        {"id": "acad-gaps-zhang-yang-complexity-gaps-02", "en": "owing to the complexity of X", "note": "比 because X is complex 更正式，常用于 gap rationale。", "example": "Existing evidence is limited owing to the complexity of relationships.", "register": "formal"},
+        {"id": "acad-gaps-zhang-yang-complexity-gaps-03", "en": "Little is known about how X shapes Y, where Z.", "note": "适合一句话同时写 gap、关系和特殊情境。", "example": "Little is known about how wealth shapes marriage where hukou matters.", "register": "formal"},
+        {"id": "acad-gaps-zhang-yang-complexity-gaps-04", "en": "This global trend underscores the necessity to investigate X.", "note": "underscores 比 shows 更有论证力度，适合引言开头。", "example": "This demographic trend underscores the need to study care.", "register": "formal"}
+      ]
     }
   ]
 }

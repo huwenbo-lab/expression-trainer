@@ -26,6 +26,29 @@
         {"id": "acad-mechanism-pathways-beliefs-costs-and-unexplained-pathways-03", "en": "malleable", "note": "用于说明哪类态度或规范对政策更敏感；语气比 changeable 更学术。", "example": "Perceived affordability may be more malleable to policy changes.", "register": "formal"},
         {"id": "acad-mechanism-pathways-beliefs-costs-and-unexplained-pathways-04", "en": "Nevertheless, a large proportion of the effects remains unexplained by...", "note": "适合中介分析后避免过度声称，顺势提出替代机制。", "example": "Nevertheless, much of the effect remains unexplained by conflict.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-stress-and-role-mechanisms",
+      "meaning": "压力、角色和心理机制的精细表达",
+      "tags": ["压力机制", "角色", "心理健康"],
+      "expressions": [
+        {"id": "acad-mechanism-pathways-zhang-yang-stress-and-role-mechanisms-01", "en": "salience (the salience of X)", "note": "适合写心理机制或角色理论，比 importance 更能表达某维度在情境中被激活。", "example": "The salience of parental roles may vary by age.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-stress-and-role-mechanisms-02", "en": "driven by X rather than Y", "note": "比 caused by 更谨慎，适合机制拆分和反事实对照。", "example": "The change was driven by exchange rather than affinity.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-stress-and-role-mechanisms-03", "en": "Mark one dimension as the driver and another as non-driver.", "note": "适合多维测量结果，避免把 closeness 一概而论。", "example": "Exchange, not affinity, drove the increase in closeness.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-stress-and-role-mechanisms-04", "en": "acute (acute stress)", "note": "常与 chronic 对照，用于区分即时冲击和长期压力。", "example": "Dissolution may result in acute stress.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-stress-and-role-mechanisms-05", "en": "chronic (chronic stress)", "note": "适合说明冲击的后果持续存在，不只是一次性事件。", "example": "Relationship instability can generate chronic stress.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-driver-versus-nondriver",
+      "meaning": "区分真正驱动因素和非驱动机制",
+      "tags": ["驱动因素", "机制拆分", "解释"],
+      "expressions": [
+        {"id": "acad-mechanism-pathways-zhang-yang-driver-versus-nondriver-01", "en": "acute and chronic stress", "note": "用于把压力机制拆成即时与长期两个层次。", "example": "Dissolution may generate acute and chronic stress.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-driver-versus-nondriver-02", "en": "adverse emotional, behavioral, and health outcomes", "note": "并列范围完整，适合概括压力事件的多维后果。", "example": "Stress increases adverse emotional and behavioral outcomes.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-driver-versus-nondriver-03", "en": "as a stressful life event", "note": "适合理论段把家庭事件连接到心理健康机制。", "example": "Dissolution is treated as a stressful life event.", "register": "formal"},
+        {"id": "acad-mechanism-pathways-zhang-yang-driver-versus-nondriver-04", "en": "The findings are mainly driven by X instead of Y.", "note": "instead of 比 rather than 更直接，适合结果解释。", "example": "The narrowing gap was driven by men instead of women.", "register": "formal"}
+      ]
     }
   ]
 }

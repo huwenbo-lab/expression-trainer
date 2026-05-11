@@ -25,6 +25,30 @@
         {"id": "acad-heterogeneity-boundary-conditions-03", "en": "scope condition", "note": "论文原文不一定直接高频出现，但由异质性写法抽象而来，适合训练概念。", "example": "Occupation acts as a scope condition for policy effects.", "register": "formal"},
         {"id": "acad-heterogeneity-boundary-conditions-04", "en": "move from average effects to boundary conditions", "note": "结果段常见推进：先报主效应，再说明对谁/何时更强。", "example": "We move from average effects to boundary conditions.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-contingency-and-moderation",
+      "meaning": "用 contingent、moderate、alter 表达条件性关系",
+      "tags": ["调节", "条件性", "边界"],
+      "expressions": [
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-contingency-and-moderation-01", "en": "contingent (on/upon)", "note": "比 depends on 更正式，常用于讨论效应边界、结果类型或情境条件。", "example": "The association is contingent on family context.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-contingency-and-moderation-02", "en": "heterogeneity", "note": "可指 effect heterogeneity，也可指关系内部差异，需写清层级。", "example": "We capture heterogeneity across multiple children.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-contingency-and-moderation-03", "en": "The findings suggest that X is contingent on Y.", "note": "比 X affects Y 更谨慎，适合讨论边界条件。", "example": "The findings suggest that distress is contingent on parenthood.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-contingency-and-moderation-04", "en": "Move from average effects to boundary conditions.", "note": "能让结果段从主效应自然推进到 heterogeneity。", "example": "We move from average effects to boundary conditions.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-contingency-and-moderation-05", "en": "Use family gender structure as a moderator.", "note": "把家庭构成写成条件变量，而不只是控制变量。", "example": "Family gender structure moderates adaptive responses.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-subgroup-and-outcome-heterogeneity",
+      "meaning": "说明效应随群体、时间或结果类型而变化",
+      "tags": ["异质性", "子群体", "结果类型"],
+      "expressions": [
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-subgroup-and-outcome-heterogeneity-01", "en": "attenuate (the effect attenuates)", "note": "比 become weaker 更学术，常用于 moderation 或 time-varying effect。", "example": "The moderating effect attenuates as women age.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-subgroup-and-outcome-heterogeneity-02", "en": "moderating effects of parenthood", "note": "明确 parenthood 不是主效应，而是改变另一关系强度。", "example": "We test moderating effects of parenthood.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-subgroup-and-outcome-heterogeneity-03", "en": "Does X strengthen the association between Y and Z?", "note": "strengthen 比 moderate 更直观，可用于研究问题或假设。", "example": "Does parenthood strengthen the association between dissolution and distress?", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-subgroup-and-outcome-heterogeneity-04", "en": "X may alter the association between Y and Z.", "note": "alter 比 affect 更强调关系结构发生改变。", "example": "Gender ideology may alter the association between education and depression.", "register": "formal"},
+        {"id": "acad-heterogeneity-and-boundary-conditions-zhang-yang-subgroup-and-outcome-heterogeneity-05", "en": "Identify outcome-specific heterogeneity.", "note": "适合 depressive symptoms 与 binge drinking 这类多 outcome 设计。", "example": "We identify outcome-specific heterogeneity in distress.", "register": "formal"}
+      ]
     }
   ]
 }

@@ -14,6 +14,10 @@ import workFamilyBoundaries from './work-family-boundaries.json'
 import socialNormsAndIdeology from './social-norms-and-ideology.json'
 import theoreticalConceptualFraming from './theoretical-conceptual-framing.json'
 import limitationsAndCautiousClaims from './limitations-and-cautious-claims.json'
+import lifeCourseAndTrajectories from './life-course-and-trajectories.json'
+import dyadicAndWithinFamilyComplexity from './dyadic-and-within-family-complexity.json'
+import stratificationAndSocialContext from './stratification-and-social-context.json'
+import adaptiveResponseAndResilience from './adaptive-response-and-resilience.json'
 
 export const academicCategories = [
   statistics,
@@ -32,6 +36,10 @@ export const academicCategories = [
   socialNormsAndIdeology,
   theoreticalConceptualFraming,
   limitationsAndCautiousClaims,
+  lifeCourseAndTrajectories,
+  dyadicAndWithinFamilyComplexity,
+  stratificationAndSocialContext,
+  adaptiveResponseAndResilience,
 ]
 
 export const academicCategoryMap = Object.fromEntries(

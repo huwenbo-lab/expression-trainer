@@ -1,0 +1,62 @@
+{
+  "id": "stratification-and-social-context",
+  "name": "分层、制度与社会情境",
+  "nameEn": "Stratification & Social Context",
+  "description": "用于把不平等、制度安排、婚姻市场、城乡分割和社会变迁作为解释背景或机制条件写出来。",
+  "clusters": [
+    {
+      "id": "rural-urban-and-hukou-context",
+      "meaning": "城乡分割、户籍和中国社会情境",
+      "tags": ["城乡", "户籍", "中国情境"],
+      "expressions": [
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-01", "en": "perpetuation (the perpetuation of inequality)", "note": "比 continuation 更社会学化，常用于结构性机制的长期后果。", "example": "Wealth arrangements may result in the perpetuation of inequality.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-02", "en": "the rural-urban divide", "note": "divide 比 difference 更结构化，适合 hukou、资源和文化差异。", "example": "The rural-urban divide shapes marriage practices.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-03", "en": "family wealth arrangements", "note": "arrangements 强调制度化或家庭内的资源组织，不只是 wealth level。", "example": "Family wealth arrangements may disadvantage women.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-04", "en": "the marriage market", "note": "在婚姻研究中比 dating context 更制度化，需接具体机制。", "example": "Housing assets matter in the marriage market.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-05", "en": "gendered marriage practices", "note": "比 marriage practices by gender 更强调制度化性别逻辑。", "example": "Gendered marriage practices reproduce wealth inequality.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-06", "en": "gender equity development", "note": "development 暗示历史变化，可接 volatile、uneven、rapid。", "example": "Uneven gender equity development shapes mental health.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-rural-urban-and-hukou-context-07", "en": "family-level economic determinants", "note": "适合把家庭资源与个体事件连接，区别于 individual earnings。", "example": "Family-level economic determinants shape first marriage.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "marriage-market-and-family-wealth",
+      "meaning": "婚姻市场、家庭财富和资源安排",
+      "tags": ["婚姻市场", "家庭财富", "资源"],
+      "expressions": [
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-01", "en": "against this background", "note": "适合从宏观变化转入本文研究，不要滥用在无背景处。", "example": "Against this background, we examine changing family ties.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-02", "en": "X provides a unique social context for examining Y.", "note": "适合中国研究避免只做地区描述，强调可解释性条件。", "example": "China provides a unique social context for examining family change.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-03", "en": "Set up macro change before micro-level analysis.", "note": "适合中国研究，不让案例背景变成普通介绍。", "example": "We link educational expansion to couple-level trajectories.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-04", "en": "Connect family-level resources to individual life events.", "note": "适合家庭分层研究，避免只写个人收入或教育。", "example": "Family wealth shapes the timing of first marriage.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-05", "en": "volatile (volatile and uneven X)", "note": "volatile 强调变化快且方向不稳，uneven 强调不同群体或领域不同步。", "example": "China witnessed volatile and uneven gender equity development.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-06", "en": "racialized (racialized groups)", "note": "比 racial groups 更强调种族分类的社会建构和权力关系。", "example": "Effects vary across racialized groups.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-marriage-market-and-family-wealth-07", "en": "mobility (upward/social mobility)", "note": "常与 status maintenance 搭配，解释教育、婚配和分层后果。", "example": "Marriage may offer potential upward social mobility.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "gendered-and-racialized-inequality",
+      "meaning": "性别化、种族化和结构性不平等",
+      "tags": ["性别", "种族化", "不平等"],
+      "expressions": [
+        {"id": "acad-stratification-and-social-context-gendered-and-racialized-inequality-01", "en": "practical needs for higher living standards", "note": "用于解释经济需求如何压过传统规范。", "example": "Practical needs shape assortative marriage outcomes.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-gendered-and-racialized-inequality-02", "en": "status maintenance and upward mobility", "note": "适合婚配、教育和职业选择中的社会分层机制。", "example": "Marriage may serve status maintenance and mobility.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-gendered-and-racialized-inequality-03", "en": "openness of a society", "note": "适合宏观层面解释婚配和流动模式。", "example": "Marriage patterns reflect the openness of a society.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-gendered-and-racialized-inequality-04", "en": "social stratification and mobility", "note": "一组固定搭配，适合把家庭或婚配结果连接到宏观不平等。", "example": "Assortative marriage affects stratification and mobility.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-gendered-and-racialized-inequality-05", "en": "educational expansion", "note": "适合解释婚配、就业、性别差距和代际流动变化。", "example": "Educational expansion reshaped assortative mating.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-gendered-and-racialized-inequality-06", "en": "narrowing gender gap", "note": "用于描述结构性趋势，常与 widening gap 对照。", "example": "The narrowing gender gap changed mating patterns.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "macro-change-and-social-mobility",
+      "meaning": "宏观社会变迁、教育扩张和社会流动",
+      "tags": ["宏观变化", "教育扩张", "社会流动"],
+      "expressions": [
+        {"id": "acad-stratification-and-social-context-macro-change-and-social-mobility-01", "en": "widening gender gap", "note": "适合表达教育改善未必带来收入或健康平等。", "example": "The gender gap widened over the marital course.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-macro-change-and-social-mobility-02", "en": "at the macro level", "note": "适合从社会结构、制度和文化变化开始解释。", "example": "At the macro level, patterns reflect social openness.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-macro-change-and-social-mobility-03", "en": "at the meso level", "note": "适合把宏观变化连接到家庭、夫妻和组织关系。", "example": "At the meso level, changes affect power dynamics.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-macro-change-and-social-mobility-04", "en": "At the macro level, X; at the meso level, Y.", "note": "适合讨论社会变迁如何进入家庭或夫妻关系。", "example": "At the macro level, education expanded; at the meso level, couples renegotiated roles.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-macro-change-and-social-mobility-05", "en": "Turn macro educational expansion into couple-level power dynamics.", "note": "适合中国研究中从背景到机制的推进。", "example": "Educational expansion reshapes couple-level power dynamics.", "register": "formal"},
+        {"id": "acad-stratification-and-social-context-macro-change-and-social-mobility-06", "en": "Deconstruct family wealth into components.", "note": "适合说明同一财富概念内部机制不同。", "example": "We deconstruct family wealth into assets and savings.", "register": "formal"}
+      ]
+    }
+  ]
+}

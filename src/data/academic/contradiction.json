@@ -97,6 +97,29 @@
         {"id": "acad-contradiction-paradox-04", "en": "the puzzle lies in the coexistence of", "note": "更适合引出研究问题，突出悖论需要解释", "example": "The puzzle lies in the coexistence of expansion and exclusion.", "register": "literary"},
         {"id": "acad-contradiction-paradox-05", "en": "the flexibility paradox", "note": "用于表达弹性工作可能同时带来自主与更长工作时间。", "example": "The results speak to the flexibility paradox.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-theory-boundaries",
+      "meaning": "挑战既有解释并限定理论适用范围",
+      "tags": ["理论边界", "反常发现", "限定"],
+      "expressions": [
+        {"id": "acad-contradiction-zhang-yang-theory-boundaries-01", "en": "against conventional expectation", "note": "比 surprisingly 更学术，适合引出结果与理论不一致。", "example": "Against conventional expectation, hypogamy was not uniformly harmful.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-theory-boundaries-02", "en": "Results challenge the generalizability of X across Y.", "note": "比 results differ by group 更有理论推进感。", "example": "Results challenge the generalizability of the hypothesis across groups.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-theory-boundaries-03", "en": "Explanations for X reside beyond Y.", "note": "reside beyond 比 are not about 更书面，适合收束替代解释。", "example": "Explanations for inequality reside beyond childhood dynamics.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-theory-boundaries-04", "en": "generalizability (the generalizability of X)", "note": "适合讨论某理论在不同群体或领域中不成立。", "example": "The results challenge the generalizability of the hypothesis.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-theory-boundaries-05", "en": "mismatch (this mismatch of X and Y)", "note": "用于解释为什么一个进步没有转化为另一个结果。", "example": "The study examines the mismatch between education and income.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "zhang-yang-alternative-explanations",
+      "meaning": "用替代解释处理不一致或非驱动结果",
+      "tags": ["替代解释", "结果解释", "机制边界"],
+      "expressions": [
+        {"id": "acad-contradiction-zhang-yang-alternative-explanations-01", "en": "qualify (qualify a hypothesis)", "note": "适合结果部分支持、部分不支持既有理论时使用。", "example": "The findings qualify the family instability hypothesis.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-alternative-explanations-02", "en": "not only X but also Y", "note": "适合强调一个现象影响多个层级或机制。", "example": "Health declines affect not only parents but also family ties.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-alternative-explanations-03", "en": "rather than X", "note": "适合机制辨析，但前后对象要平行。", "example": "The pattern reflected exchange rather than affinity.", "register": "formal"},
+        {"id": "acad-contradiction-zhang-yang-alternative-explanations-04", "en": "Use non-driver findings to refine theory.", "note": "适合将 null finding 转化为机制边界。", "example": "Emotional affinity did not drive the change.", "register": "formal"}
+      ]
     }
   ]
 }

@@ -39,6 +39,19 @@
         {"id": "acad-theory-framing-hypotheses-and-literature-integration-04", "en": "build a bridge between two research conversations", "note": "强调跨文献整合，但比 bridge literatures 更具体。", "example": "The paper builds a bridge between policy and fertility research.", "register": "formal"},
         {"id": "acad-theory-framing-hypotheses-and-literature-integration-05", "en": "reframe a policy tool as a theoretical mechanism", "note": "适合把政策变量从背景因素提升为解释机制。", "example": "We reframe flexibility as a theoretical mechanism.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-theoretical-perspectives",
+      "meaning": "理论视角、概念化和竞争解释之间的组织",
+      "tags": ["理论", "概念化", "解释"],
+      "expressions": [
+        {"id": "acad-theoretical-conceptual-framing-zhang-yang-theoretical-perspectives-01", "en": "a normative experience", "note": "比 common 更有规范化意味，适合写家庭和生命历程转变。", "example": "Cohabitation has become a normative experience.", "register": "formal"},
+        {"id": "acad-theoretical-conceptual-framing-zhang-yang-theoretical-perspectives-02", "en": "resource-bargaining perspective", "note": "适合把教育、收入、资产转化为关系权力机制。", "example": "The resource-bargaining perspective fits the findings.", "register": "formal"},
+        {"id": "acad-theoretical-conceptual-framing-zhang-yang-theoretical-perspectives-03", "en": "a dynamic and dyadic perspective", "note": "同时标记时间过程和关系单位，是理论贡献表达。", "example": "The study takes a dynamic and dyadic perspective.", "register": "formal"},
+        {"id": "acad-theoretical-conceptual-framing-zhang-yang-theoretical-perspectives-04", "en": "family instability hypothesis", "note": "可作为被检验、被限定或被挑战的理论对象。", "example": "The findings qualify the family instability hypothesis.", "register": "formal"},
+        {"id": "acad-theoretical-conceptual-framing-zhang-yang-theoretical-perspectives-05", "en": "X may be more appropriate than Y in explaining Z.", "note": "适合讨论段比较理论解释力，语气比 proves 更稳。", "example": "Specialization may be more appropriate than doing gender.", "register": "formal"},
+        {"id": "acad-theoretical-conceptual-framing-zhang-yang-theoretical-perspectives-06", "en": "constitute (constitute a central relationship)", "note": "适合理论定义，不只是 say X is important。", "example": "Intergenerational relationships constitute a central social relationship.", "register": "formal"}
+      ]
     }
   ]
 }

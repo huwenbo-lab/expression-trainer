@@ -1,0 +1,53 @@
+{
+  "id": "life-course-and-trajectories",
+  "name": "生命历程与轨迹表达",
+  "nameEn": "Life Course & Trajectories",
+  "description": "用于把事件、状态和结果写成随年龄、婚姻历程、队列或历史时间展开的动态过程。",
+  "clusters": [
+    {
+      "id": "trajectory-concepts",
+      "meaning": "把事件、状态和结果写成轨迹与转换",
+      "tags": ["轨迹", "转换", "状态序列"],
+      "expressions": [
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-01", "en": "trajectory", "note": "用于把状态序列写成过程，避免只描述一次性 outcome。", "example": "We compare occupational trajectories over the marital course.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-02", "en": "cohort", "note": "适合区分年龄变化与历史时期变化，不能简单等同于 age group。", "example": "Younger cohorts reported higher depressive symptoms.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-03", "en": "deteriorated (deteriorated mental health)", "note": "强调随时间恶化，适合 trajectory 或 cohort 变化。", "example": "The trend was driven by deteriorated mental health.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-04", "en": "diverging trajectories", "note": "比 different outcomes 更能表达时间过程和不平等累积。", "example": "The study documents diverging trajectories by education.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-05", "en": "union transition trajectories", "note": "把 timing、order、duration、number 放进一个过程框架。", "example": "We classify union transition trajectories from ages 16 to 30.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-06", "en": "gendered depression trajectories", "note": "gendered 表示差异由性别制度和角色塑造，不只是男女分组。", "example": "Gendered depression trajectories vary across cohorts.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-07", "en": "intimate relationship dissolution", "note": "比 breakup 更正式，适合和 stress、distress、life event 搭配。", "example": "Relationship dissolution can trigger psychological distress.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-trajectory-concepts-08", "en": "non-marital parenthood", "note": "强调 parenthood 与婚姻制度错位，适合写 life course overlap。", "example": "Dissolution intertwined with non-marital parenthood is consequential.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "life-course-timing-and-domains",
+      "meaning": "生命历程阶段、婚姻历程和领域范围限定",
+      "tags": ["生命历程", "时间", "领域"],
+      "expressions": [
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-01", "en": "psychological distress trajectories", "note": "比 mental health outcomes 更动态，适合 growth curve 写法。", "example": "We estimate psychological distress trajectories across adulthood.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-02", "en": "cognitive functioning trajectories", "note": "适合把健康状态写成斜率和水平的共同变化。", "example": "Relationship types predict cognitive functioning trajectories.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-03", "en": "across the life course", "note": "强调随年龄和阶段展开，而不是一次性横截面差异。", "example": "The gap widens across the life course.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-04", "en": "over the marital course", "note": "比 during marriage 更突出过程和阶段。", "example": "Occupational advantages evolve over the marital course.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-05", "en": "in the union domain", "note": "domain 用于限定理论适用范围，避免过度泛化。", "example": "The hypothesis is weaker in the union domain.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-06", "en": "The association may fade away as X ages.", "note": "适合写 time-varying moderation，不等同于没有总体关联。", "example": "The moderation may fade away as women age.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-07", "en": "Move from single transitions to whole trajectories.", "note": "适合说明为什么 sequence/trajectory 视角比事件发生模型更合适。", "example": "We move from single transitions to whole trajectories.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-life-course-timing-and-domains-08", "en": "Use cohort comparison to locate social change.", "note": "适合缺少 period 识别时的谨慎解释。", "example": "Cohort comparisons locate changes in gender disparity.", "register": "formal"}
+      ]
+    },
+    {
+      "id": "cohort-and-gap-dynamics",
+      "meaning": "队列、差距扩大/缩小和社会变迁的动态表达",
+      "tags": ["队列", "差距", "社会变迁"],
+      "expressions": [
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-01", "en": "overlap (the overlap of X with Y)", "note": "overlap 强调事件同时发生或相互嵌套，不只是相关。", "example": "We examine the overlap of dissolution with parenthood.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-02", "en": "convergence (convergence in X)", "note": "适合和 divergence、widening、narrowing 对照使用。", "example": "Convergence indicates that the occupational gap narrows.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-03", "en": "short-lived nature", "note": "比 short duration 更自然，适合解释不稳定性后果。", "example": "The short-lived nature of cohabitation matters.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-04", "en": "time-varying associations", "note": "比 changing relationship 更统计化，适合 growth curve。", "example": "We estimate time-varying associations across young adulthood.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-05", "en": "serial cohabitations", "note": "serial 强调重复经历，不只是 one cohabitation。", "example": "Serial cohabitations have become more common.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-06", "en": "cumulative consequences", "note": "强调重复或持续暴露后的累积影响。", "example": "Multiple dissolutions may have cumulative consequences.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-07", "en": "across young adulthood", "note": "比 among young adults 更动态，强调阶段跨度。", "example": "The association varies across young adulthood.", "register": "formal"},
+        {"id": "acad-life-course-and-trajectories-cohort-and-gap-dynamics-08", "en": "We examine how X varies over Y and across Z.", "note": "适合 age/cohort 或 marital course/group 的双重比较。", "example": "We examine how depression varies over age and across cohorts.", "register": "formal"}
+      ]
+    }
+  ]
+}

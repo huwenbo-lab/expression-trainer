@@ -1,0 +1,20 @@
+{
+  "id": "adaptive-response-and-resilience",
+  "name": "适应性回应与韧性",
+  "nameEn": "Adaptive Response & Resilience",
+  "description": "用于说明家庭、关系或行动者如何回应冲击、健康下降、责任变化或制度压力。",
+  "clusters": [
+    {
+      "id": "adaptive-family-resilience",
+      "meaning": "家庭或关系对冲击与需求变化的适应性回应",
+      "tags": ["适应", "韧性", "家庭需求"],
+      "expressions": [
+        {"id": "acad-adaptive-response-and-resilience-adaptive-family-resilience-01", "en": "unresponsive (to)", "note": "适合报告机制不被触发，语气比 no effect 更过程化。", "example": "Family ties were unresponsive to mental health declines.", "register": "formal"},
+        {"id": "acad-adaptive-response-and-resilience-adaptive-family-resilience-02", "en": "strategic family resilience", "note": "比 resilience alone 更强调有选择、有功能的关系调整。", "example": "Families employ strategic family resilience after health declines.", "register": "formal"},
+        {"id": "acad-adaptive-response-and-resilience-adaptive-family-resilience-03", "en": "changing family demands", "note": "适合解释为什么关系或资源配置会调整。", "example": "Families adapt to changing family demands.", "register": "formal"},
+        {"id": "acad-adaptive-response-and-resilience-adaptive-family-resilience-04", "en": "following older parents' health declines", "note": "following 可自然引出前后变化，不必写 after only。", "example": "Relationships changed following older parents' health declines.", "register": "formal"},
+        {"id": "acad-adaptive-response-and-resilience-adaptive-family-resilience-05", "en": "in response to changing family demands", "note": "比 because family demands change 更凝练，适合适应性机制。", "example": "Relationships shift in response to changing family demands.", "register": "formal"}
+      ]
+    }
+  ]
+}

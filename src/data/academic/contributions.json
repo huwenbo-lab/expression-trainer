@@ -92,6 +92,18 @@
         {"id": "acad-contributions-bridge-06", "en": "link a country case to a broader theoretical puzzle", "note": "适合避免案例研究显得只是地区描述。", "example": "The case speaks to a broader theoretical puzzle.", "register": "formal"},
         {"id": "acad-contributions-bridge-07", "en": "enrich the dialogue between A and B", "note": "比 contribute to two literatures 更有互动感。", "example": "The findings enrich the dialogue between policy design and fertility research.", "register": "formal"}
       ]
+    },
+    {
+      "id": "zhang-yang-contribution-framing",
+      "meaning": "把分析优势、政策启示和新视角写成贡献",
+      "tags": ["贡献", "新视角", "启示"],
+      "expressions": [
+        {"id": "acad-contributions-zhang-yang-contribution-framing-01", "en": "to the best of our knowledge", "note": "比 the first 更稳妥，但仍需真的有检索把握。", "example": "To the best of our knowledge, this is the first test.", "register": "formal"},
+        {"id": "acad-contributions-zhang-yang-contribution-framing-02", "en": "a new lens for understanding X", "note": "比 new perspective 更有贡献段修辞效果。", "example": "Family wealth offers a new lens for understanding marriage.", "register": "formal"},
+        {"id": "acad-contributions-zhang-yang-contribution-framing-03", "en": "This study contributes to a better understanding of X.", "note": "比 contributes to literature 稍具体，但后面必须接明确对象。", "example": "This study contributes to a better understanding of family inequality.", "register": "formal"},
+        {"id": "acad-contributions-zhang-yang-contribution-framing-04", "en": "A key strength of this analysis is X.", "note": "用于 discussion 中强调设计或数据优势，不宜空泛。", "example": "A key strength of this analysis is its longitudinal design.", "register": "formal"},
+        {"id": "acad-contributions-zhang-yang-contribution-framing-05", "en": "alleviate (alleviate disparity)", "note": "比 reduce 更政策化，常用于结论中的实际启示。", "example": "Policy interventions may alleviate gender disparity.", "register": "formal"}
+      ]
     }
   ]
 }
